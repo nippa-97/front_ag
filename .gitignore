@@ -19,7 +19,7 @@
 .env.production.local
 .env
 .env.development
-.github/workflows/pipeline.yml
+.github/
 
 
 
