@@ -2,7 +2,7 @@ name: Upload Planigo Front
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "PRL/*" ]
 
 jobs:
   build:
