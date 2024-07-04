@@ -502,6 +502,27 @@ class App extends React.Component {
       }
     }, 2500);
   }
+  //redirect reset
+  resetRedirectDetails = (rtype, spgobj) => {
+    setTimeout(() => {
+      if(rtype === 1){
+        let newspgobj = spgobj;
+        newspgobj.isnotsredirect = false;
+
+        this.props.setPLanogramView(spgobj);
+
+      } else if(rtype === 2 || rtype === 3){
+        this.props.setFeedTableData(null);
+
+      } else if(rtype === 4){
+        this.props.setmanualCompRedirect(null);
+
+      } else if(rtype === 5){
+        this.props.setNewProdRedirect(null);
+
+      }
+    }, 2500);
+  }
   
   //update notification startidx
   updateNotState = (cidx) => {
