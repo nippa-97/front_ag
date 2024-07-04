@@ -1,0 +1,15 @@
+@use '../../../../assets/css/variables';
+
+.switchdep-modal-body h6{color: variables.$primary-color;font-size: 14px;vertical-align: middle;}
+body.d-mode .switchdep-modal-body h6{color: variables.$green-color !important;}
+.switchdep-modal-body .current-section{display: flex;font-size: 14px;}
+.switchdep-modal-body .current-section label{background: variables.$orange-color;
+    border-radius: 50px; margin: 0px 10px;
+    padding: 2px 25px;color: variables.$primary-color;font-weight: 700;}
+.switchdep-modal-body .form-label{margin-top: 20px;}
+.switchdep-modal-body .modal-footer{display: block;}
+.switchdep-modal-body .modal-footer .btn{border-radius: 20px;padding: 3px 20px;}
+.switchdep-modal-body .modal-footer .btn-primary{background: variables.$primary-color;border-color: variables.$primary-color;}
+
+.switchdep-modal-body .searchselect-inner__control{box-shadow: none;}
+.switchdep-modal-body .modal-dialog{max-width: 400px;}

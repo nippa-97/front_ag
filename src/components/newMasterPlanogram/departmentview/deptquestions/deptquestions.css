@@ -1,0 +1,200 @@
+
+.MPDeptQuestionsModal .modal-content{background: linear-gradient(-122.64deg, #ffffff 4.85%, #f3edff 96.83%);color: #5327a0;overflow: hidden;}
+.d-mode .MPDeptQuestionsModal .modal-content{color: #52BE80;}
+.MPDeptQuestionsModal .modal-dialog{max-width: 510px;}
+.MPDeptQuestionsModal .modal-header{padding: 0px 0px;border-bottom: none;margin-bottom: 10px;}
+.MPDeptQuestionsModal .modal-header .modal-title{text-align: center !important; width: 100%;padding-top: 15px;padding-bottom: 10px;}
+.MPDeptQuestionsModal .modal-header button{margin-top: 10px;}
+.MPDeptQuestionsModal .modal-header .close{background: none;border: none;font-size: 30px;}
+.MPDeptQuestionsModal .modal-header button .sr-only {display: none;}
+.MPDeptQuestionsModal .modal-body{padding: 0px 15px 5px 15px !important;}
+.MPDeptQuestionsModal .modal-body .field{max-height: calc(100vh - 250px); overflow-y: auto;}
+.MPDeptQuestionsModal .footer-btns{padding: 5px 5px;border-top: none;float: right;}
+.MPDeptQuestionsModal .footer-btns .btn{background: #ED327A;font-weight: 700;margin: 0px 3px;}
+.MPDeptQuestionsModal .footer-btns .btn.skip{background: #fdd2e3;color: #ED327A;}
+.MPDeptQuestionsModal .footer-btns .btn.back{background: #f3edff;color: #5327a0;position: absolute;left: 0px;}
+.rtlview .MPDeptQuestionsModal .footer-btns .btn.back{left: auto;right: 0px;}
+.MPDeptQuestionsModal .fieldName {font-weight: 700;font-size: 14px;margin-bottom: 2px;margin-top: 5px;}
+.MPDeptQuestionsModal .field {margin-top: 30px;}
+.MPDeptQuestionsModal .sub-item{margin-bottom: 20px;padding: 5px 8px;background: #fff;border-radius: 8px;}
+.d-mode .MPDeptQuestionsModal .sub-item{background: #27364a;}
+.MPDeptQuestionsModal .sub-item label{margin-bottom: 5px;font-weight: 700;}
+
+.MPDeptQuestionsModal .btn-save-cat{background: #52BE80; border-radius: 50px;border: none;padding: 5px 20px;font-size: 14px; border:none;}
+.MPDeptQuestionsModal .field-value-title{font-size: 11px; font-weight: 500;text-align: center;}
+.MPDeptQuestionsModal .field-value{font-size: 10px;text-align: center;padding: 0px  !important;}
+
+.MPDeptQuestionsModal.disabled .form-control, .MPDeptQuestionsModal.disabled button{pointer-events: none;opacity: .6;}
+
+.MPDeptQuestionsModal .input-number {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 2px; margin-bottom: 8px;
+  }
+  
+.MPDeptQuestionsModal  .input-number .form-control {
+    position: absolute;
+    left: 25%;
+    margin-left: -20px;
+    display: inline-block;
+    background-color: white;
+    height: 100%;
+    width: 70%;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px; font-weight: 700;
+    color: #6C6DFF;
+    letter-spacing: -1px;
+    border: 1px solid #a6a6fb; z-index: 2;
+}
+.MPDeptQuestionsModal  .input-number .form-control {
+    -moz-appearance:textfield;
+}
+
+.MPDeptQuestionsModal  .input-number .form-control::-webkit-outer-spin-button,
+.MPDeptQuestionsModal  .input-number .form-control::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.MPDeptQuestionsModal  .input-select .form-control {
+    border-radius: 20px; border: 1px solid #a6a6fb;
+    height: 40px; font-size: 16px; font-weight: 700;
+    color: #6C6DFF; text-align: center; text-align-last: center;
+    margin-bottom: 8px;
+}  
+
+.MPDeptQuestionsModal  .input-number button {
+    display: inline-block;
+    width: 50px;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    color: #5327a0;
+    font-size: 20px; font-weight: 700;
+    cursor: pointer;
+    background-color: #e7d9ff;
+    transition: background-color .2s ease;
+  }
+  
+.MPDeptQuestionsModal  .input-number button:nth-of-type(1) {
+    padding-right: 20px
+  }
+.rtlview .MPDeptQuestionsModal  .input-number button:nth-of-type(1){
+  padding-right: 0px;
+}
+.MPDeptQuestionsModal  .input-number button:nth-of-type(2) {
+    padding-left: 20px;
+    position: absolute;
+    right: 0px;
+  }
+.rtlview .MPDeptQuestionsModal  .input-number button:nth-of-type(2){
+  right: auto;left: 0px;padding-left: 0px;
+}  
+
+.MPDeptQuestionsModal .input-number button:hover {
+    background-color: #6C6DFF; border-color: #6C6DFF; color: white;
+  }
+
+.MPDeptQuestionsModal .overlay-loading, .mpdep-fieldsdiv.layout-view .overlay-loading{position: absolute;z-index: 3;width: 100%;height: 100%;background: rgba(255,255,255, .8);
+  text-align: center;padding-top: 35%;
+}
+
+.mpdep-fieldsdiv.layout-view .overlay-loading{padding-top: 15%;left: 0px;bottom: 0px;}
+
+.mpdep-fieldsdiv.layout-view .input-number button.input-controls{display: none;}
+.mpdep-fieldsdiv.layout-view .sub-item{margin-bottom: 10px; position: relative;}
+.mpdep-fieldsdiv.layout-view .sub-item label{font-weight: 700;color: #5327a0;width: 100%;}
+.d-mode .mpdep-fieldsdiv.layout-view .sub-item label{color: #ccc;}
+.mpdep-fieldsdiv.layout-view .sub-item .form-control, .mpdep-fieldsdiv.layout-view .sub-item .form-select{
+  background: transparent;border-radius: 0px;border: none;border-bottom: 1px solid #5327a0;color: #5327a0;font-weight: 600;outline: none;
+  box-shadow: none;height: 38px;padding: 3px 0px;
+}
+.d-mode .mpdep-fieldsdiv.layout-view .sub-item .form-control, .d-mode .mpdep-fieldsdiv.layout-view .sub-item .form-select{border-color: #52BE80 !important;color: #52BE80;}
+.mpdep-fieldsdiv.layout-view .inline-form{display: inline-flex;width: 100%;}
+.mpdep-fieldsdiv.layout-view .input-number{margin-right: 8px;width: 65%;}
+.mpdep-fieldsdiv.layout-view .input-select{width: 35%;}
+.rtlview .mpdep-fieldsdiv.layout-view .input-number{margin-right: 0px;margin-left: 8px;}
+.mpdep-fieldsdiv.layout-view .input-number .num-select{padding: 0px;}
+.rtlview .mpdep-fieldsdiv.layout-view .input-number .list-inline-item{margin-left: auto;margin-right: .5rem;}
+.footer-btns.layout-view{text-align: right;}
+.footer-btns.layout-view .btn{border-radius: 25px;padding: 4px 25px;font-weight: 700;font-size: 12px;}
+
+.mpdep-fieldsdiv.layout-view .num-view{padding: 2px 11px;border: 1px solid #5327a0; color: #5327a0;border-radius: 20px;font-weight: 800;transition: all .3s;-webkit-transition: all .3s;}
+.d-mode .mpdep-fieldsdiv.layout-view .num-view{border-color: #52BE80 !important;color: #52BE80;}
+.mpdep-fieldsdiv.layout-view .num-view.active, .mpdep-fieldsdiv.layout-view .num-view:hover{background: #5327a0;color: #fff;cursor: pointer;}
+.d-mode .mpdep-fieldsdiv.layout-view .num-view.active, .mpdep-fieldsdiv.layout-view .num-view:hover{background: #52BE80;color: #fff;}
+.mpdep-fieldsdiv.layout-view .num-select .input-txt{width: 30%;}
+.mpdep-fieldsdiv.layout-view .num-select .input-txt .form-control{
+  border: 1px solid #5327a0;border-radius: 25px;height: 32px;margin-top: 5px;
+  padding: 3px 10px;
+}
+
+.mpdep-fieldwrapper .mpdep-fieldsdiv{
+  height: 250px;overflow: hidden;overflow-y: auto;
+  margin-bottom: 5px;background: #fff;padding: 10px 15px;border-radius: 4px;
+}
+.d-mode .mpdep-fieldwrapper .mpdep-fieldsdiv{background: #2f353e;}
+
+.mpdep-fieldwrapper .input-number{
+  position: relative;
+}
+.mpdep-fieldwrapper .react-datepicker-wrapper{
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+.mpdep-fieldwrapper .datepicker-txt{
+  width: 100%;
+  background: transparent;
+  border-radius: 0px;
+  border: none;
+  border-bottom: 1px solid #5327a0;
+  color: #5327a0;
+  font-weight: 600;
+  outline: none;
+  box-shadow: none;
+  height: 38px;
+}
+.mpdep-fieldwrapper .form-icon{
+  position: absolute;
+  right: 5px;
+  margin-top: 5px;
+  color: #5327a0;
+}
+.rtlview .mpdep-fieldwrapper .form-icon{
+  right: auto;left: 5px;
+}
+
+@media screen and (min-width: 1600px) {
+  .mpdep-fieldwrapper{max-width: 85%;float: none;margin: 0 auto;}
+}
+
+@media (max-width: 1024px) {
+  .mpdep-fieldsdiv.layout-view .list-inline-item{margin-right: .2rem;}
+  .mpdep-fieldsdiv.layout-view .num-view{padding: 2px 8px;font-size: 14px;}
+  .mpdep-fieldsdiv.layout-view .input-txt .form-control{height: 30px !important;padding: 3px 8px !important;}
+  .mpdep-fieldsdiv.layout-view .sub-item label{font-size: 12px;}
+  .mpdep-fieldsdiv.layout-view .sub-item .form-control{font-size: 12px;padding: 3px 0px;}
+  .footer-btns.layout-view .btn{font-size: 10px;}
+  
+}
+.mpdep-fieldsdiv.layout-view .sub-item .errorMsg{position: absolute;z-index: 2; color:#FCB941;font-weight: 600;font-size: 11px;line-height: 0;padding-top: 8px;}
+.mpdep-fieldsdiv.layout-view .sub-item .minQty-msg{top:64px}
+
+.bottomcontent-main .weight-wrapper{
+  background: rgba(221, 202, 251, 0.3);
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.bottomcontent-main .weight-wrapper h3{
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #a6a6fb;
+}

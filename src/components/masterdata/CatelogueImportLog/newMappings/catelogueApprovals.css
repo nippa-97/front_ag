@@ -1,0 +1,81 @@
+.approve-modal .form-group{margin-bottom: 15px;}
+.approve-modal .modal-header{padding: 10px 15px;}
+.approve-modal .modal-header .modal-title{font-size: 22px; font-weight: 700; color: #5128a0;}
+.approve-modal .modal-header .modal-title h6{font-size: 12px;margin-bottom: 0;color: #34495E;}
+.approve-modal .modal-header button{border: none;background: transparent;content: "";}
+body.d-mode .approve-modal .modal-header button{color: aliceblue;}
+body.d-mode .approve-modal .modal-header .modal-title{color: #2CC990;}
+body.d-mode .approve-modal .modal-header .modal-title h6{color: #ABEBC6;}
+
+.approve-modal h5{font-size: 15px;margin-bottom: 5px;font-weight: 600;color: #5128a0;}
+body.d-mode .approve-modal h5{color: #2CC990;}
+.approve-modal.LTR h5 svg{float: right;}
+.approve-modal.RTL h5 svg{float: left;}
+body.d-mode .approve-modal h5 svg{fill: #2CC990;}
+.approve-modal.LTR h5 svg:hover{cursor: pointer;fill: red;}
+.approve-modal h5.disabled-add svg{pointer-events: none; fill: rgb(216, 216, 216);}
+body.d-mode .approve-modal h5.disabled-add svg{pointer-events: none; fill: #606872 !important;}
+
+.approve-modal .modal-body {height: 390px; overflow-y: auto;overflow-x: hidden;position: relative;}
+.adding-modal .modal-body {height: 406px;overflow-y: initial; overflow-x: inherit;}
+
+.adding-modal  .modal-header{padding: 10px 15px;}
+.adding-modal  .modal-header .modal-title{font-size: 22px; font-weight: 700; color: #5128a0;position: relative;}
+body.d-mode .adding-modal  .modal-header .modal-title{color: #2CC990;}
+.adding-modal  .modal-header button{border: none;background: transparent;content: "";}
+
+/* .approve-modal .switch-main-div{border-radius: 5px;padding: 10px;}
+.approve-modal .switch-main-div span{font-size: 15px; font-weight: 700;}
+
+.approve-modal .switch-main-div{background: transparent;padding: 0;text-align: center;}
+.approve-modal .switch-main-div span::before{float: left ;}
+.approve-modal .switch-main-div span::after{top: 3px !important;right:36px !important; width: 22px; height: 22px;} */
+
+.approve-modal .switch-col{background: #3005a51a;padding: 10px 10px 3px 10px;border-radius: 5px;margin: 3px;margin-bottom: 15px;}
+.approve-modal .switch-col .info-des-txt{font-size: 15px;font-weight: 600;margin-bottom: 0;padding-top: 2px;}
+.approve-modal .switch-col .info-des-txt span{font-size: 15px;font-weight: 700;}
+body.d-mode .approve-modal .switch-col{background: #9f9f9f1a;}
+
+.approve-modal .searchselect-inner__menu{z-index: 10000000 !important;position: absolute !important;}
+
+.approve-modal .modal-footer, .adding-modal .modal-footer{padding: 5px;}
+.approve-modal .modal-footer button, .adding-modal .modal-footer button{border-radius: 25px;padding: 4px 20px;font-weight: 600;border: none;}
+.approve-modal .modal-footer button{background: #ed327a;}
+
+.approve-modal.supplier .modal-body{height: 240px;}
+.adding-modal.supplier .modal-body{height: 320px !important;}
+
+.approve-summary-modal .modal-body{height: 250px;}
+.approve-summary-modal .modal-body .form-group{padding: 5px 10px; background: #3005a51a;margin: 0px;border-radius: 5px;margin-bottom: 15px;}
+body.d-mode .approve-summary-modal .modal-body .form-group{ background: #c0b8d81a;}
+.approve-summary-modal .modal-body .form-group h5{font-size: 12px;font-weight: 600;color: #59506b;}
+body.d-mode .approve-summary-modal .modal-body .form-group h5{color: #ABEBC6;}
+.approve-summary-modal .complete-summary-val{padding: 3px 0px;font-weight: 600;color: #5128a0;}
+body.d-mode .approve-summary-modal .complete-summary-val{color: #2CC990;}
+.approve-summary-modal .modal-footer button{background: #60778d;}
+.approve-summary-modal.supplier .modal-body{height: 110px !important;}
+
+.adding-modal.resolve-note .modal-body{height: 150px !important;}
+
+.info-des-txt{font-size: 12px;margin-bottom: 5px; color: #34495E;font-weight: 600;}
+.info-des-txt span{color: #ed327a !important;font-size: 12px;}
+body.d-mode .info-des-txt{color: rgb(249, 225, 255);}
+
+.approve-modal .modal-body .form-group{position: relative;}
+.approve-modal .modal-body .form-group .combo-loading-div{ 
+    text-align: center;
+    position: absolute;
+    top: 4px;
+    background: #5128a01a;
+    height: 36px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 11px;
+    font-weight: 600;
+    width: 99%;
+}
+
+
+.approve-modal .modal-body .select-label-wrapper{position: relative;padding: 3px;border-radius: 5px;}
+.approve-modal .modal-body .select-label-wrapper span{font-weight: 700;font-size: 13px;}
+.approve-modal .modal-body .select-label-wrapper p{padding: 5px 3px;margin-bottom: 0;font-size: 12px;}

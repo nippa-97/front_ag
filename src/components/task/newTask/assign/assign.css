@@ -1,0 +1,117 @@
+
+.empspot{padding: 0px;text-align: center;}
+
+.empspot img{width: 60px;height: 60px;  }
+.empspot .designation{font-size: 12px; font-weight: 500;}
+.empspot .name{font-size: 14px;margin-top: 6px;margin-bottom: 0px;font-weight: 700;}
+.empspot .btn-primary { background: none; color: #a48dced3;border: none;width:110px;margin-bottom: 10px;box-shadow: none !important;}
+.empspot .btn-primary.active{ color: #5128a0;border: none;width:110px;margin-bottom: 10px;}
+.d-mode .empspot .btn-primary.active{color: #2CC990;}
+.employeearea{overflow-y: auto;height: 48vh;padding: 5px;}
+.buttondiv{margin-top: 2vh;}
+
+#inlineFormInputGroupUsername::-webkit-input-placeholder {
+    font-size: 14px;
+    color: #BAACE2 !important;
+    font-weight: bold;
+}
+
+.empspot  .btn-primary.active img{width: 60px;height: 60px;  border:4px solid #ED327A  }
+
+.Assigneefilter .filterbody{
+    overflow-y: auto;height: 52vh;padding: 8px;background: #fafafa;margin-top: 10px;
+}
+.Assigneefilter .filterbody .btn-primary{
+    background: none;
+    border: none;
+    font-weight: bold;
+}
+.Assigneefilter .filterbody .form-check-input[type=checkbox] {
+    border-radius: 50px;
+}
+
+.Assigneefilter .filterbody .form-check-input:checked {
+    background-color:#ED327A;
+    border-color: #ED327A;
+}
+.Assigneefilter .collpasebtn{
+    box-shadow: none !important;
+    color: #5128a0 !important;
+    padding: 0px;
+    font-size: 13px !important;
+}
+.Assigneefilter .insidecollapes{
+    border: 1px solid #BAACE2;
+    padding: 5px;
+    min-height: 30px;
+    border-radius: 5px;
+}
+.Assigneefilter .insidecollapes .filterinlist{
+    margin-top: 5px;
+    color: #5128a0 !important;
+    display: flex;
+    font-size: 13px;
+}
+.Assigneefilter .insidecollapes .filterinlist .form-check-input{
+    padding-top: 0px;
+}
+.RTL .Assigneefilter .insidecollapes .filterinlist .form-check-input{
+    margin-left: 5px;
+}
+.assigeenresults .tag{
+    background-color: rebeccapurple;
+    color: #f0f0f0;
+    border-radius: 50px;
+    padding:1px 10px;
+    font-size: small;
+    margin-right: 3px;
+    display: inline-flex
+}
+.assigeenresults .tag .closetag{box-shadow: none !important;background: none;border:none;font-size: 13px;}
+.assigeenresults .tagtitle{color: #5128a0;font-size: small;font-weight: bold;}
+.assigeenresults .tag .btn{
+    font-weight: 100;
+    margin-left: 7px;
+    padding:0px;
+    color: #f0f0f0;
+   
+}
+.assigeenresults .tagsection{padding: 0px 0px;overflow-y: auto;max-height:7.6vh;margin-bottom: 23px;margin-top: 10px;}
+.assigeenresults .employeeareadraw{overflow-y: auto;overflow-x: hidden;height: 43vh;padding: 5px;}
+
+.allswitch{
+    margin-top: -2px; padding: 4px 10px;
+    background:#ED327A !important;
+    color: #f0f0f0!important;
+    border: none !important;
+    /* font-weight: bold !important; */
+    box-shadow: none !important;
+    position: absolute;
+    border-radius: 25px; z-index: 2;
+}
+
+.RTL .allswitch{
+   left: 1% !important;
+}
+.allswitch.back-link{margin-top: 10px;}
+.searchfilter-txt{margin-left: 45px;width: 87%;}
+.allmain{
+    padding: 10px 0px;
+}
+.allapplypnkbtn{
+    position: absolute !important;
+    right: 10px;
+}
+.applyfilters{
+    font-size: 13px;
+    border-radius: 20px;
+    margin-top: 30px;
+    background: #5128a0 !important;
+    float: right;
+    border: none !important;
+}
+.allapplypnkbtn {
+    
+    position: absolute !important;
+    margin-top: 14px;
+}

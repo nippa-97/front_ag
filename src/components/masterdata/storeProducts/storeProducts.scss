@@ -1,0 +1,50 @@
+@use '../../../assets/css/variables';
+
+.store-products .white-container .custom-filters{position: unset;margin-left: 0;padding-top: 10px;}
+.store-products .white-container .custom-filters .highlight-btn{margin-top: 0px;position: absolute;right: 5px;}
+.rtlview .store-products .white-container .custom-filters .highlight-btn{right: auto;left: 5px;}
+.store-products .table-section{margin-top: 15px;}
+.store-products .table-section table thead tr th{font-size: 14px;padding: 5px 5px;}
+.store-products .table-section table tbody tr td{font-size: 15px;font-weight: 600;color: variables.$primary-color;padding: 10px 5px;}
+.store-products .table-section table tbody tr td.center{text-align: center;}
+.store-products .table-section table tbody tr td.delete{text-align: center;}
+.store-products .table-section table tbody tr td.delete svg{opacity: .2;}
+.store-products .table-section table tbody tr:hover td.delete svg{opacity: 1;}
+.store-products .table-section table tbody tr td.delete svg:hover{cursor: pointer; color: variables.$pink-color;}
+.store-products .table-section table tbody tr td.select-dropdown select{font-size: 13px; font-weight: 600;padding: 3px;color: variables.$primary-color;}
+.store-products .table-section table tbody tr td.values input{font-size: 13px; font-weight: 600;padding: 3px 5px;color: variables.$primary-color;width: 10px !important;}
+.store-products .table-section table tbody tr td.values button{font-size: 13px; font-weight: 600;padding: 3px 5px;}
+.store-products .table-section table tbody tr td .img{width: 30px; height: 30px;position: relative;margin: 0 auto;}
+.store-products .table-section table tbody tr td .img:hover{cursor: pointer; opacity: 0.7;}
+.store-products .table-section table tbody tr td.values .input-group{width:70%;}
+.store-products.RTL .table-section table tbody tr td.values button, .store-products.RTL .table-section table tbody tr td.values input{border-radius: 0px;}
+.store-products .current-store-text{
+    text-align: center;margin-bottom: 20px;font-size: 15px;color: #fff;background: variables.$primary-color;
+    padding: 10px;border-radius: 8px;
+}
+.store-products .current-store-text b{color: variables.$pink-color;}
+body.d-mode .store-products .table-section table thead tr th{color: variables.$green-color;}
+body.d-mode .store-products .table-section table tbody tr td{color: variables.$primary-dark;}
+body.d-mode .store-products .table-section table tbody tr td.values input{color: variables.$primary-dark;}
+body.d-mode .store-products .table-section table tbody tr td.select-dropdown select{color: variables.$primary-dark;}
+
+.store-products .no-data-col{background: #f2f1ff; padding: 10px 20px;border-radius: 30px;font-weight: 600;color: variables.$primary-color;text-align: center;}
+body.d-mode .store-products .no-data-col{background: #22272f; padding: 10px 20px;border-radius: 30px;font-weight: 600;color: variables.$green-color;}
+
+.store-product-adding-modal .modal-dialog{max-width: 380px;}
+.store-product-adding-modal .modal-content{border-radius: 20px;}
+.store-product-adding-modal .modal-header{border: none;padding: 0px 10px;padding-top: 25px;}
+.store-product-adding-modal .modal-title.h4{color: variables.$primary-color;width: 100%;text-align: center;}
+.store-product-adding-modal .modal-body label{color: variables.$primary-color; font-weight: 700;font-size: 14px;}
+.store-product-adding-modal .modal-footer{display: block;}
+.store-product-adding-modal .modal-footer .btn{border: none;padding: 5px 20px;font-size: 14px;font-weight: 700;}
+.store-product-adding-modal .modal-footer .btn-success{background: variables.$green-color;color: variables.$primary-color;}
+.store-product-adding-modal .modal-footer .btn-secondary{background: #BDBDBD;}
+body.d-mode .store-product-adding-modal .modal-title.h4{color: variables.$primary-dark !important;}
+body.d-mode .store-product-adding-modal .modal-body label{color: variables.$primary-dark !important;}
+
+.searchselect-inner__control{background: transparent !important;border: none !important;border-bottom: 2px solid #d2d2d2 !important;border-radius: 0 !important;padding: 0 !important;margin-top: 0px;height: 32px;min-height: 25px;}
+body.d-mode  .searchselect-inner__control{border-bottom: 1px solid #ccc !important;}
+ .searchselect-inner__single-value{font-size: 14px;font-weight: 600 !important;}
+body.d-mode  .searchselect-inner__single-value{color:#ccc !important;}
+.searchselect-inner__indicator-separator{display: none !important;} 

@@ -1,0 +1,15 @@
+
+.slaelog-warning{overflow-y: scroll;max-height: 400px;overflow-x:hidden}
+.slaelog-warning .onecard{background: #faeaa9;margin: 0px 0px;border-radius: 10px;padding: 5px 10px;color: #ffffff;margin-bottom: 5px;}
+.d-mode .slaelog-warning .onecard{background:  rgba(250, 234, 169, .1);}
+/* .slaelog-warning .onecard:hover{opacity: 0.6;} */
+.slaelog-warning .onecard h4{font-size: 15px;font-weight: bold;}
+.slaelog-warning  h3{font-size: 17px;font-weight: bold;color: #ecbe02 ;}
+.slaelog-warning .btn-link{text-align: start; width:100%;padding: 5px 0px;text-decoration: none;color: #5128a0;font-weight: bold;box-shadow: none;}
+.slaelog-warning .dates span{background: rgb(230, 58, 58);padding: 1px 5px;border-radius: 5px;font-size: 14px;}
+
+.slaelog-warning .redirect .btn{padding: 2px 3px;background: #ecbe02;border: none;position: relative;box-shadow: none;}
+.slaelog-warning .redirect .btn:hover{opacity: 0.5;}
+.slaelog-warning .refresh-btn{margin: 0px 7px;padding: 2px;box-shadow: none !important;outline: none !important; background: none;border:none;color: #5128a0;}
+.slaelog-warning .refresh-btn:hover{opacity: 0.5;}
+.slaelog-warning .loadingimg{height: 20px;margin-bottom: 5px;}

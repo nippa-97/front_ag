@@ -1,0 +1,155 @@
+@use '../../../../assets/css/variables';
+
+.stackablemodal-depcat .h4{font-size: 15px;font-weight: bold;text-transform: capitalize;}
+.stackablemodal-depcat .stackable-lable{color:variables.$primary-color ;font-size: 13px;font-weight: 700;margin-top: 2px;}
+.stackablemodal-depcat .prodlist-container .form-subcontent{min-height: auto;border: none;}
+.stackablemodal-depcat .prodlist-container .form-subcontent .form-check-input{float: left;}
+.rtlview .stackablemodal-depcat .prodlist-container .form-subcontent .form-check-input{float: right ;}
+.stackablemodal-depcat  .prodlist-container .form-subcontent label{font-weight: 600;}
+.stackablemodal-depcat .prodlist-container .form-subcontent .form-check-label{text-transform: capitalize;cursor: pointer;}
+/* .rtlview .stackablemodal-depcat .prodlist-container .form-subcontent .form-check-label{margin: 5px;} */
+.stackablemodal-depcat .modal-footer{padding-top: 0px;border: none;display: block;}
+.stackablemodal-depcat .modal-footer .btn-primary{font-size: 13px;}
+.stackablemodal-depcat .modal-sm{max-width: 330px !important;}
+
+
+.stackablemodal-depcat .switch-ONOffText {float: right;}
+.rtlview .stackablemodal-depcat .switch-ONOffText {float: left;}
+.stackablemodal-depcat .stackwarn-warn {
+  margin-top: -4px;
+}
+.switch-ONOffText {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 113px;
+    height: 20px;
+    padding: 3px;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: inset 0 -1px white, inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    background-image: -webkit-linear-gradient(top, #eeeeee, white 25px);
+    background-image: -moz-linear-gradient(top, #eeeeee, white 25px);
+    background-image: -o-linear-gradient(top, #eeeeee, white 25px);
+    background-image: linear-gradient(to bottom, #eeeeee, white 25px);
+  }
+  .rtlview .switch-ONOffText{ width: 100px;}
+  .switch-ONOffText-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  
+  .switch-ONOffText-label {font-weight: bold;
+    position: relative;
+    display: block;
+    height: inherit;
+    font-size: 10px;
+    text-transform: uppercase;
+    background: #eceeef;
+    border-radius: inherit;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.15);
+    -webkit-transition: 0.15s ease-out;
+    -moz-transition: 0.15s ease-out;
+    -o-transition: 0.15s ease-out;
+    transition: 0.15s ease-out;
+    -webkit-transition-property: opacity background;
+    -moz-transition-property: opacity background;
+    -o-transition-property: opacity background;
+    transition-property: opacity background;
+  }
+  .switch-ONOffText-label:before, .switch-ONOffText-label:after {
+    position: absolute;
+    top: 50%;
+    margin-top: -.5em;
+    line-height: 1;
+    -webkit-transition: inherit;
+    -moz-transition: inherit;
+    -o-transition: inherit;
+    transition: inherit;
+  }
+  .switch-ONOffText-label:before {
+    content: attr(data-off);
+    right: 11px;
+    color: #aaa;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+  }
+  .switch-ONOffText-label:after {
+    content: attr(data-on);
+    left: 11px;
+    color: white;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+  }
+  .switch-ONOffText-input:checked ~ .switch-ONOffText-label {
+    background: #47a8d8;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15), inset 0 0 3px rgba(0, 0, 0, 0.2);
+  }
+  .switch-ONOffText-input:checked ~ .switch-ONOffText-label:before {
+    opacity: 0;
+  }
+  .switch-ONOffText-input:checked ~ .switch-ONOffText-label:after {
+    opacity: 1;
+  }
+  
+  .switch-ONOffText-handle {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 18px;
+    height: 18px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    background-image: -webkit-linear-gradient(top, white 40%, #f0f0f0);
+    background-image: -moz-linear-gradient(top, white 40%, #f0f0f0);
+    background-image: -o-linear-gradient(top, white 40%, #f0f0f0);
+    background-image: linear-gradient(to bottom, white 40%, #f0f0f0);
+    -webkit-transition: left 0.15s ease-out;
+    -moz-transition: left 0.15s ease-out;
+    -o-transition: left 0.15s ease-out;
+    transition: left 0.15s ease-out;
+  }
+  .switch-ONOffText-handle:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -6px 0 0 -6px;
+    width: 12px;
+    height: 12px;
+    background: #f9f9f9;
+    border-radius: 6px;
+    box-shadow: inset 0 1px rgba(0, 0, 0, 0.02);
+    background-image: -webkit-linear-gradient(top, #eeeeee, white);
+    background-image: -moz-linear-gradient(top, #eeeeee, white);
+    background-image: -o-linear-gradient(top, #eeeeee, white);
+    background-image: linear-gradient(to bottom, #eeeeee, white);
+  }
+  .switch-ONOffText-input:checked ~ .switch-ONOffText-handle {
+    left: 92px;
+    box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.2);
+  }
+  .rtlview .switch-ONOffText-input:checked ~ .switch-ONOffText-handle {
+    left: 79px;
+  }
+  .switch-ONOffText-purple > .switch-ONOffText-input:checked ~ .switch-ONOffText-label {
+    background: variables.$pink-color;
+  }
+  
+  .stackwarn-warn {
+    margin-left: 107px;
+    position: absolute;
+    color: variables.$orange-color;
+    margin-top: 8px;
+    z-index: 1000;
+    padding: 0px !important;
+    background: none !important;border: none !important;
+    box-shadow: none !important;
+}
+.rtlview .stackwarn-warn {
+    margin-right: 147px;
+}
+.stackwarn-warn:hover{ color: variables.$orange-color;}

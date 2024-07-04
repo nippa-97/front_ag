@@ -1,0 +1,108 @@
+.queueJobFilter .filterbox {
+    display: inline-block;
+    border-radius: 5px;
+}
+.queueJobFilter .filterbody {
+    display: flex;
+    padding: 10px 10px;
+}
+.queueJobFilter .filterbody .col{
+    padding-top: 3px ;
+}
+.queueJobFilter .filterinput {
+    text-align: left;
+}
+.RTL .queueJobFilter .filterinput {
+    text-align: right;
+}
+.queueJobFilter .namelable {
+    color: #5128a0;
+    font-size: 14px;
+    font-weight: bold;
+}
+.d-mode .queueJobFilter .namelable { color: #2CC990;}
+.queueJobFilter .form-control {
+    padding: 5px 8px;
+    border: 2px solid #5128a0 !important;
+    border-radius: 15px;
+    box-shadow: none;
+    font-size: 13px;
+    width: 120px;
+    margin: 2px 2px;
+}
+.RTL .queueJobFilter .form-control {
+    padding: 7px 9px;
+}
+.d-mode .queueJobFilter .form-control { border: 2px solid #2CC990 !important;}
+.queueJobFilter .datetitle {
+    color: #5128a0 !important;
+    font-size: 14px;
+    font-weight: bold;
+}
+.saleslogmain .filter-form {
+    min-height: 0px !important;background: none !important;
+}
+.queueJobFilter .search-btn {
+    margin-top: 25px !important;
+    color: #fff;
+    background: #dc3545 !important;
+    border: none !important;
+    border-radius: 20px;
+    height: 35px;
+    width: 110px;
+    font-weight: 600;
+}
+.queueJobFilter .search-btn:hover {
+    opacity: 0.6;
+}
+.queueJobFilter .reset-btn{
+    text-transform: capitalize;
+    margin-top: 25px !important;
+    background: none !important;
+    color: #6c757d;
+    border-color: #6c757d;
+    border-radius: 20px;
+    height: 35px;
+    width: 70px;
+    font-weight: 600;
+}
+.queueJobFilter .btnlist{justify-content: space-evenly;display: flex;width: 220px;}
+.queueJobFilter .reset-btn:hover{
+    background: #6c757d !important;
+    color: #fff;  
+}
+.queueJobFilter .datebox {
+    border: 2px solid #5128a0 !important;
+    margin-top: 2px;
+}
+.queueJobFilter .disabledsdate .datebox{ border: 2px solid #b3b3b3 !important;}
+.d-mode .queueJobFilter .datebox {  border: 2px solid #2CC990 !important;}
+.d-mode .queueJobFilter .datetitle {color: #2CC990 !important;}
+.queueJobFilter .toflex{display: flex;}
+.queueJobFilter .datepicker-txt::placeholder {font-size: 12px;}
+.RTL .queueJobFilter .datepicker-txt::placeholder {padding-right: 14px;}
+.RTL .queueJobFilter .datepicker-txt {width: 103px !important;}
+
+.queueJobFilter .input-div{
+    padding: right 0px;
+    padding-left: 0px;
+    padding-top: 4px;
+}
+
+.RTL .queueJobFilter .datebox .input-group-append{
+    position: absolute;
+    right: auto;
+    left: 0px;
+}
+
+.filter-table tbody tr td .cancelbtn{
+    font-size: 12px;
+    padding: 4px 15px;
+    border-radius: 25px;
+}
+
+.queueJobFilter .filterbox .datebox{
+    height: 32px;
+    border-radius: 18px;
+    padding: 2px 20px;
+}

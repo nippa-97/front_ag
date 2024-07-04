@@ -1,0 +1,27 @@
+@use '../../../assets/css/variables';
+
+.tagmodal-view .modal-content{border-radius: 20px;}
+.tagmodal-view .modal-title{color: variables.$primary-color;}
+.tagmodal-view .formview-btn{border-radius: 25px;font-weight: 600;}
+
+body.d-mode .tagmodal-view .modal-title{color: variables.$primary-dark;}
+
+
+.tags-md-page .nav-tabs .nav-item{padding: 0px;margin: 0px 5px 0px 5px;background: transparent;}
+.tags-md-page .nav-tabs .nav-item .nav-link{padding: 5px 15px;border-radius: 25px;background: #f2f1ff;color: variables.$primary-color;border: none;font-weight: 600;font-size: 14px;}
+.tags-md-page .nav-tabs .nav-item .nav-link.active{
+    background: variables.$primary-color;
+    color: #fff;
+}
+.tags-md-page .nav-tabs .nav-item.active{background: variables.$primary-color; color: #fff;}
+.tags-md-page .nav-tabs .nav-item.active:hover{cursor: default;}
+body.d-mode .tags-md-page .nav-tabs .nav-item{background: #22272f;}
+body.d-mode .tags-md-page .nav-tabs .nav-item.active{background: #1a8f64;}
+
+.tagmodal-view .btn{
+    border: none;padding: 5px 25px !important;font-size: 14px;font-weight: 700;
+}
+
+.tagmd-modal .modal-dialog{max-width: 400px;}
+.tagmd-modal .btn-success{background: variables.$green-color;color: variables.$primary-color;}
+.tagmd-modal .btn-danger{background: variables.$pink-color;}

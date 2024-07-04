@@ -1,0 +1,131 @@
+.NOResultdivholder{
+    text-align: center;
+    color: #777777;
+}
+.aristomap-wrapper{
+    padding: 60px 0px 0px 65px; height: 100vh;
+}
+.aristomap-wrapper .gm-bundled-control-on-bottom{
+    bottom: 120px !important;
+    left: 20px !important;
+}
+.aristomap-wrapper .gm-bundled-control-on-bottom div{
+    background: transparent !important;box-shadow: none !important;
+}
+.aristomap-wrapper .gm-bundled-control-on-bottom button{
+    background: #fff !important;border-radius: 20px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+.aristomap-wrapper .gm-bundled-control-on-bottom button:first-child{
+    top: -10px !important;
+}
+.aristomap-wrapper .gm-bundled-control-on-bottom button img{
+    opacity: .6;
+}
+/* .aristomap-wrapper .cluster{
+    background: #5FAF4E;
+    border-radius: 50%;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+} */
+.aristomap-wrapper .cluster div{
+    display: none !important;
+}
+/* .aristomap-wrapper .cluster img{
+    display: none !important;
+} */
+.aristomap-wrapper .gmnoprint, .aristomap-wrapper .gmnoscreen{
+    display: none !important;
+}
+.aristomap-wrapper .gm-bundled-control, .aristomap-wrapper .gm-bundled-control .gmnoprint{
+    display: initial !important;
+}
+.aristomap-wrapper img[alt~="Google"]{
+    display: none;
+}
+.aristomap-wrapper .resetmap-link{
+    position: fixed;
+    bottom: 48px;
+    left: 147px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    color: #999;
+    padding: 8px 9px;
+}
+.map-tooltipcard{
+    color: #4F4F4F;
+    right: 48%; min-width: 190px; z-index: 1000;
+    font-size: 13px;
+    border: none; box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    position: relative;
+}
+.map-tooltipcard.morewidth{
+    min-width: 300px;
+}
+.map-tooltipcard h6{
+    padding: 0px 10px;
+    font-weight: 700;
+}
+.map-tooltipcard hr{
+    margin: 5px 0px;
+}
+.map-tooltipcard ul{margin-bottom: 0px;padding: 0px;list-style: none;max-width: 250px;}
+.map-tooltipcard li{padding: 3px 10px;font-weight: 500;margin-bottom: 5px;padding-left: 80px;position: relative;}
+.map-tooltipcard.morewidth div{margin-bottom: 3px;}
+.map-tooltipcard .badge{min-width: 70px;margin: 0px 5px;font-size: 12px;position: absolute;left: 0px;}
+.map-tooltipcard.morewidth div .badge{float: unset;}
+.map-tooltipcard .greytxt{font-weight: 500;margin-top: 3px;}
+.map-tooltipcard .pos .badge{float: unset;}
+.map-tooltipcard .badge-danger{background: #EB5757;color: #fff;}
+.map-tooltipcard .badge-success{background: #5FAF4E;color: #fff;}
+.map-tooltipcard .pos li{display: block;}
+
+.mapcluster-tooltipcard{
+    min-width: 190px;
+    font-size: 13px;
+    border: none;
+    color: #4F4F4F;
+    overflow: hidden;
+}
+.mapcluster-tooltipcard .card-body{
+    padding: 0px;
+}
+.mapcluster-tooltipcard ul{margin-bottom: 0px;padding: 0px;list-style: none;max-width: 250px;}
+.mapcluster-tooltipcard li{padding: 3px 10px;font-weight: 500;margin-bottom: 5px;font-size: 13px;padding-left: 80px;position: relative;}
+.mapcluster-tooltipcard .morewidth{width: 200px;}
+.mapcluster-tooltipcard .morewidth .card-body{max-width: 200px;}
+.mapcluster-tooltipcard .morewidth div{margin-bottom: 10px;padding-left: 100px;}
+.mapcluster-tooltipcard .badge{min-width: 50px;margin: 0px 5px;font-size: 12px;position: absolute;left: 0px;}
+.mapcluster-tooltipcard .morewidth div .badge{float: unset;min-width: 70px;}
+.mapcluster-tooltipcard .greytxt{font-weight: 500;margin-top: 3px;font-size: 13px;}
+.mapcluster-tooltipcard .badge-danger{background: #EB5757;color: #fff;}
+.mapcluster-tooltipcard .badge-success{background: #5FAF4E;color: #fff;}
+.mapcluster-tooltipcard .pos li{display: block;}
+
+.aristomap-wrapper .graphcard-map{    z-index: 1001;
+    position: absolute;padding: 0px;margin-left: 150px;bottom: -7px;}
+.aristomap-wrapper .graphcard-map .single-notification {
+    margin-top: 0px;
+}
+.aristomap-wrapper .gm-ui-hover-effect{display: none !important;box-shadow: none !important;border: none !important;outline: none !important;}
+
+
+/* smaaler than 1400 */
+@media screen and (max-width: 1400px) {
+    .searchbar-Map .filters{
+        display: block !important;text-align: center;
+    }
+    .searchbar-Map{display: block !important;}
+    .searchbar-Map .filters .reset-btn{
+        margin-top: 20px !important;
+    }
+}
+@media screen and (max-width: 1600px) {
+    .aristomap-wrapper .graphcard-map{ 
+        width: 1300px !important;
+    }
+    .NOResultdivholder{
+       font-size: 14px;
+    }
+}

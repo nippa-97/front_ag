@@ -1,0 +1,107 @@
+@use '../../../../assets/css/variables';
+
+.saleslogfilter {
+    margin-top: 15px;
+    text-align: center;
+}
+.saleslogfilter .filterbox {
+    width: 100%;
+    /* background-color: rgb(223, 222, 222); */
+    display: inline-block;
+    border-radius: 5px;
+}
+.saleslogfilter .filterbox .datebox{
+    margin-top: 6px;
+    height: 32px;
+    border-radius: 18px;
+}
+.saleslogfilter .filterbody {
+    display: flex;
+    padding: 10px 10px;
+}
+.saleslogfilter .filterbody .col{
+    padding-top: 3px ;
+}
+.saleslogfilter .filterinput {
+    text-align: left;
+}
+.RTL .saleslogfilter .filterinput {
+    text-align: right;
+}
+.saleslogfilter .namelable {
+    color: variables.$primary-color;
+    font-size: 14px;
+    font-weight: bold;
+}
+.d-mode .saleslogfilter .namelable { color: variables.$primary-dark;}
+.saleslogfilter .form-control {
+    padding: 5px 8px;
+    border: 2px solid variables.$primary-color !important;
+    border-radius: 15px;
+    box-shadow: none;
+    font-size: 13px;
+    width: 120px;
+    margin: 2px 2px;
+}
+.d-mode .saleslogfilter .form-control { border: 2px solid variables.$primary-dark !important;}
+.saleslogfilter .datetitle {
+    font-size: 10px;
+    font-weight: 800;
+    margin: 0px 5px;
+    color: variables.$light-color !important;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: -15px;
+}
+.saleslogmain .filter-form {
+    min-height: 0px !important;background: none !important;
+}
+.saleslogfilter .search-btn {
+    margin-top: 6px !important;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 6px 15px !important;
+    border-radius: 65px;
+    height: 32px;
+    background: variables.$pink-color;
+    border-color: variables.$pink-color;
+    color: #fff;
+    text-transform: uppercase;
+}
+.saleslogfilter .search-btn:hover {
+    opacity: 0.6;
+}
+.saleslogfilter .reset-btn{
+    text-transform: uppercase;
+    margin-top: 6px !important;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 6px 25px !important;
+    border-radius: 65px;
+    height: 32px;
+    background: #BDBDBD;
+    border-color: #BDBDBD;
+    color: #fff;
+}
+.saleslogfilter .btnlist{justify-content: space-between;display: flex;width: 220px;}
+.saleslogfilter .reset-btn:hover{
+    background: #6c757d !important;
+    color: #fff;  
+}
+.saleslogfilter .datebox {
+    border: 2px solid variables.$primary-color !important;
+    /* background: #fff !important; */
+    margin-top: 2px;
+}
+.saleslogfilter .disabledsdate .datebox{ border: 2px solid #b3b3b3 !important;}
+.d-mode .saleslogfilter .datebox {  border: 2px solid variables.$primary-dark !important;}
+.d-mode .saleslogfilter .datetitle {color: variables.$primary-dark !important;}
+.saleslogfilter .toflex{display: flex;}
+.saleslogfilter .datepicker-txt::placeholder {font-size: 12px;}
+.RTL .saleslogfilter .datepicker-txt::placeholder {padding-right: 14px;font-weight: 200;}
+.RTL .saleslogfilter .datepicker-txt {width: 123px !important;}
+
+.saleslogfilter .input-div{
+    padding: right 0px;padding-left: 0px;
+}
+.RTL .saleslogfilter .taskfilter-content .datepicker-txt{margin-left: -31px;}

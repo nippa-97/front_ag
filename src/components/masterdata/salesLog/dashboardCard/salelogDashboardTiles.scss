@@ -1,0 +1,18 @@
+@use '../../../../assets/css/variables';
+
+/* .salelog-dashboard-tiles{background: red;padding: 10px 0px;} */
+.salelog-dashboard-tiles .raw-div{text-align: center;padding: 0px 0px;}
+.salelog-dashboard-tiles .raw-div .card{text-align: center;}
+
+.salelog-dashboard-tiles .card-title.h5{font-size: 13px;font-weight: 700;}
+.salelog-dashboard-tiles .card-body .card-text{font-weight: bold;font-size: 22px;}
+.salelog-dashboard-tiles .card-body{padding: 10px;min-height: 78px;position: relative;}
+.salelog-dashboard-tiles .card-body .card-text{text-align: right;}
+.rtlview .salelog-dashboard-tiles .card-body .card-text{text-align: left;}
+.salelog-dashboard-tiles .card{background: linear-gradient(140deg, rgba(variables.$light-color, .1), rgba(variables.$light-color, .3));color: variables.$primary-color;border-radius: 8px;border: none;}
+.d-mode .salelog-dashboard-tiles .card{color: variables.$light-color;}
+.salelog-dashboard-tiles .card.danger-card{background: linear-gradient(140deg, rgba(variables.$red-color, .8), variables.$red-color);color: #fff;}
+.salelog-dashboard-tiles .card.success-card{background: linear-gradient(140deg, rgba(variables.$green-color, .8), variables.$green-color);color: variables.$primary-color;}
+.salelog-dashboard-tiles .iconview{position: absolute;left: 8px;}
+.rtlview .salelog-dashboard-tiles .iconview{left: auto;right: 8px;}
+.salelog-dashboard-tiles .iconview svg{opacity: .7;}

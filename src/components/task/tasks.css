@@ -1,0 +1,603 @@
+.tasks {
+    border: none;
+    background: none;
+    box-shadow: none;
+    padding-top: 0px;
+}
+
+.tasks .highlight-btn {
+    background: #ED327A !important;
+    color: #ffffff;
+}
+
+.selectionrow {
+    cursor: pointer;
+}
+
+.tasks .highlight-btn svg {
+    top: -2px;
+    position: relative;
+}
+
+.RTL .tasks .highlight-btn svg {
+    top: 0px;
+}
+
+.SidebarTask {
+    color: #5128a0;
+    padding: 20px;
+}
+.d-mode .SidebarTask{color: #2CC990;}
+.SidebarTask .close-link {
+    color: #8f8c8c;
+}
+
+.SidebarTask .taskname {
+    font-weight: 600;
+}
+
+.SidebarTask .form-control {
+    border-color: #5128a0;
+    border-left: none;
+    border-radius: 50px;
+    background: transparent;
+}
+.d-mode .SidebarTask .form-control{border-color: #2CC990;}
+.SidebarTask .input-group-text {
+    border-color: #5128a0;
+    background: none;
+    border-radius: 50px;
+}
+.d-mode .SidebarTask .input-group-text{border-color: #2CC990;color: #2CC990;}
+.SidebarTask .my-1 {
+    margin-top: 12px !important;
+}
+
+.SidebarTask .employeearea, .SidebarTask .assigeenresults .employeeareadraw {
+    height: calc(100vh - 295px) !important;
+}
+
+.SidebarTask .Assigneefilter .filterbody{
+    height: calc(100vh - 275px) !important;
+}
+
+.SidebarTask .allapplypnkbtn{
+    margin-top: 34px;
+    margin-right: 10px;
+}
+
+.barTitle {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.fleextbl {
+    display: flex;
+    width: 200px;
+}
+
+.oneimg {
+    width: 50px;
+    height: 50px;
+}
+
+.twoimg {
+    width: 50px;
+    height: 25px;
+    padding-bottom: 1.5px;
+}
+
+.threeimg {
+    width: 50px;
+    height: 24px;
+}
+
+.threeimgNew {
+    width: 24px;
+    height: 24px;
+    padding-bottom: 1.5px;
+}
+
+.taskfilterbox {
+    font-size: 14px !important;
+    height: 38px;
+    font-weight: 600;
+    border: none;
+    border-bottom: none;
+    border-radius: 0px;
+    padding: 8px 0px;
+    background: none;
+    color: #aa95d1;
+    margin-right: 60px !important;
+}
+.RTL .taskfilterbox {
+    margin-right: 3px !important;
+}
+
+.taskfilterbox:hover {
+    color: #5128a0;
+}
+
+.taskfilterbox:active, .taskfilterbox:hover, .taskfilterbox:focus {
+    box-shadow: none;
+    outline: none;
+    border-bottom-color: #5128a0;
+    background: none;
+}
+
+.inlinenew {
+    display: flex
+}
+
+.tasks .searchtext {
+    margin: 0px !important;
+    border-radius: 20px;
+    border: none;
+    background: none;
+    padding: 0 0 0 20px;
+    margin: 0px;
+    box-shadow: none;
+    height: 30px;
+}
+.tasks input::-webkit-input-placeholder {
+   color: #BAACE2;
+   font-style: normal;
+font-weight: bold;
+font-size: 14px;
+}
+
+.RTL .tasks .searchtext {
+    padding: 0 20px 0 0;
+}
+
+.tasks .searchbox {
+    width: 300px;
+    border: 1px solid #5128a0;
+    border-radius: 20px;
+    margin: 0px 50px;
+}
+body.d-mode .tasks .searchbox{border-color: #2CC990;}
+.RTL .tasks .searchbox {
+    margin-right: 50px;
+}
+
+.tasks .searchbox button {
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    box-shadow: none !important;
+    color: #5128a0;  
+}
+body.d-mode .tasks .searchbox button{color: #2CC990;}
+.tasks .searchbox button:active, .tasks .searchbox button:hover {
+   
+    background: #5128a0;
+    color: #FFFFFF;
+}
+body.d-mode .tasks .searchbox button:active, body.d-mode .tasks .searchbox button:hover{background:#2CC990;color: #5128a0;}
+.RTL .tasks .searchbox button {
+    border-radius: 0px;
+    border-top-left-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+}
+.tasks  .custom-filters{
+    margin-left: 5px !important;
+}
+
+.tasks .searchset {
+    margin-bottom: 3px;
+}
+.tasks .searchset .result .form-control{
+    background: transparent;
+    box-shadow: none;
+}
+.tasks .table {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+.tasks thead {
+    font-size: 14px;
+}
+
+.tasks tbody {
+    font-size: 14px;
+}
+
+.tasks thead tr {
+    color: #aa95d1;
+}
+
+.tasks tbody tr {
+    color: #5128a0;
+    margin: 10px;
+    background: #ffffff;
+    border-radius: 10px;
+    width: 100%;
+}
+.d-mode .tasks tbody tr{background: #212529;color: #ccc;}
+.tasks td {
+    vertical-align: middle;
+    box-shadow: none;
+}
+
+.tasks .progress-bar {
+    background: #5128a0;
+}
+.d-mode .tasks .progress-bar{background: #2CC990;}
+.tasks .progress {
+    height: .4rem;
+    border-radius: 0px;
+    margin-top: 6px;
+    width: 70px;
+}
+.d-mode .tasks .progress{background: #3b4046;}
+
+.tasks .table-striped>tbody>tr:nth-child(2n+1)>td, .table-striped>tbody>tr:nth-child(2n+1)>th {
+    background-color: none;
+    margin: 10px;
+}
+
+.tasks .progreecol .col {
+    padding: 0px;
+    width: 10px !important;
+}
+
+.thumbimgcol {
+    padding: 0px;
+    /* width: 25px !important; */
+}
+
+.dotimage {
+    border: 1.5px dashed #969696 !important;
+    border-radius: 5px;
+}
+
+.dotimage img {
+    width: 45px;
+    height: 45px;
+}
+.thumbtasks .row {
+    margin: 0px
+}
+
+.taskName {
+    width: 260px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.taskh{
+    padding-bottom: 0px !important;
+
+}
+
+.taskName .badge {
+    background: #E74C3C !important;
+    border-radius: 40px;
+    font-size: 9px;
+    padding: 2px 8px;
+    margin: 0px 3px;
+}
+
+.taskName .redo {
+    background: #ED327A !important;
+}
+
+.bleft {
+    border-radius: 10px 0 0 10px !important;
+}
+
+.bright {
+    border-radius: 0px 10px 10px 0px !important;
+}
+.RTL .bleft {
+    border-radius: 0px 10px 10px 0px !important;
+}
+
+.RTL .bright {
+    border-radius: 10px 0px 0px 10px !important;
+}
+
+.taskName {
+    padding-left: 35px !important;
+}
+
+.RTL .taskName {
+    padding-left: 0px !important;
+    padding-right: 35px !important;
+}
+
+.tasktick {
+    margin-left: -27px;
+    padding-bottom: 5px;
+    padding-right: 5px !important;
+    position: absolute;
+}
+
+.RTL .tasktick {
+    margin-right: -27px;
+}
+.RTL .rtltaskname{
+    margin-right: 35px;
+}
+.tasks .dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+    background-color: rgb(235, 2, 2);
+}
+
+.RTL .tasks .dot {
+    margin-right: 0px;
+    margin-left: 8px;
+}
+
+.tasks .dotred {
+    background-color: rgb(235, 2, 2) !important;
+}
+
+.tasks .dotgreen {
+    background-color: rgb(48, 189, 67) !important;
+}
+
+.tasks .Approvebtn {
+    padding-top: 11%;
+    font-size: 12px;
+    color: #7848d1 !important;
+    background: none;
+    font-weight: bold;
+    border: none;
+    box-shadow: none;
+    /* background: chartreuse; */
+}
+.d-mode .tasks .Approvebtn{color: #2CC990 !important;}
+.tasks .Approvebtn:focus, .tasks .Approvebtn:hover, .tasks .Approvebtn:active {
+    color: #7848d1 !important;
+    border: none;
+    box-shadow: none;
+}
+
+.tasks .dropdown-toggle {
+    box-shadow: none !important;
+    background: none !important;
+    color: #7848d1 !important;
+    border: none;
+    margin-top: -3px;
+}
+.d-mode .tasks .dropdown-toggle{color: #2CC990 !important;}
+.tasks .dropdown-toggle:hover, .tasks .dropdown-toggle:focus, .tasks .dropdown-toggle:active {
+    background: #7848d1;
+   
+    /* border: 1px solid #7848d1 !important; */
+}
+
+.tasks .dropdown-toggle::after {
+    display: none;
+}
+
+.tasks .dropdown-menu-right {
+    background: #5128A0;
+}
+.tasks .dropdown-menu {
+    background: #5128A0;
+}
+.d-mode .tasks .dropdown-menu-right{background: #2CC990;}
+.tasks .dropdown-item {
+    color: #ffffff !important;
+    font-weight: normal;
+    font-size: 14px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.RTL .tasks .dropdown-item {
+    text-align: right;
+}
+
+.tasks .editmenu {
+    margin-right: 10px;
+}
+
+.RTL .tasks .editmenu {
+    margin-right: 0px;
+    margin-left: 20px;
+}
+
+.tasks .dropdown-item:hover {
+    background: #ED327A;
+}
+
+.tasks .dropdown-item.disabled, .dropdown-item:disabled {
+    opacity: 0.3;
+    /* pointer-events: unset;
+    cursor: not-allowed; */
+}
+.hme{
+    color: #5128a0;
+    margin: 0px 5px;
+    margin-top: 2px;
+}
+body.d-mode .hme svg path{fill: #2CC990;}
+
+.FilterdropDown button {
+    box-shadow: none !important;
+    margin: 0px !important;
+}
+
+.FilterdropDown .dropdown-toggle {
+    color: #BAACE2 !important;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.FilterdropDown .dropdown-toggle:hover, .FilterdropDown .dropdown-toggle:active {
+    color: #5128A0 !important;
+}
+
+.FilterdropDown .feather {
+    margin: 0px 10px;
+    stroke-width: 3.5px !important;
+}
+
+.FilterdropDown .dropdown-menu {
+    border: none;
+    width: 873px;
+    /* height: 312px; */
+    background: #FFFFFF;
+    /* elevation/high */
+    box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.04), 0px 16px 24px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    padding: 16px 24px;
+    color: #5128a0;
+}
+.d-mode .FilterdropDown .dropdown-menu{background: #2c3035;color: #ccc;}
+.FilterdropDown .inside{
+    display: flex;
+    font-size: 14px;
+}
+.insidecol{
+    border-left: 1px solid #E5E4E7;;
+    padding-left: 24px;
+}
+.insidecol .form-check, .rtlcon .form-check{
+    padding: 0px;
+    margin-bottom: 8px;
+}
+.insidecol .form-check .form-check-input, .insidecol .form-check .form-check-label{
+    display: inline;
+    margin-bottom: 0px;
+}
+
+.rtlcon .form-check .form-check-input, .rtlcon .form-check .form-check-label{
+    display: inline;
+    margin-bottom: 0px;
+}
+
+.Linside{
+    border-right: 1px solid #E5E4E7 !important;
+    border-left: 0px solid #E5E4E7;;
+}
+
+.videoplay{
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 8px;
+    
+}
+.RTL .videoplay{
+    margin-right: 8px;
+    
+}
+.validationwarn{
+    font-size: small; 
+    color: red;
+   
+ }
+ .validatediv{
+    text-align: right;
+ }
+ .RTL .validatediv{
+    text-align: left;
+ }
+ .RTL .white-container .pagination .octicon {
+    margin:-5px ;
+}
+
+.RTL .white-container .pagination .page-link{
+    padding: 2px 6px;
+    border-radius: 8px !important;
+    min-width: 32px;
+    text-align: center;
+}
+.noimagefd{display: flex;align-items: center;justify-content: center;}
+
+.barchartview-link{position: absolute;right: 40px;background: transparent;color: #5128a0;border-radius: 25px;margin-top: -40px;padding: 5px 15px;font-weight: 800;border-color: #5128a0;padding-top: 3px;z-index: 2;}
+.RTL .barchartview-link{right: auto;left: 40px;padding-top: 5px;}
+body.d-mode .barchartview-link{color: #2CC990;border-color: #2CC990;}
+.barchartview-link:hover, .barchartview-link:active, .barchartview-link:focus{background: #5128a0;color: #fff;}
+body.d-mode .barchartview-link:hover, body.d-mode .barchartview-link:active, body.d-mode .barchartview-link:focus{background: #2CC990;color: #fff;}
+.stackchart-modal .modal-dialog{min-width: 800px;}
+.stackchart-modal .modal-content{border-radius: 20px;}
+.stackchart-modal .modal-header{padding: 10px 20px;border-bottom: 0px;padding-bottom: 0px;}
+.stackchart-modal .modal-header .modal-title{font-size: 22px;font-weight: 600;color: #5128a0;}
+body.d-mode .stackchart-modal .modal-header .modal-title{color: #2CC990;}
+.stackchart-modal .modal-header .btn{background: transparent;border: none;border-radius: 15px;padding: 3px;color: #5128a0;}
+body.d-mode .stackchart-modal .modal-header .btn{color: #2CC990;}
+.stackchart-modal .modal-body{padding-bottom: 5px;min-height: 400px;}
+.stackchart-tabs{float: right;position: absolute;right: 80px;margin-top: -50px;}
+.RTL .stackchart-tabs{right: auto;left: 80px;}
+.stackchart-tabs .nav-item{display: inline-flex;}
+.stackchart-tabs .nav-item a{width: 100px;text-align: center;padding: 5px;border-radius: 25px;color: #5128a0;font-size: 14px;}
+.RTL .stackchart-tabs .nav-item a{width: 115px;}
+.d-mode .stackchart-tabs .nav-item a{color: #2CC990;}
+.stackchart-tabs .nav-item a svg{margin-right: 5px;}
+.stackchart-tabs .nav-item a.active{background: #5128a0;}
+.d-mode .stackchart-tabs .nav-item a.active{background: #2CC990;color: #fff;}
+.d-mode .stackchart-modal .stackchart-table{background: #212529;}
+.stackchart-modal .stackchart-table thead tr th{background: #f2f1ff;padding: 10px;font-size: 13px;color: #7848d1;border-bottom: none;font-weight: 800;letter-spacing: .3px;border-bottom: 1px solid #c2a8f1;}
+.d-mode .stackchart-modal .stackchart-table thead tr th{color: #2CC990;background: #2c3035;}
+.stackchart-modal .stackchart-table tbody tr td{padding: 10px;font-size: 14px;font-weight: 600;color: #5128a0;}
+.d-mode .stackchart-modal .stackchart-table tbody tr td{color: #ccc;}
+.stackchart-modal .stackchart-table tbody tr td.click-link:hover{background: #5128a0;color: #fff;cursor: pointer;}
+.d-mode .stackchart-modal .stackchart-table tbody tr td.click-link:hover{background: #2CC990;color: #5128a0;}
+.stackchart-modal .stackchart-table tbody tr td:first-child{font-weight: 700;}
+.tasklist-main {width: 100%; overflow-x: auto;margin-bottom: 5px;min-height: 260px;padding: 0px 10px;}
+/* date piker */
+.datebox .react-datepicker__year-read-view--down-arrow, .react-datepicker__month-read-view--down-arrow, .react-datepicker__month-year-read-view--down-arrow {
+    margin-left: 28px;
+    top: 6px;}
+/* piker year */
+.datebox .react-datepicker__year-read-view--selected-year{color: #5128a0;font-weight: 800;}
+.d-mode .datebox .react-datepicker__year-read-view--selected-year{color: #2CC990;}
+.d-mode  .react-datepicker__year-option:hover{background: #2a2f37;}
+.d-mode .react-datepicker__year-dropdown, .react-datepicker__month-dropdown, .react-datepicker__month-year-dropdown{background: #3e4652;color: #2CC990;}
+.datebox .react-datepicker .react-datepicker__day--outside-month{opacity: 0.5;}
+.datebox .react-datepicker  .react-datepicker__day--weekend{color: crimson !important;}
+.datebox .datepicker-txt{box-shadow: none !important;outline-style: none !important;}
+.d-mode .datebox .react-datepicker .react-datepicker__header {background: #2a2f37;}
+.d-mode .datebox .react-datepicker .react-datepicker__month-container{background: #3e4652;}
+.d-mode .datebox .react-datepicker .react-datepicker__current-month{color: #a793d0  ;}
+.d-mode .datebox .react-datepicker .react-datepicker__day-name{color: #2CC990 ;}
+.d-mode .datebox .react-datepicker .react-datepicker__day--outside-month{color: #a793d0 !important;}
+.d-mode .datebox .react-datepicker .react-datepicker__day{color: #ccc;}
+.d-mode .datebox .react-datepicker .react-datepicker__day:hover{background: blueviolet;}
+@media (max-width: 1200px) {
+    .tasks .searchbox-main .searchbox{width: 230px;}
+    .FilterdropDown .dropdown-menu {width: 393px;}
+} 
+
+@media (max-width: 992px) {
+    .tasks .FilterdropDown{height: 35px;}
+    .tasks .searchbox-main{position: absolute;padding-top: 60px;display: block;}
+    .tasks .searchbox-main .searchbox{width: 100%;margin-left: 0px;}
+    .tasks .tasklist-main{padding-top: 95px;}
+    .FilterdropDown .dropdown-menu {width: 393px;}
+}
+
+@media screen and (min-width: 1200px) {
+    .tasks .searchbox{width: 250px;
+        margin: 0px 16px;}
+}
+@media screen and (min-width: 1320px) {
+    .tasks .searchbox{width: 300px;
+        margin: 0px 50px;}
+}
+
+.tasks .filter-label{color: #BAACE2 !important;}
+body.d-mode .tasks .filter-label{color:#2CC990 !important;}
+.tasks .task-noresults-txt{margin-top: 25px;padding: 15px;background: #eae0fc;border-radius: 6px;font-size: 16px;color: #aa95d1;}
+
+.rtlview .selectionrow .align-items-baseline{
+    align-items: normal;
+    margin-right: 5px;
+}
+.rtlview .selectionrow .align-items-baseline .rtltaskname{
+    margin-right: 0px;
+}
+
+.rtlview .tasksummery .apexcharts-legend-marker{
+    margin-right: 0px;
+    margin-left: 3px;
+}

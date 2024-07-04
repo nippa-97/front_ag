@@ -1,0 +1,460 @@
+.excelImportBulkUpdateModel .modal-dialog .modal-content{
+    border-radius: 1.3rem;
+    background: #F2F2F2;
+}
+.d-mode .excelImportBulkUpdateModel .modal-content{
+    background: #2f353e;
+}
+
+/* .excelImportBulkUpdateModel .modalheader button{
+    font-size: 36px;
+} */
+
+.excelImportBulkUpdateModel .modalheader .content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 20px;
+}
+
+.excelImportBulkUpdateModel .modalheader .content .modal-title{
+    font-size: 22px;
+    font-weight: 700;
+    color: #5128a0;
+}
+.d-mode .excelImportBulkUpdateModel .modalheader .content .modal-title{
+    font-size: 22px;
+    font-weight: 700;
+    color: #2CC990;
+}
+.excelImportBulkUpdateModel .modalheader .content span{
+    color: #4F4F4F;
+    font-weight: 400;
+    font-size: 16px;
+}
+.d-mode .excelImportBulkUpdateModel .modalheader .content span{
+    color: #AFAFAF;
+}
+.excelImportBulkUpdateModel .modal-body .dropzone {
+    position: relative;
+    border: 1px dashed #52299C;
+    background: #F2F1FF;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.d-mode .excelImportBulkUpdateModel .modal-body .dropzone{
+    border-color: #166347;
+    background: #22272f;
+}
+
+.excelImportBulkUpdateModel .modal-body  .dropzone-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #5128A0;
+}
+.d-mode .excelImportBulkUpdateModel .modal-body  .dropzone-content{
+    color: #AFAFAF;
+}
+.d-mode .excelImportBulkUpdateModel .modal-body  .dropzone-content svg{
+    fill: #2CC990;
+}
+.excelImportBulkUpdateModel .modal-body  .dropdown .infoIcon{
+    position: absolute;
+    right: 8px;
+    top: 19px;
+    z-index: 1;
+    cursor: pointer;
+}
+.excelImportBulkUpdateModel .modal-body  .uom-column .infoIcon{
+    position: absolute;
+    top: 22px;
+    z-index: 1;
+    left: 150px;
+    cursor: pointer;
+}
+.RTL .modal-body  .dropdown .infoIcon{
+    right: auto;
+    left: 8px;
+}
+.d-mode .excelImportBulkUpdateModel .modal-body  .dropdown .infoIcon path{
+    fill: #2CC990;
+}
+.excelImportBulkUpdateModel .modal-body  .dropdown  .dropdown-menu{
+    position: absolute !important;
+    min-width: 13rem !important;
+    right: 10px !important;
+    top: 46px !important;
+    left:10px !important;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 11px 1px rgba(0, 0, 0, 0.11);
+    border-radius: 12px;
+}
+.d-mode .excelImportBulkUpdateModel .modal-body  .dropdown  .dropdown-menu{
+    background: #414f5f;
+}
+
+.excelImportBulkUpdateModel .modal-body  .dropdown  .dropdown-menu  .example-contents .header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 19px;
+
+}
+.excelImportBulkUpdateModel .modal-body  .dropdown  .dropdown-menu  .example-contents .header .uom-column .infoIcon2 {
+   cursor: pointer;
+}
+.d-mode  .excelImportBulkUpdateModel .modal-body  .dropdown  .dropdown-menu  .example-contents .header .uom-column .infoIcon2 path{
+    fill: #2CC990;
+ }
+
+.excelImportBulkUpdateModel .modal-body  .dropdown  .dropdown-menu  .example-contents .header .uom-column .dropdown-menu {
+    position: absolute !important;
+    top: 3px !important;
+    right:10px !important;
+}
+.excelImportBulkUpdateModel .modal-body  .dropdown  .dropdown-menu  .example-contents .uom-column .dropdown-menu .body-content  .data{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F3EDFD;
+    text-align: center;
+}
+.excelImportBulkUpdateModel .modal-body  .dropdown  .dropdown-menu   .example-contents .uom-column .dropdown-menu .body-content .examplesheet{
+    padding: 0px 8px 2px 6px;
+    display: flex;
+    flex-direction: column;
+ }
+.excelImportBulkUpdateModel .modal-body  .dropdown  .dropdown-menu  .example-contents .header .title1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #5128a0;
+}
+.d-mode .excelImportBulkUpdateModel .modal-body  .dropdown  .dropdown-menu  .example-contents .header .title1{
+    color: #2CC990;
+}
+.d-mode .excelImportBulkUpdateModel .modal-body  .dropdown  .dropdown-menu  .example-contents .header .title2{
+    color: #AFAFAF;
+}
+.excelImportBulkUpdateModel .modal-body  .dropdown  .dropdown-menu  .example-contents .body-content .thead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 15px 0px 15px;
+    margin-top: 25px;
+}
+.excelImportBulkUpdateModel .modal-body  .dropdown  .dropdown-menu  .example-contents .body-content .thead span{
+    font-size: 18px;
+    color: #5128a0;
+    font-weight: 600;
+}
+.excelImportBulkUpdateModel .modal-body  .dropdown  .dropdown-menu  .example-contents .header .btn-success{
+    border: 0.5px solid #5128A0;
+    border-radius: 16px;
+    height: 28px;
+    color: #5128A0;
+    background-color: #FFFFFF;
+    padding: 2px 7px 4px 7px;
+    font-size: 14px;
+    gap: 2px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.d-mode .excelImportBulkUpdateModel .modal-body  .dropdown  .dropdown-menu  .example-contents .header .btn-success{
+    border-color: #2CC990;
+    background: transparent;
+    color: #2CC990;
+}
+.rtlview .excelImportBulkUpdateModel .modal-body .dropdown .dropdown-menu .example-contents .header .btn-success {
+    right: auto; left: 10px;
+}
+
+.excelImportBulkUpdateModel .modal-body  .dropdown  .dropdown-menu  .example-contents .body-content .thead .btn-success svg{
+  padding: 0px 1px 0px 1px;
+}
+
+
+.excelImportBulkUpdateModel .modal-body  .dropdown  .dropdown-menu  .example-contents .body-content .thead .btn-success:hover{
+    background-color: #5128a0;
+    color: white;
+}
+.excelImportBulkUpdateModel .modal-body  .dropdown  .dropdown-menu  .example-contents .body-content .examplesheet{
+    padding: 19px 12px 25px 11px;
+    display: flex;
+    flex-direction: column;
+ }
+
+
+.excelImportBulkUpdateModel .modal-body  .dropdown  .dropdown-menu  .example-contents .body-content .examplesheet .data{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F3EDFD;
+    text-align: center;
+}
+.d-mode .excelImportBulkUpdateModel .modal-body  .dropdown  .dropdown-menu  .example-contents .body-content .examplesheet .data{
+    background-color: transparent;
+}
+.excelImportBulkUpdateModel .modal-body  .dropdown  .dropdown-menu  .example-contents .body-content .examplesheet .data span{
+    border: 0.5px solid rgba(82, 41, 156, 0.49);
+    width: 100%;
+}
+.examplesheet .data span{
+    padding: 4px; color: #000; font-weight: 500; font-size: 14px;
+}
+.d-mode .examplesheet .data span{
+    color: #F2F1FF !important;
+    background: #2f353e;
+    border-color: #414f5f !important;
+}
+.examplesheet .data.sheetheader span{
+    font-size: 12px; padding: 3px;
+}
+.d-mode .examplesheet .data.sheetheader span{
+    color: #AFAFAF !important;
+}
+.RTL .modal-body .dropzone .dropdown  .infoIcon{
+    right: auto;
+    left: -226px;
+}
+.excelImportBulkUpdateModel .modal-body .excelProducts{
+    background: #FFFFFF;
+    border-radius: 18px;
+    margin-top: 10px;
+    padding: 13px;
+}
+.d-mode .excelImportBulkUpdateModel .modal-body .excelProducts{
+    background: #22272f;
+}
+.excelImportBulkUpdateModel .modal-body .excelProducts .header{
+   display: flex;
+   justify-content: space-between;
+}
+.excelImportBulkUpdateModel .modal-body .excelProducts .header .details .duplicate svg{
+    color: #ffc107!important;
+ }
+.excelImportBulkUpdateModel .modal-body .excelProducts .header .details .issue svg{
+    color: #dc3545!important;
+ }
+.excelImportBulkUpdateModel .modal-body .excelProducts .content{
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.excelImportBulkUpdateModel .modal-body .excelProducts .content .info-1{
+    color: #5128A0;
+    font-weight: 600;
+    font-size: 18px;
+}
+.d-mode .excelImportBulkUpdateModel .modal-body .excelProducts .content .info-1{
+    color: #4F4F4F;
+}
+.excelImportBulkUpdateModel .modal-body .excelProducts .content .info-2{
+    color: #AFAFAF;
+    font-weight: 500;
+    font-size: 16px;
+}
+.excelImportBulkUpdateModel .modal-body .excelProducts select{
+    width: 100%;
+    box-shadow: none !important;
+    outline: none !important;
+    border: none;
+    background: #F3EDFD;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600 !important;
+ }
+ .d-mode .excelImportBulkUpdateModel .modal-body .excelProducts select{
+    background: #2f353e;
+    color: #AFAFAF;
+ }
+ .excelImportBulkUpdateModel .modal-body .excelProducts select option{
+    font-size: 15px !important;
+    font-weight: 600 !important;
+ }
+ 
+  
+.excelImportBulkUpdateModel .modal-body .excelProducts  .header span{
+    font-size: 18px;
+    font-weight: 700;
+    color: #5128a0;
+}
+.d-mode .excelImportBulkUpdateModel .modal-body .excelProducts  .header span{
+    color: #2CC990;
+}
+
+.excelImportBulkUpdateModel .modal-body .excelProducts .pargination{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.excelImportBulkUpdateModel .modal-body .excelProducts .pargination .totall{
+    background-color: #F2F1FF;
+    padding: 0px 7px 0px 7px;
+    font-weight: 400;
+}
+.RTL .modal-body .excelProducts .pargination .totall{
+    padding-top: 5px;
+}
+.excelImportBulkUpdateModel .modal-body .excelProducts .pargination .btns{
+    background-color: #F2F1FF;
+    cursor: pointer;
+    color: #5128a0;
+    border: 1px  #5128a0;
+}
+.RTL .modal-body .excelProducts .pargination .btns{
+    transform: rotate(180deg);
+}
+.excelImportBulkUpdateModel .modal-body .excelProducts .pargination .btns:hover{
+    background: #5128a0;
+    color: white;
+
+}
+
+.excelImportBulkUpdateModel .modal-footer {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+.excelImportBulkUpdateModel .modal-footer .closebtn{
+    padding: 3px 29px;
+    background: #4F4F4F;
+    border: none;
+    font-weight: 600;
+    border-radius: 25px;
+}
+.excelImportBulkUpdateModel .modal-footer .updatebtn{
+    padding: 3px 24px;
+    background: #77DB61;
+    color: #5128A0;
+    border: none;
+    font-weight: 600;
+    border-radius: 25px;
+    outline: none;
+    box-shadow: none !important;
+}
+.excelImportBulkUpdateModel .modal-body .excelProducts .product-details{
+    display: flex;
+    flex-direction: column;
+    margin-top: 22px;
+}
+.excelImportBulkUpdateModel .modal-body .excelProducts .product-details .product-details-data{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    max-height: 400px;
+    overflow-y: auto;
+    height: calc(100vh - 540px);
+    min-height: 200px;
+}
+.excelImportBulkUpdateModel .modal-body .excelProducts .product-details .product-details-data::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #5128A0;
+}
+.excelImportBulkUpdateModel .modal-body .excelProducts .product-details .product-details-header{
+    display: flex;
+    padding-left: 8px;
+}
+/* .excelImportBulkUpdateModel .modal-body .excelProducts .product-details .product-details-header .span{
+    width: 10px;
+} */
+.d-mode .excelImportBulkUpdateModel .modal-body .excelProducts .product-details .product-details-header{
+    color: #AFAFAF;
+}
+.excelImportBulkUpdateModel .modal-body .excelProducts .product-details .product-details-data .product-content{
+    position: relative;
+    display: flex;
+    background: #F2F1FF;
+   padding-left: 7px;
+   padding-top: 7px;
+   padding-bottom: 7px;
+   border-radius: 12px;
+   font-weight: 600;
+   min-height: 37px;
+}
+.excelImportBulkUpdateModel .modal-body .excelProducts .product-details .product-details-data .product-content .label-1{
+ white-space: nowrap; 
+ overflow: hidden;    
+ text-overflow: ellipsis; 
+ width: 200px;
+}
+.excelImportBulkUpdateModel .modal-body .excelProducts .product-details .product-details-data .product-content .label-2{
+    white-space: nowrap; 
+    overflow: hidden;    
+    text-overflow: ellipsis; 
+    width: 100px;
+   }
+.d-mode .excelImportBulkUpdateModel .modal-body .excelProducts .product-details .product-details-data .product-content{
+    background: #414f5f;
+    color: #AFAFAF;
+}
+.RTL .modal-body .excelProducts .product-details .product-details-data .product-content {
+    padding-right: 7px;
+}
+.excelImportBulkUpdateModel .modal-body .excelProducts .product-details .product-details-data .product-content .icon{
+    position: absolute;
+    right: 0;
+    padding-right: 15px;
+    cursor: pointer;
+}
+.RTL .modal-body .excelProducts .product-details .product-details-data .product-content .icon{
+  right: auto;
+  left: 0;
+  padding: auto;
+  padding-left: 15px;
+}
+.excelImportBulkUpdateModel .modal-body .excelProducts .product-details .product-details-data .emptydiv {
+    background: #F2F1FF;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.excelImportBulkUpdateModel .modal-body .excelProducts .product-details .product-details-data .emptydiv span{
+    font-size: 16px;
+    font-weight: 600;
+    color: #5128a0;
+}
+
+.bottom-part .pagination{float: right; margin-top: 20px;}
+.RTL .bottom-part .pagination{float: left; }
+.RTL .pagination li svg{-webkit-transform: scaleX(-1); transform: scaleX(-1);}
+.bottom-part .pagination li{margin-left: 2px;}
+.bottom-part .pagination li .page-link{box-shadow: none; border: none;}
+.bottom-part .pagination li .page-link:focus{ background:white}
+.bottom-part .pagination li .page-link:focus:active{ background:#f2f2f2}
+.bottom-part .pagination li.disabled .page-link{border-color: #ede2e2; background: #d7d1d1; padding: 2px 6px;}
+.bottom-part .pagination li svg{vertical-align: middle !important;}
+.bottom-part  .pagination li svg:nth-child(2){margin-left: -10px;}
+.RTL .bottom-part  .pagination li svg:nth-child(2){margin-right: -10px;margin-left:0px;}
+.bottom-part .pagination li a{border-radius: 2px;font-size: 14px;font-weight: 800;color: #5128a0;height: 30px;padding: 4px 6px;}
+.bottom-part .pagination label{margin: 0px 5px;padding: 0px 15px;padding-top: 5px;border: 1px solid #ddd;margin-right: 5px;border-radius: 2px;font-size: 14px;font-weight: 700;}
+.bottom-part .pagination label{color: #ccc;border-color: #666;}
+
+.d-mode .bottom-part .pagination li .page-link:focus{ background: #4F4F4F}
+.d-mode .bottom-part .pagination li .page-link:focus:active{ background: #7f7d7d}
+.d-mode .bottom-part .pagination li.disabled .page-link{border: none; background: #4F4F4F; padding: 2px 6px;}
+.d-mode .bottom-part .pagination li a{border-radius: 2px;font-size: 14px;font-weight: 800; color: #2CC990; background: #4F4F4F;height: 30px;padding: 4px 6px;}
+.d-mode .excelImportBulkUpdateModel .modal-body .excelProducts .product-details .product-details-data::-webkit-scrollbar-thumb{
+    background-color: #2CC990;
+}
+
+.excelImportBulkUpdateModel .btn-close{
+    position: absolute;
+    right: 5px;
+}

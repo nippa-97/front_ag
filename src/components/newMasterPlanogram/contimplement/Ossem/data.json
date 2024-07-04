@@ -1,0 +1,64 @@
+[
+    {
+        "store_id":394        ,
+        "details":[
+            {
+                "brand_name":"brand",
+                "change":10,
+                "up":true
+            },
+            {
+                "brand_name":"brand",
+                "change":10,
+                "up":true
+            },
+            {
+                "brand_name":"brand",
+                "change":10,
+                "up":true
+            },
+            {
+                "brand_name":"brand",
+                "change":10,
+                "up":true
+            },
+            {
+                "brand_name":"brand",
+                "change":10,
+                "up":true
+            }
+        ]
+        
+    },
+    {
+        "store_id":209        ,
+        "details":[
+            {
+                "brand_name":"branddd",
+                "change":10,
+                "up":true
+            },
+            {
+                "brand_name":"branddd",
+                "change":25,
+                "up":true
+            },
+            {
+                "brand_name":"branddd ",
+                "change":10,
+                "up":true
+            },
+            {
+                "brand_name":"brand",
+                "change":10,
+                "up":true
+            },
+            {
+                "brand_name":"brand",
+                "change":10,
+                "up":true
+            }
+        ]
+        
+    }
+]

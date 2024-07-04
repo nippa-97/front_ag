@@ -1,0 +1,1 @@
+export const SALE_LOG_WARNING_SET = 'SALE_LOG_WARNING_SET';

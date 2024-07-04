@@ -1,0 +1,12 @@
+
+.additem-content .table-removelink{margin: 0 auto;display: block;}
+.departmantcat .bulkselection{position: absolute;margin-top: 58px;}
+/* .departmantcat .filter-form{margin-bottom: 34px;} */
+.departmantcat  .filter-table tbody tr td .btn:hover{opacity: 0.6;}
+.departmantcat  .filter-table tbody tr td:last-child{text-align: center;width: 70px;}
+.departmantcat  .filter-table tbody tr td:last-child .btn{background: #dc3545 ;border: none;box-shadow: none;}
+.departmantcat .filter-form{min-height: 80px;}
+
+.additem-content .sub-breadscrumb{margin-bottom: 5px;}
+.additem-content .custom-filters{margin-left: auto;}
+.rtlview .additem-content .custom-filters{margin-right: auto;}

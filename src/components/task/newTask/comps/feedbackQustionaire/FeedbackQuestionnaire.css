@@ -1,0 +1,45 @@
+.QustionniaireBody{
+   font-size: 14px;
+   max-height: 230px;
+   overflow-y: auto;
+   border-bottom: 1px solid #a27bb479;
+}
+.QustionniaireBody .loadingquestionnaire{text-align: center;}
+.QustionniaireBody .loadingquestionnaire img{width: 15px;}
+.QustionniaireBody .name{
+    cursor: pointer;
+    text-transform: capitalize;
+    display: flex;
+   padding: 5px 10px;
+    border-bottom: 1px solid #a27bb479;
+   
+}
+.questionnairesarch .input-group-text{
+    background: none;
+    border-color: #5229A3;
+    border-radius: 20px 0px 0px 20px;
+    /* border-right: none; */
+}
+.name:hover{font-weight: bold;}
+.RTL .questionnairesarch .input-group-text{
+    border-radius: 0px 20px 20px 0px !important;
+    border-right: 1px solid #5229A3 !important;
+    border-left:none
+   
+}
+.questionnairesarch .form-control{
+    border: 1px solid #5229A3 !important;
+    border-radius: 0px 20px 20px 0px !important;
+    border-left: none !important;
+    font-size: 14px !important;
+    height: 32px !important;
+}
+.RTL .questionnairesarch .form-control{
+   border-right: none !important;
+   border-left:1px solid #5229A3 !important; ;
+   border-radius: 20px 0px 0px 20px !important;
+}
+.prevselected{margin-top: 10px;padding: 10px;border-radius: 10px;  background: #dfd0fc;}
+.prevselected .title{font-size: 14px ;font-weight: bold;}
+.prevselected .Qstatus{font-size: 11px ;background: #5229A3 ;font-weight: bold; color:white;padding: 4px;border-radius: 5px;margin: 0px 5px;}
+.prevselected .stitle{font-size: 14px ;font-weight: bold;}

@@ -1,0 +1,232 @@
+@use '../../../assets/css/variables';
+
+/* .catelogue-log .nav-tabs {border: none;}
+.catelogue-log .nav-tabs a{font-size: 16px;font-weight: bold;color: #acacac;border:none;}
+
+.catelogue-log .nav-tabs a:hover{color: variables.$primary-color;opacity: 0.7;}
+.catelogue-log .nav-link.active{background: none !important;color: variables.$primary-color;}
+body.d-mode .catelogue-log .nav-link.active{color: variables.$primary-dark}
+body.d-mode .catelogue-log .nav-tabs a:hover{color: variables.$primary-dark;} 
+.catelogue-log.LTR .nav-tabs a{padding-left: 0px;}
+.catelogue-log.RTL .nav-tabs a{padding-right: 0px;}
+*/
+.catelogue-log .nav-tabs{border-bottom: none;margin: 0;}
+.catelogue-log .nav-tabs .nav-item{padding: 0px;background: transparent;}
+.catelogue-log .nav-tabs .nav-item .nav-link{padding: 5px 25px;border-radius: 15px;margin: 0px 5px 0px 5px; background: #f2f1ff;font-size: 15px;font-weight: 600;color: variables.$primary-color;border: none;}
+.catelogue-log .nav-tabs .nav-item .nav-link.active{background: variables.$primary-color; color: #fff;}
+.catelogue-log .nav-tabs .nav-item .nav-link.active:hover{cursor: default;}
+body.d-mode .catelogue-log .nav-tabs .nav-item .nav-link{background: #22272f;color: #c2c2c2;}
+body.d-mode .catelogue-log .nav-tabs .nav-item .nav-link.active{background: #1a8f64;color: #FFF;}
+
+
+.catelogue-log .white-container{padding: 15px 35px;position: relative;}
+.catelogue-log .white-container .sync-btn{position: absolute; top:15px; right:35px;border-radius: 25px;font-size: 15px;font-weight: 700;padding: 5px 15px;border: 1px solid variables.$primary-color; color: variables.$primary-color;background: transparent;}
+.catelogue-log.RTL .white-container .sync-btn{position: absolute; top:10px; right:auto; left:35px;}
+body.d-mode .catelogue-log .white-container .sync-btn{border: 1px solid variables.$primary-dark; color: variables.$primary-dark;}
+.catelogue-log .dashboard-section{margin-bottom: 10px;}
+.catelogue-log .dashboard-section .dashboard-item{padding: 10px;}
+.catelogue-log .dashboard-section .dashboard-item .card{border-radius: 8px;border: none;}
+.catelogue-log .dashboard-section .dashboard-item .card.bg-danger{
+    background: linear-gradient(140deg, rgba(variables.$pink-color, .7), rgba(variables.$pink-color, 1)) !important;
+}
+.catelogue-log .dashboard-section .dashboard-item .card.bg-warning{
+    background: linear-gradient(140deg, rgba(variables.$orange-color, .8), rgba(variables.$orange-color, 1)) !important;
+}
+.catelogue-log .dashboard-section .dashboard-item .card.bg-success{
+    background: linear-gradient(140deg, rgba(variables.$green-color, .8), rgba(variables.$green-color, 1)) !important;
+}
+.catelogue-log .dashboard-section .dashboard-item .card-body{height: 80px;}
+.catelogue-log .dashboard-section .dashboard-item .card-body h5{margin-top: 0;margin-bottom: 1px;color: #fff;font-size: 14px;font-weight: 700;}
+.catelogue-log .dashboard-section .dashboard-item .card-body h3{margin-top: 5px;margin-bottom: 1px;color: #fff;font-size: 30px;font-weight: 700;}
+.catelogue-log.LTR .dashboard-section .dashboard-item .card-body h5{text-align: left;}
+.catelogue-log.RTL .dashboard-section .dashboard-item .card-body h5{text-align: right;}
+.catelogue-log.LTR .dashboard-section .dashboard-item .card-body h3{text-align: right;}
+.catelogue-log.RTL .dashboard-section .dashboard-item .card-body h3{text-align: left;}
+.catelogue-log .dashboard-section .dashboard-item .iconview{position: absolute;left: 15px;margin-top: 10px;color: #fff;}
+.rtlview .catelogue-log .dashboard-section .dashboard-item .iconview{left: auto;right: 15px;}
+.catelogue-log .dashboard-section .dashboard-item .iconview svg{color: #fff !important;opacity: .7;}
+
+.catelogue-log .dashboard-section .dashboard-item .card.bg-warning.errorbg-1{
+    background: linear-gradient(140deg, #EC7063, rgba(variables.$orange-color, 1)) !important;
+}
+
+.catelogue-log .dashboard-section .dashboard-item .card.bg-warning.errorbg-2{
+    background: linear-gradient(140deg, #EC7063, #cf584b) !important;
+}
+
+.catelogue-log .dashboard-section .dashboard-item .card.bg-warning.errorbg-3{
+    background: linear-gradient(140deg, #e95e4f, #df3825) !important;
+}
+
+.catelogue-log .filter-section .filter-item{padding: 0px 8px;}
+.catelogue-log .filter-section .filter-item.buttons{padding-top: 20px;padding-left: 0;padding-right: 5px;}
+.catelogue-log .fileErrorLog .filter-section .filter-item.buttons{padding-top: 0px;padding-left: 5px;}
+.catelogue-log .fileErrorLog .filter-section .form-switch label{font-size: 14px !important;padding: 0px 5px;}
+.catelogue-log .filter-section label{color: variables.$light-color; font-size: 12px;font-weight: bold;margin-bottom: 1px;}
+body.d-mode .catelogue-log .filter-section label{color: variables.$primary-dark;}
+.catelogue-log .filter-section select, .catelogue-log .filter-section .form-switch{
+    display: inline-flex;padding: 0px;
+}
+.catelogue-log .filter-section select, .catelogue-log .filter-section input{overflow: hidden ;padding: 5px 8px;border: 2px solid variables.$primary-color !important;border-radius: 15px;box-shadow: none;font-size: 13px;margin: 2px 2px;}
+.catelogue-log .filter-section select:hover{overflow: hidden;}
+body.d-mode .catelogue-log .filter-section select, body.d-mode .catelogue-log .filter-section input{border: 2px solid variables.$primary-dark !important;}
+.catelogue-log .filter-section .form-switch{margin-top: 2px;}
+.catelogue-log .filter-section .form-switch .form-check-input{font-size: 16px;}
+.catelogue-log .filter-section .react-datepicker-wrapper{width: 100%;position: relative;z-index: 2;}
+.catelogue-log .filter-section .react-datepicker-wrapper input{background: transparent;padding: 5px 8px;border: 2px solid variables.$primary-color !important;border-radius: 15px;box-shadow: none;font-size: 13px;margin: 2px 2px;width: 100%;}
+body.d-mode .catelogue-log .filter-section .react-datepicker-wrapper input{color: #ccc;}
+body.d-mode .catelogue-log .filter-section .react-datepicker-wrapper input{border: 2px solid variables.$primary-dark !important;}
+.catelogue-log .filter-section .filter-item.main-btns button{
+    border-radius:20px;margin: 5px 2px;font-size: 13px;border: none;font-weight: 700;background: #bdbdbd;padding: 5px 20px;color: #fff;
+    float: right;
+}
+.catelogue-log .filter-section .filter-item.main-btns .btn-info{
+    background: variables.$primary-dark; color: #fff;
+}
+.catelogue-log .filter-section .filter-item.main-btns .btn-danger{background: variables.$pink-color;border-color: variables.$pink-color;}
+.catelogue-log .filter-section .filter-item.datebox{position: relative;}
+.catelogue-log.LTR .filter-section .filter-item.datebox svg{position: absolute; top: 35px;right: 20px;fill: variables.$primary-color;}
+.catelogue-log.RTL .filter-section .filter-item.datebox svg{position: absolute; top: 35px;left: 20px;fill: variables.$primary-color;}
+body.d-mode .catelogue-log .filter-section .filter-item.datebox svg{fill: variables.$primary-dark;}
+@media screen and (max-width: 1280px) { .catelogue-log .filter-section .filter-item.datebox svg{display: none !important;}}
+
+.catelogue-log .body-section{padding-top: 10px;}
+.catelogue-log .body-section .filter-form{display: none;}
+.catelogue-log.LTR .body-section .btn-action-group{margin-bottom: 5px;float: right;}
+.catelogue-log.RTL .body-section .btn-action-group{margin-bottom: 5px;float: left;}
+.catelogue-log .body-section .btn-action-group button{padding: 3px 5px;font-size: 12px;border: 1px solid #ccc;}
+body.d-mode .catelogue-log .body-section .btn-action-group button{border: 1px solid #6c757d;}
+.catelogue-log.RTL .body-section .btn-action-group button{border-radius: 0;}
+
+.catelogue-log .body-section .main-table-col{position: relative;}
+.catelogue-log.LTR .body-section .main-table-col .select-all-table-rows-chk{position: absolute;top: 10px;left: 12px;width: 15px;height: 15px;}
+.catelogue-log.RTL .body-section .main-table-col .select-all-table-rows-chk{position: absolute;top: 10px;right: 12px;width: 15px;height: 15px;}
+.catelogue-log .body-section .main-table-col .select-all-table-rows-chk.fileerror{top: 10px !important;left:10px}
+.catelogue-log.RTL .body-section .main-table-col .select-all-table-rows-chk.fileerror{top: 10px !important;right:10px}
+.catelogue-log .body-section .main-table-col.catelogue thead tr th:nth-of-type(1) {width: 0px;}
+.catelogue-log .body-section .main-table-col.catelogue tbody tr td:nth-of-type(1) {width: 0px;}
+.catelogue-log .body-section .main-table-col.catelogue thead tr th:nth-of-type(2) {width: 28px;}
+.catelogue-log .body-section .main-table-col.catelogue tbody tr td:nth-of-type(2) {width: 28px;text-align: center}
+
+.catelogue-log .body-section .catelog-log-main-table table thead tr th:nth-child(2){min-width: 60px;}
+.catelogue-log .body-section .catelog-log-main-table table thead tr th:last-child{min-width: 110px;}
+
+.catelogue-log .body-section .no_recs_msg{
+    text-align: center;padding: 15px 20px;background: #f3edff;font-weight: 600;color: variables.$primary-color;
+    border-radius: 8px;margin-top: 10px;
+}
+body.d-mode .catelogue-log .body-section .no_recs_msg{color: variables.$primary-dark;}
+
+
+.filer-error-log-details-modal .modal-header{background: #f2f1ff;}
+body.d-mode .filer-error-log-details-modal .modal-header{background: #2f353e;}
+.filer-error-log-details-modal .modal-header .close-btn{position: absolute;right:0px;top:5px;border: none;background: transparent;}
+.filer-error-log-details-modal .modal-header .close-btn:hover{fill: variables.$pink-color;cursor: pointer;}
+.filer-error-log-details-modal.RTL .modal-header .close-btn{position: absolute;left:0px;right: auto;top:5px}
+.filer-error-log-details-modal .modal-header .modal-title {color: variables.$primary-color;font-size: 22px;font-weight: 700;}
+body.d-mode .filer-error-log-details-modal .modal-header .modal-title{color: variables.$primary-dark;}
+.filer-error-log-details-modal .modal-body{padding: 2px 15px;position: relative;}
+.filer-error-log-details-modal .modal-body .top-section{padding: 5px 0px;border-radius: 5px;}
+.filer-error-log-details-modal .modal-body .top-section .label{font-size: 15px;font-weight: 700; color: variables.$primary-color;padding-bottom: 5px;}
+.filer-error-log-details-modal .modal-body .top-section .value{font-size: 15px;font-weight: 600; color: #4d4d4d;padding-bottom: 5px;}
+body.d-mode .filer-error-log-details-modal .modal-body .top-section .label{color: variables.$primary-dark;}
+body.d-mode .filer-error-log-details-modal .modal-body .top-section .value{color: #D0D3D4;}
+.filer-error-log-details-modal .modal-body .top-section .description .col{font-size: 14px;font-weight: 600; color: variables.$pink-color;padding: 5px 10px;border:1px solid #c2c2c2 ;min-height: 60px;border-radius: 5px;margin-bottom: 5px;}
+body.d-mode .filer-error-log-details-modal .modal-body .top-section .description .col{color: #F1948A;border:1px solid #4f555e ;background: #444f5c;}
+.filer-error-log-details-modal .modal-body .top-section .resolve-comment .col{font-size: 14px;font-weight: 600; color: #4d4d4d;padding: 5px 10px;border:1px solid #c2c2c2 ;min-height: 60px;border-radius: 5px;margin-bottom: 10px;}
+body.d-mode .filer-error-log-details-modal .modal-body .top-section .resolve-comment .col{color: #D0D3D4;;border:1px solid #4f555e ;background: #444f5c;}
+
+.update-data-modal .modal-content, .approve-modal .modal-content{border-radius: 20px;}
+.update-data-modal .modal-header{padding: 10px 15px;}
+.update-data-modal .modal-header .modal-title{font-size: 22px; font-weight: 700; color: variables.$primary-color;}
+.update-data-modal .modal-header .modal-title h6{font-size: 13px;margin-bottom: 0;color: #34495E;font-weight: 600;}
+.update-data-modal .modal-header .modal-title .barcode{font-size: 14px;display: flex;margin-top: -5px;}
+.update-data-modal .modal-header button{border: none;background: transparent;content: "";}
+body.d-mode .update-data-modal .modal-header .modal-title{color: variables.$primary-dark;}
+body.d-mode .update-data-modal .modal-header .modal-title h6{color: #ABEBC6;}
+
+.update-data-modal h5{font-size: 15px;margin-bottom: 2px;font-weight: 600;color: variables.$primary-color;}
+.update-data-modal.LTR h5 svg{float: right;}
+.update-data-modal.RTL h5 svg{float: left;}
+.update-data-modal.LTR h5 svg:hover{cursor: pointer;fill: variables.$pink-color;}
+
+.adding-modal .modal-body{height: 330px; overflow-y: auto;overflow-x: hidden;position: relative;}
+.update-data-modal .modal-body {height: auto;}
+
+/* .update-data-modal .switch-main-div{border-radius: 5px;padding: 10px;}
+.update-data-modal .switch-main-div span{font-size: 15px; font-weight: 700;} 
+
+.update-data-modal .searchselect-inner__menu{z-index: 10000000 !important;position: absolute !important;}*/
+
+.update-data-modal .modal-footer, .adding-modal .modal-footer{padding: 5px;}
+.update-data-modal .modal-footer button, .adding-modal .modal-footer button{border-radius: 25px;padding: 4px 20px;font-weight: 600;border: none;}
+.update-data-modal .modal-footer button{background: variables.$pink-color;}
+.update-data-modal .modal-footer button.reset{background: #60778d;}
+
+
+/* .update-data-modal .suggest-item{padding: 5px 10px; background: #3005a51a;margin: 0px;border-radius: 5px;margin-bottom: 15px;}
+.update-data-modal .suggest-item .switch-col{padding-top: 12px;}
+.update-data-modal .suggest-item small{font-size: 12px;font-weight: 600;color: #59506b;}
+.update-data-modal .suggest-item h6{font-weight: 600;color: variables.$primary-color;margin-bottom: 4px;}
+.update-data-modal .suggest-item .pure-material-switch>span::after{top:2px}
+body.d-mode .update-data-modal .suggest-item{ background: #c0b8d81a;}
+body.d-mode .update-data-modal small{color: #ABEBC6;}
+body.d-mode .update-data-modal h6{color: variables.$primary-dark;}
+body.d-mode .update-data-modal .suggest-item .pure-material-switch>span::before{ background-color: variables.$primary-dark;}
+
+.update-data-modal .suggest-item .inline-label{font-size: 12px;padding: 2px 5px;font-weight: 600;color: #FFF;border-radius: 5px;margin-bottom: 5px;border: none;}
+.update-data-modal .suggest-item .inline-label.primary{background: #ff7675}
+.update-data-modal .suggest-item .inline-label.secondary{background: #6c5ce7}
+.update-data-modal .suggest-item .inline-label:focus{box-shadow: none;} */
+
+.update-data-modal .update-suggestion-note{font-size: 13px;margin-bottom: 0;font-weight: 600;color: variables.$pink-color;}
+body.d-mode .update-data-modal .update-suggestion-note{color: #f0c3d4;}
+
+.catelogue-log-tool-tip{font-size: 12px;padding-top:10px !important ;z-index: 100;}
+.catelogue-log-tool-tip label{height: 10px;}
+.catelogue-log-tool-tip::after {
+    position: absolute;
+    left: 45%;
+    top: 6px;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: rgb(0, 0, 0);
+    transform: rotate(45deg);
+    z-index: 200;
+}
+
+.adding-modal.resolve-note .modal-body{height: 145px;padding: 5px;}
+.adding-modal.resolve-note .modal-header .h4{width: 100%;position: relative;}
+.adding-modal.resolve-note .modal-header svg{position: absolute;left: auto;right: 0;top: 5px;}
+.resolve-btn{padding: 3px 10px;margin-bottom: 5px;font-size: 13px;z-index: 100000;}
+
+.catelogue-log.RTL .white-container{padding: 15px 35px 40px 35px;}
+
+
+.update-data-modal .modal-body-title{color: #22272f; font-weight: 600;margin-bottom: 10px;}
+body.d-mode .update-data-modal .modal-body-title{color: variables.$green-color;}
+.update-data-modal .modal-body-title svg{fill: variables.$primary-color;margin: 0px 5px;}
+.update-data-modal .modal-body-title svg:hover{fill: variables.$pink-color;cursor: pointer;}
+.update-data-modal .conflict-item {padding: 2px 5px; border: 2px solid #EC7063;border-radius: 5px;margin-bottom: 10px;background: #ec70631f;}
+/* .update-data-modal .conflict-item.not-approved{background: #ff00000f;border: 2px solid #EC7063;}    */
+.update-data-modal .conflict-item.approved {border: 2px solid variables.$green-color;background: variables.$primary-dark;}
+.update-data-modal .conflict-item .conflict-item-sub-cols{padding: 0px 5px;}
+.update-data-modal .conflict-item .conflict-item-sub-cols.icons-col{text-align: center;padding :0;position: relative;}
+.update-data-modal .conflict-item .conflict-item-sub-cols.icons-col div,.update-data-modal .conflict-item .conflict-item-sub-cols.icons-col.arrow span {position: absolute;top: 30%;left:10%;right:10%;}
+.update-data-modal .conflict-item .conflict-item-sub-cols small{font-size: 12px; font-weight: 600; color: #34495E;}
+body.d-mode .update-data-modal .conflict-item .conflict-item-sub-cols small{color: #b5bec5;}
+.update-data-modal .conflict-item .conflict-item-sub-cols h6.name{color: variables.$primary-color;font-weight: 700;}
+body.d-mode .update-data-modal .conflict-item .conflict-item-sub-cols h6.name{color: variables.$green-color;}
+.update-data-modal .conflict-item .conflict-item-sub-cols.icons-col .select-icon{background: #D0D3D4;margin: 0 2px;border-radius: 25px;padding: 2px 5px;box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;}
+body.d-mode .update-data-modal .conflict-item .conflict-item-sub-cols.icons-col.arrow svg{color: #f0c3d4;}
+.update-data-modal .conflict-item .conflict-item-sub-cols.icons-col .select-icon:hover {cursor: pointer;opacity: 0.8;}
+.update-data-modal .conflict-item .conflict-item-sub-cols.icons-col .select-icon svg{color: #08454d;}
+.update-data-modal .conflict-item .conflict-item-sub-cols.icons-col .select-icon.selected{background: #58D68D;}
+.update-data-modal .conflict-item .conflict-item-sub-cols.icons-col .select-icon.selected svg{color: #FFF;}
+.update-data-modal .conflict-item .conflict-item-sub-cols.icons-col .select-icon.not-selected{background: #EC7063;}
+.update-data-modal .conflict-item .conflict-item-sub-cols.icons-col .select-icon.not-selected svg{color: #FFF;}
+
+.update-data-modal .modal-title nav {margin-bottom: 0;height: unset;min-height: 20px;}
+.update-data-modal .modal-title nav ol{margin-bottom: 0;}
+.update-data-modal .modal-title nav ol li{font-size: 13px;}

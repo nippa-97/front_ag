@@ -1,0 +1,25 @@
+
+.issuestore-modal .modal-dialog{max-width: 580px;}
+.issuestore-modal .modal-content{position: relative;}
+.issuestore-modal .closebtn{position: absolute;right: 15px;top: 15px;}
+.rtlview .issuestore-modal .closebtn{right: auto;left: 15px;}
+.issuestore-modal .closebtn:hover{cursor: pointer;opacity: .6;}
+.issuestore-modal .issue-header{margin: 20px;}
+.issuestore-modal .issue-header small{display: block;font-size: 16px;margin-top: 5px;}
+.issuestore-modal .alert{position: relative;margin: 5px 20px;left: auto;z-index: auto;transform: translate(0,0);font-size: 18px;font-weight: 500;background: #9ae28a;border: 0px;border-radius: 6px;}
+
+.issuestore-modal .details-view{margin-bottom: 20px;border-radius: 6px;padding: 15px 5px;}
+.issuestore-modal .storelist-headers{text-align: center;font-size: 14px;padding: 0px 15px;}
+.issuestore-modal .singlestore-item{background: #fff;border-radius: 6px;margin-bottom: 5px !important;padding: 8px 15px;}
+.issuestore-modal .singlestore-item .col-3{padding: 0px 3px;}
+.issuestore-modal .singlestore-item .label{background: #cfefc8;color: #5FAF4E;padding: 3px 5px;font-weight: 600;border-radius: 6px;font-size: 13px;width: 100%;position: relative;text-align: center;}
+.issuestore-modal .singlestore-item .label svg{margin: 0px 5px;}
+.issuestore-modal .singlestore-item .label.danger{background: #f2d2d2;color: #EB5757;}
+.issuestore-modal .singlestore-item .label.danger:hover{cursor: pointer;opacity: .8;}
+.issuestore-modal .storelist-view{margin-top: -5px !important;height: auto !important;min-height: 220px;max-height: 380px;margin-top: 0px !important;}
+.issuestore-modal .bottom-list ul{padding: 0px;}
+.rtlview .issuestore-modal .bottom-list ul li{margin: 0px 5px;}
+.issuestore-modal .bottom-list .btn{padding: 3px 20px;border-radius: 20px;}
+.issuestore-modal .bottom-list .btn-primary{background: #5128A0;border-color: #5128A0;}
+.issuestore-modal .bottom-list .btn-danger{background: #E90041;border-color: #E90041;}
+.issuestore-modal .bottom-list .btn-secondary{background: #9c9c9c;border-color: #9c9c9c;}

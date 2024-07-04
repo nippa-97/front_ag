@@ -1,0 +1,81 @@
+@use '../../../assets/css/variables';
+
+.mdatacontent-main .regionmodal-view .modal-title, .mdatacontent-main .form-subcontent{color: #555657;}
+.mdatacontent-main .highlight-btn-print {background-color:variables.$primary-color; border-color: variables.$primary-color; padding: 4px 16px;}
+.mdatacontent-main .highlight-btn-print:hover, .mdatacontent-main .highlight-btn-print:active, .mdatacontent-main .highlight-btn-print:focus{background-color:variables.$primary-color;}
+.mdatacontent-main .search-link btn btn-warning {background-color:variables.$primary-color; border-color: variables.$primary-color; padding: 4px 16px;}
+.mdatacontent-main .search-link btn btn-warning:hover, .mdatacontent-main .search-link btn btn-warning:active, .mdatacontent-main .highlight-btn-filter:focus{background-color:variables.$primary-color;}
+.mdatacontent-main .highlight-btn btn btn-success btn-sm {background-color: variables.$green-color; border-color: variables.$green-color; padding: 4px 16px;}
+.mdatacontent-main .highlight-btn btn btn-success btn-sm:hover, .mdatacontent-main .rsavebutton btn btn-success:active, .mdatacontent-main .rsavebutton btn btn-success:focus{background-color:variables.$green-color;}
+.mdatacontent-main .regionmodal-view.rsavebutton  { background-color:variables.$green-color; border-color: variables.$green-color; float: right;  padding: 4px 16px;}
+.mdatacontent-main .regionmodal-view.rsavebutton  :hover, .mdatacontent-main .regionmodal-view .rsavebutton:active, .mdatacontent-main.regionmodal-view .highlight-btn btn btn-success btn-sm:focus{background-color:variables.$green-color;}
+.mdatacontent-main .regionmodal-view .rsavebutton  {border-radius: 25px;font-weight: 600;}
+.mdatacontent-main .float-right formview-btn btn btn-danger { background-color: variables.$pink-color; border-color: variables.$pink-color; padding: 4px 16px;}
+.mdatacontent-main .float-right formview-btn btn btn-danger:hover, .mdatacontent-main .float-right formview-btn btn btn-danger:active, .mdatacontent-main .float-right formview-btn btn btn-danger:focus{background-color:variables.$pink-color;}
+.mdatacontent-main .highlight-btn btn btn-success btn-sm {background-color: variables.$green-color; border-color: variables.$green-color;  padding: 4px 16px;}
+.mdatacontent-main .highlight-btn btn btn-success btn-sm:hover, .mdatacontent-main .highlight-btn btn btn-success btn-sm:active, .mdatacontent-main .formview-btn:focus{background-color:variables.$green-color;}
+.mdatacontent-main .backbutton {background-color: variables.$primary-color; border-color: #C5C5C5;  padding: 2px 8px;}
+.mdatacontent-main .backbutton:hover,.mdatacontent-main .backbutton:active, .compmain-content.backbutton:focus{background-color:#C5C5C5;}
+.mdatacontent-content .bbackbutton {background-color: #C5C5C5; border-color: #C5C5C5;  padding: 2px 8px;}
+.mdatacontent-content .bbackbutton:hover,.mdatacontent-content .bbackbutton:active, .mdatacontent-content.bbackbutton:focus{background-color:#C5C5C5;}
+
+.regionmodal-view .errorMsg{color:variables.$orange-color;font-weight: 600;margin-top: -12px;padding-right: 40px;z-index: 2;left: 20px;font-size: 11px;line-height: 0; position: absolute;}
+.regionmodal-view.RTL .errorMsg{left: auto;right: 0px;}
+/* .formview-btn.btn-success {background: variables.$green-color !important;color: variables.$primary-color !important;padding: 8px 20px;font-size: 14px;font-weight: 600;} */
+.regionmodal-view .btn { font-size: 14px;padding: 5px 20px;border-radius: 30px;font-weight:600;border: none; }
+.regionmodal-view .btn-success{background: variables.$green-color;color: variables.$primary-color;}
+.regionmodal-view .btn-danger{background: variables.$pink-color;}
+.mdatacontent-main .rplaceholder{background:   #f2f1ff;border: 2px solid #b2beb5;border-radius: 0;color: #554d40;     }
+.mdatacontent-main .table tr {padding: 15px 2px;font-size: 13px;font-weight: 400;color: #554d40;}
+.mrformcontent-main .headerh3{ font-weight: 7px; color: #555657;}
+.regionmodal-view input[type='text'] { width:100%;height: 30px;border-radius: 0;color: #555657;font-size: 12px;line-height: 2;padding-left: 2mm;}
+.css-1wa3eu0-placeholder{font-size: 12px;border: none;}
+.regionmodal-view .areaManager, .regionmodal-view .chainName, .regionmodal-view .countryName{height: 30px;border: none;color: #555657;font-size: 12px;line-height: 2;outline:none;}
+.regionmodal-view .areaManagerWidth{width: 65%;}
+.regionmodal-view .countryNameWidth{width: 100%;}
+.regionmodal-view .css-yk16xz-control, .regionmodal-view .css-g1d714-ValueContainer {height:35px;font-size: 12px;line-height: 1.8;outline:none; }
+.regionmodal-view .css-1hb7zxy-IndicatorsContainer{height:28px;font-size: 12px;outline:none;}
+.regionmodal-view .css-yk16xz-control {border: none;border-bottom: 2px solid #ccc;width:100%;font-size: 12px;border-radius: 0;color: #555657;outline:none;}
+.mdatacontent-main .icon-print {position: relative;bottom: 2px;left: 2px;}
+.mdatacontent-main .icon-add {position: relative;bottom: 2px;left: 1px;right:2px;}
+.mdatacontent-main .icon-filter {position: relative;bottom: 2px;left: 2px;right:2px;}
+.regionmodal-view .modal-body{margin-top: 5px;margin-bottom: 5px;padding: 5px; }
+.regionmodal-view .modal-header {display: flex;flex-shrink: 0;align-items: center;justify-content: space-between;padding: 25px 15px;padding-bottom: 5px;border-bottom: 1px solid #dee2e6;border-top-left-radius: calc(.3rem - 1px);border-top-right-radius: calc(.3rem - 1px);border: none;color: variables.$primary-color;font-size: 20px;font-weight: 900;margin-bottom: 0;line-height: 1.5;}
+.regionmodal-view .modal-header .h4{text-align: center;width: 100%;font-size: 16px;}
+body.d-mode .regionmodal-view .modal-header .h4{color: variables.$primary-dark;}
+.regionmodal-view .modal-footer{border-top:none;  margin-top: none;display: block;}
+.regionmodal-view .css-tlfecz-indicatorContainer{font-weight: 900;}
+.regionmodal-view .css-1okebmr-indicatorSeparator{color: white;}
+.regionmodal-view .rform-subcontent .form-label {font-weight: 700; color: variables.$primary-color;font-size: 14px;}
+body.d-mode .regionmodal-view .rform-subcontent .form-label{color: variables.$primary-dark;}
+.regionmodal-view .rform-subcontent .form-control{
+    font-size: 14px;height: 38px;font-weight: 600;border: none;
+    border-bottom: 2px solid variables.$extralight-color;
+    border-radius: 0px;padding: 8px 0px;
+}
+.regionmodal-view .rform-subcontent .form-control:hover, .rform-subcontent .form-control:focus, .rform-subcontent.form-control:active {box-shadow: none;outline: none;border-bottom-color: variables.$primary-color;}
+body.d-mode .regionmodal-view .rform-subcontent .form-control{background: transparent;color: #ccc;}
+.regionmodal-view .rform-subcontent .form-control:active {box-shadow: none;outline: none;border-bottom-Color: variables.$primary-color;}
+.regionmodal-view .rform-subcontent {margin-top: 5px;padding: 5px 15px;border-radius: 2px;max-height: 430px;min-height: 200px;}
+.regionmodal-view .rform-subcontent .formview-btn.btn-success {background: variables.$green-color !important;color: variables.$primary-color !important;padding: 8px 20px;font-size: 14px;font-weight: 600;}
+
+.regionmodal-view .searchselect-inner__control{
+    font-size: 14px;font-weight: 600;height: 34px;min-height: 30px;background: transparent;border: none;
+    border-bottom: 2px solid variables.$extralight-color !important;
+    border-radius: 0px;margin-bottom: 10px;box-shadow: none;
+}
+body.d-mode .regionmodal-view .searchselect-inner__control{border-color: variables.$primary-color;background: #22272f; color: #ccc;}
+.regionmodal-view .searchselect-inner__menu{font-size: 14px;font-weight: 600;}
+.regionmodal-view .searchselect-inner__value-container{padding-left: 0px;padding-right: 0px;}
+.regionmodal-view .searchselect-inner__placeholder{font-weight: 600;font-size: 14px;}
+body.d-mode .regionmodal-view .searchselect-inner__placeholder{color: #ccc;}
+body.d-mode .regionmodal-view .searchselect-inner__single-value{color: #ccc;}
+
+.regionmodal-view .modal-content{border-radius: 20px;}
+.rg-mdview .nodata-content{
+    margin-top: 0px;
+    padding-top: 22%;
+}
+.rg-mdview .custom-filters{
+    z-index: 2;
+}

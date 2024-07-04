@@ -1,0 +1,323 @@
+
+.contimplement-modal.RTL{
+    direction: rtl;
+}
+.contimplement-modal .modal-dialog{
+    max-width: 950px;
+}
+.contimplement-modal .modal-content{
+    height: max-content;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.contimplement-modal .modal-body{
+    padding: 0px 8px;
+}
+.contimplement-modal .title-content{
+    padding: 20px;
+    text-align: center;
+}
+.contimplement-modal .title-content .title-icon{
+    width: 80px;
+    height: 80px;
+    background: #F2C94C;
+    fill: #fff;
+    padding: 15px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin: 0 auto;
+    margin-top: 30%;
+    margin-bottom: 35px;
+}
+.rtlview .contimplement-modal .title-content .title-icon{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.contimplement-modal .title-content .title-icon.no-cons{
+    background: #5FAF4E;
+}
+.contimplement-modal .title-content h4{
+    font-weight: 300;
+    padding: 0px 15px;
+    margin-bottom: 40px;
+}
+.contimplement-modal .title-content h4 span{
+    font-weight: 600;
+}
+.contimplement-modal .title-content h4 .highlight-txt{
+    color: #F2C94C;
+    font-weight: 700;
+}
+.contimplement-modal .title-content .title-icon svg{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.rtlview .contimplement-modal .title-content .title-icon svg{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.contimplement-modal .title-content .title-icon svg path{
+    fill: #fff !important;
+}
+.contimplement-modal .title-content .title-icon .linkicon svg{
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+.contimplement-modal .title-content .title-icon .linkicon svg path{
+    fill: none !important;
+    stroke: #fff !important;
+}
+.contimplement-modal .title-content .title-btns .btn{
+    box-shadow: none;
+    outline: none;
+    display: block;
+    margin: 0 auto;
+}
+.contimplement-modal .title-content .title-btns .btn-success{
+    border-radius: 20px;
+    padding: 3px 25px;
+    border: none;
+    background: #5FAF4E;
+    font-weight: 700;
+}
+.contimplement-modal .title-content .title-btns .btn-default{
+    color: #ED327A;
+}
+.contimplement-modal .details-view{
+    background: #F6F6F6;
+    padding: 15px;
+}
+.contimplement-modal .details-view .storelist-view{
+    height: 380px;
+    margin-top: 35px;
+    padding: 10px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.contimplement-modal .details-view .footer-txt{
+    display: flex;
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #4F4F4F;
+    font-size: 20px;
+}
+.contimplement-modal .details-view .footer-txt .small-rect{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #4F4F4F;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin: 0px 15px;
+}
+.contimplement-modal .details-view .singlestore-item{
+    margin-bottom: 20px;
+}
+.contimplement-modal .details-view .singlestore-item .single-header{
+    font-size: 20px;
+    border-bottom: 3px solid #4F4F4F;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    position: relative;
+}
+.contimplement-modal .details-view .singlestore-item .single-header span{
+    margin-right: 0px;
+}
+.contimplement-modal .details-view .singlestore-item .single-header ul{
+    margin: 0px 15px;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+.contimplement-modal .details-view .singlestore-item .single-header ul li{
+    padding: 0px 5px;
+    padding-top: 5px;
+    font-weight: 600;
+}
+.contimplement-modal .details-view .drop-wrapper{
+    position: relative;
+}
+.contimplement-modal .details-view .drop-wrapper .drop-menu{
+    position: absolute;
+    z-index: 2;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, .2);
+    display: none;
+}
+.contimplement-modal .details-view .drop-wrapper:hover .drop-menu{
+    display: block;
+}
+.contimplement-modal .details-view .drop-wrapper .drop-link{
+    cursor: pointer;
+}
+.contimplement-modal .details-view .drop-wrapper .drop-menu ul{
+    list-style: none; padding: 0px;
+    margin: 0px;
+}
+.contimplement-modal .details-view .drop-wrapper .drop-menu ul li{
+    padding: 4px 15px;
+    min-width: max-content;
+    max-width: 150px;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    font-size: 14px;
+}
+.contimplement-modal .details-view .drop-wrapper .drop-menu ul li:last-child{
+    border-bottom: none;
+}
+.contimplement-modal .details-view .singlestore-item .single-content .list-group-item{
+    margin-bottom: 8px;
+    border: none;
+    background: transparent;
+    padding: 0px 10px;
+}
+.contimplement-modal .details-view .singlestore-item .single-content .list-group-item .single-wrapper{
+    padding: 8px 25px;
+    border-radius: 15px;
+    background: #fff;
+}
+
+.contimplement-modal .details-view .singlestore-item .single-content .list-group-item .single-wrapper .store-brands p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+ }
+
+.contimplement-modal .details-view .singlestore-item .single-content .list-group-item p{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.contimplement-modal .details-view .singlestore-item .single-content .list-group-item p svg{
+    fill: #5FAF4E;
+}
+.contimplement-modal .details-view .singlestore-item .single-icon{
+    padding-top: 12px;
+}
+.contimplement-modal .details-view .singlestore-item .single-icon.selectall{
+    padding-top: 5px;
+    position: absolute;
+    right: -65px;
+    margin-top: -10px;
+    opacity: .7;
+}
+
+.contimplement-modal .details-view .singlestore-item .single-icon .toggle-icon{
+    border: 1px solid #4F4F4F;
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+}
+.contimplement-modal .details-view .singlestore-item .single-icon.selectall .toggle-icon{
+    width: 25px;
+    height: 25px;
+}
+
+.contimplement-modal .details-view .singlestore-item .single-icon .toggle-icon:hover{
+    border-color: #5FAF4E;
+    fill: #5FAF4E;
+    cursor: pointer;
+}
+.contimplement-modal .details-view .singlestore-item .single-icon .toggle-icon.active{
+    background: #5FAF4E;
+    border-color: #5FAF4E;
+    fill: #fff;
+}
+.contimplement-modal .details-view .singlestore-item .single-icon .toggle-icon.active{
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.contimplement-modal .details-view .singlestore-item .single-icon.selectall .toggle-icon .linkicon{
+    margin-top: -5px;
+}
+.contimplement-modal .details-view .singlestore-item .single-icon .toggle-icon.active .linkicon path{
+    stroke: #fff;
+}
+.contimplement-modal .details-view .singlestore-item .single-icon .toggle-icon svg{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.rtlview .contimplement-modal .details-view .singlestore-item .single-icon .toggle-icon svg{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-top: 3px;
+}
+.categoryassign-warn-modal.new-notice-modal .txt-label, .disstore-warn-modal.new-notice-modal .txt-label{
+    padding: 0px;
+    margin-top: 15px;
+    font-size: 20px;
+    width: 100%;
+}
+.rtlview .disstore-warn-modal.new-notice-modal{
+    direction: rtl;
+}
+.rtlview .disstore-warn-modal.new-notice-modal .modal-body .list-inline{
+    padding: 0px;
+}
+.rtlview .disstore-warn-modal.new-notice-modal .modal-body .list-inline-item{
+    margin: 0px;
+    margin-left: 10px;
+}
+.disstore-warn-modal.new-notice-modal .modal-dialog{
+    min-width: 450px;
+}
+.disstore-warn-modal.new-notice-modal .btn{
+    padding: 2px 20px;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 15px;
+    margin-top: 48px;
+    margin-bottom: 8px;
+    min-width: 125px;
+}
+.disstore-warn-modal.new-notice-modal .btn.backto-btn{
+    background: #EB5757;
+}
+.disstore-warn-modal.new-notice-modal .title-icon{
+    width: 70px;
+    height: 70px;
+    background: #F2C94C;
+    fill: #fff;
+    padding: 15px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.disstore-warn-modal.new-notice-modal .title-icon svg{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.tag-warn-fields-store{
+    max-height: 165px;
+    overflow: hidden;
+    overflow-y: auto;
+    padding: 0px;
+}
+.tag-warn-fields-store .collapsible-section-title-count{
+    font-size: 22px;
+}
+.tag-warn-fields-store .collapsible-section-title{
+    font-size: 22px;
+}
+.tag-warn-fields-store .collapsible-section-sub-title{
+    font-size: 16px;
+}
+.tag-warn-fields-store .card{
+    color: #4F4F4F;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+}
+.tag-warn-fields-store .card-body{
+    padding: 7px 5px;
+}
+.d-mode .tag-warn-fields-store .card{
+    background-color: #2f353e;
+}

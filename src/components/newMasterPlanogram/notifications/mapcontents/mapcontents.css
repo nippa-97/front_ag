@@ -1,0 +1,31 @@
+
+
+
+.aristomapview-wrapper .map-wrapper{position: relative;margin: 20px auto;width: max-content;}
+.aristomapview-wrapper .state-borders{
+    fill: none;
+    stroke: #fff;
+    pointer-events: none;
+}
+.aristomapview-wrapper rect.bkgd{
+    opacity: 0;
+}
+.aristomapview-wrapper .state-label{
+    text-anchor: middle;font-size: 12px;
+    fill: #6c757d;
+    pointer-events: none;
+}
+.aristomapview-wrapper .state-label .bkgd{
+    fill: #fff;
+    paint-order: stroke;
+    stroke: hsla(0,0%,100%,.8);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.aristomapview-wrapper .state-label text:not(.bkgd){
+    fill: #222 !important;
+}
+.aristomapview-wrapper .state:hover{
+    cursor: pointer;stroke: #222;stroke-width: 4px;
+    fill-opacity: .8;
+}

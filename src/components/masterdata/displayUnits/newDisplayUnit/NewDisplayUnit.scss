@@ -1,0 +1,105 @@
+@use '../../../../assets/css/variables';
+
+.NDUgroup{
+    margin-top: 0;
+}
+.NDUstructureNheight{
+    padding:10px;
+    margin-top: 8px;
+    box-shadow: 0px 0px 3px rgb(0 0 0 / 50%);
+}
+.NDUstructureNheight span{color: #4a8785;}
+body.d-mode .NDUstructureNheight{color: #ccc;}
+body.d-mode .bg-light{color: variables.$primary-dark !important;}
+.NDUrowHieghts{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.NDUrowHieghts .btn{
+    padding: 4px 15px !important;
+    margin-bottom: 8px;
+}
+.NDUrowHieghts span{color: variables.$primary-color;}
+body.d-mode .NDUrowHieghts span{color: variables.$primary-dark;}
+.NDUrackparams{
+    padding: 5px 8px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 3px #ccc;
+    font-size: 14px;font-weight: 600;
+    color: #28a745;
+}
+.NDUrawhightsdetails{font-size: 0.7rem;border: none;border-bottom: 2px solid #999;border-radius: 0px;}
+.NDUsave{
+    margin-top: 20px;
+    float: right;
+}
+
+.NDUrackdetails{
+    margin-bottom: 8px;
+    font-size: 14px ;
+   
+}
+.NDUrowname{
+    font-size: 14px;
+    padding-top: 5px;
+    padding-left:8px !important;
+}
+.RTL .NDUrowname{
+    padding-left:0px !important;
+    padding-right:9px !important;
+}
+.NDUshelfdetails .removerow-link{margin-top: 5px;}
+.NDUshelfdetails .removerow-link:hover{color: #4a8785;cursor: pointer;}
+.NDUshelfdetails .rowremovediv{text-align:right;position:absolute;margin-top:5px;right:-7px;width:auto;}
+.RTL .NDUshelfdetails .rowremovediv{right:auto; left:-7px;}
+
+.displayunit_outerbox .formcontrol-main .nav-tabs .nav-link{width: 49%;}
+.displayunit_outerbox .formcontrol-main .tab-content{margin-top: 15px;}
+.displayunit_outerbox .formcontrol-main .tab-content .tab-pane{min-height: calc(100vh - 320px);}
+.NDUrowStructuredraw .measure-line.vertical{display:block;height: 5px;background: #ededed;margin: auto;margin-top: -5px;margin-bottom: 5px;}
+.NDUrowStructuredraw .measure-line.horizontal{width: 5px;background: #ededed;margin-left: -10px;margin-right: 5px;position: absolute;}
+body.d-mode .NDUrowStructuredraw .measure-line.vertical, body.d-mode .NDUrowStructuredraw .measure-line.horizontal{opacity: .5;}
+.NDUrowStructuredraw .measure-line .dots{height: 4px;width: 4px;border-radius: 15px;background: #4a8785;}
+.NDUrowStructuredraw .measure-line .dot-txt{position: absolute;width: 25px;font-size: 11px;font-weight: 800;margin-top: -15px;margin-left: 0px;color: #666;}
+.NDUrowStructuredraw .measure-line.horizontal .dot-txt{width: 55px;text-align: right;margin-left: -40px;transform: rotate(-90deg);}
+/* .RTL .NDUrowStructuredraw .measure-line.horizontal .dot-txt{text-align: left;margin-left: 9px;} */
+body.d-mode .NDUrowStructuredraw .measure-line .dot-txt{color: #eee;}
+.NDUrowStructuredraw .measure-line.horizontal .dots{position: absolute;}
+
+.fieldmultirows-modal .modal-dialog{width: 350px;}
+.fieldmultirows-modal .modal-content{box-shadow: 0px 0px 25px rgb(0 0 0 / 30%);}
+.fieldmultirows-modal .form-label{margin-top: 10px;font-weight: 700 !important;}
+body.d-mode .fieldmultirows-modal .form-label{color: variables.$primary-dark !important;}
+.fieldmultirows-modal .modal-header{padding: 10px 15px;}
+.fieldmultirows-modal .modal-title{color: variables.$primary-color;font-size: 20px;font-weight: 800;}
+body.d-mode .fieldmultirows-modal .modal-title{color: variables.$primary-dark;}
+.multiform-group{padding: 5px;padding-top: 0px;border-radius: 2px;}
+.multiform-group .form-control{height: 32px !important;}
+.multiform-group .btn{border: none;background: variables.$pink-color;color: #fff;}
+.dunit-tabs .nav-item{display: inline-block;width: 49%;text-align: center;text-transform: uppercase;font-weight: 700;font-size: 14px;}
+.dunit-tabs .nav-item a{padding: 5px;color: variables.$primary-color;border-radius: 20px;}
+body.d-mode .dunit-tabs .nav-item a{color: variables.$primary-dark;}
+.dunit-tabs .nav-item a.active{background: variables.$primary-color;color: #fff;}
+body.d-mode .dunit-tabs .nav-item a.active{background: variables.$primary-dark;color: #fff;}
+
+.multirows-accordian .accordion-header{padding: 0px;background: #c2ffe9 !important;}
+.multirows-accordian .accordion-header button{padding: 5px 10px;width: 100%;text-align: left;border-radius: 0px;outline: none;box-shadow: none;text-decoration: none;background: transparent;    font-size: 14px !important;color: #0a58ca !important;font-weight: 700;}
+.multirows-accordian .accordion-header button:hover{cursor: pointer;opacity: .6;}
+.multirows-accordian .accordion-body{padding: 0px 15px;}
+.multirows-accordian .accordion-button::after {
+    background-image: initial;width: 0px;
+}
+
+.multirows-accordian .accordion-button:not(.collapsed)::after {
+    background-image: initial;width: 0px;
+}
+.d-unit .errorMsg{
+    position: absolute;z-index: 2; color:#FCB941;font-weight: 600;font-size: 11px;line-height: 0;padding-top: 0px;
+    margin-top: -6px;
+}
+.d-unit .form-control, .d-unit .form-select{
+    margin-bottom: 18px !important;
+}
+.m-shelves .errorMsg{position: absolute;z-index: 2; color:#FCB941;font-weight: 600;font-size: 11px;line-height: 0;padding-top: 8px;}
+.displayunit_outerbox .formcontrol-main .tab-content .tab-pane .bg-primary{background: none !important;}

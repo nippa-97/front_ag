@@ -1,0 +1,20 @@
+.simulation-MiddleBar-row{padding: 0px 10px 10px;}
+
+.simulation-MiddleBar-section{
+    background: #5128a0; position: relative;
+    min-height: 32px !important;
+    padding: 5px;padding-top: 3px;
+    border-radius: 10px;
+}
+.d-mode .simulation-MiddleBar-section{background: #29b485;}
+.simulation-MiddleBar-section .btn-warning{color: #FFFFFF;background: #F39C12;
+    border-radius: 5px;border: none;font-size: 12px;box-shadow: none;padding: 2px 20px !important;
+    z-index: 2;
+    position: absolute;
+    right: 5px;
+    margin-top: 2px;}
+.rtlview .simulation-MiddleBar-section .btn-warning{right: auto;left: 5px;} 
+.simulation-MiddleBar-section .btn-warning:hover{opacity: 0.7;}
+
+.simulation-MiddleBar-section h5{color: #FFFFFF;position: absolute;width: 100%;text-align: center;margin:0px;margin-top: 5px;font-size: 13px;font-weight: 600;}
+.simulation-MiddleBar-section h5 span{color: #F39C12;text-transform: lowercase;}

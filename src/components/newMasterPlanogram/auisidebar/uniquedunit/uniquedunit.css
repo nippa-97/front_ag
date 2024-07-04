@@ -1,0 +1,54 @@
+
+.uniquedunit-modal .icon-view{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.uniquedunit-modal .forcebtn-list{
+    background: transparent;
+    border: 2px solid #ABABAB;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    position: relative;
+}
+.d-mode .uniquedunit-modal .forcebtn-list{
+    border-color: #666;
+}
+.uniquedunit-modal .forcebtn-list .force-overlay{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    border-radius: 25px;
+    background: linear-gradient(165deg, #5128A0, #7743DC);
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+.uniquedunit-modal .forcebtn-list .force-overlay.active{
+    margin-left: 50%;
+    background: #EB5757;
+}
+.uniquedunit-modal .single-wrapper .forcebtn-list{
+    margin-top: 20px;
+}
+.rtlview .uniquedunit-modal .forcebtn-list .force-overlay.active{
+    margin-left: auto; margin-right: 50%;
+}
+.uniquedunit-modal .forcebtn-list .btn{
+    min-width: 100px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    padding: 3px;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 25px !important;
+    color: #ABABAB !important;
+}
+.uniquedunit-modal .forcebtn-list .btn.active{
+    /* background: #EB5757; */
+    color: #fff !important;
+}
+.uniquedunit-modal .forcebtn-list .btn-force.active{
+    /* background: linear-gradient(165deg, #5128A0, #7743DC); */
+    color: #fff !important;
+}

@@ -1,0 +1,7 @@
+export const SIGNIN_SET = 'SIGNIN_SET';
+export const SIGNOUT_SET = 'SIGNOUT_SET';
+export const LANGUAGE_SET = 'LANGUAGE_SET';
+export const NOTIFICATION_SET = 'NOTIFICATION_SET';
+export const PREVPAGE_SET = 'PREVPAGE_SET';
+export const HOMEPAGE_SET = 'HOMEPAGE_SET';
+

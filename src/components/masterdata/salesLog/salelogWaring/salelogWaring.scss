@@ -1,0 +1,27 @@
+
+@use '../../../../assets/css/variables';
+
+.slaelog-warning .accordion{overflow-y: auto;max-height: 400px;overflow-x:hidden;padding: 5px;}
+.slaelog-warning .onecard{border-radius: 6px;padding: 6px 10px;margin-bottom: 5px;border: none;border-left: 2px solid #888;box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);}
+/* .slaelog-warning .onecard:hover{opacity: 0.6;} */
+.slaelog-warning .onecard h4{font-size: 12px;font-weight: bold;}
+.slaelog-warning .onecard .accordion-button{padding: 3px;background: transparent;box-shadow: none;outline: none;font-size: 14px;}
+.slaelog-warning .onecard .accordion-button label:hover{cursor: pointer;opacity: .6;}
+.slaelog-warning .onecard .accordion-button label svg{vertical-align: middle !important;}
+.slaelog-warning .onecard .accordion-button::after{display: none;}
+.slaelog-warning  h3{font-size: 18px;font-weight: 500;width: 100%;}
+.slaelog-warning .accordion-button{text-align: start; width:100%;padding: 5px 0px;text-decoration: none;color: variables.$primary-color;font-weight: bold;box-shadow: none;}
+.slaelog-warning h3 svg.active-anime{animation:spinanime 3s linear infinite;}
+.slaelog-warning .row{padding: 0px 10px;}
+.slaelog-warning .dates{padding: 0px 5px;}
+.slaelog-warning .dates .date-txt{background: #fff3cd;padding: 3px 10px;border-radius: 5px;font-size: 14px;text-align: center;margin-bottom: 5px;font-weight: 600;color: #664d03;}
+.slaelog-warning .accordion-body{padding: 0px 5px;overflow: hidden;overflow-y: auto;max-height: 200px;margin-top: 5px;margin-bottom: 5px;border-radius: 4px;}
+.slaelog-warning .branchname-txt svg{margin: 0px 3px;}
+
+.slaelog-warning .redirect .btn{padding: 2px 3px;background: variables.$orange-color;border: none;position: relative;box-shadow: none;}
+.slaelog-warning .redirect .btn:hover{opacity: 0.5;}
+.slaelog-warning .refresh-btn{margin: 0px 7px;padding: 2px;box-shadow: none !important;outline: none !important; background: none;border:none;color: variables.$primary-color;}
+.slaelog-warning .refresh-btn:hover{opacity: 0.5;}
+.slaelog-warning .loadingimg{height: 20px;margin-bottom: 5px;}
+
+@keyframes spinanime { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

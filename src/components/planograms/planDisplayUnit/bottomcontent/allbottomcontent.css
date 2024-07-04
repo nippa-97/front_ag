@@ -1,0 +1,220 @@
+.overview-content .subview-content{text-align: center;}
+.overview-content .subview-content h5{margin-top: 10px;font-weight: 700;font-size: 1.1rem;position: relative;}
+.overview-content .saletotal-txt{position: absolute;right: 15px;font-size: 14px;margin-top: 3px;}
+.rtlview .overview-content .saletotal-txt{
+    right: auto;
+    left: 15px;
+}
+.overview-content .saletotal-txt span{font-weight: 400;}
+.overview-content .subview-content label{margin-top: 10px;font-weight: 700;text-transform: uppercase;font-size: 14px;margin-bottom: 5px;color: #6c727b;}
+.overview-content .square-content{background: #5128a0;border-top: 15px solid #b9a9d8;width: 80%;color:#fff;padding:23px 5px;font-size: 26px;font-weight: 700;}
+body.d-mode .overview-content .square-content{background: #2CC990;border-color: #94eecd;}
+.overview-content .round-content{display: block;margin: auto;position: relative;}
+.overview-content .round-content label{font-weight: 400;margin-top: 25px;color: #5128a0;}
+.overview-content .round-content .small-content{position: absolute;width: 100%;margin-top: -20px;margin-top: -35px;font-size: 14px;font-weight: 700;}
+
+.pure-material-switch.plg-check{width: 110px;position: absolute;left: 150px;top: 0px;}
+.RTL .pure-material-switch.plg-check{right: auto;left: 15px;}
+
+.overview-content.saleprod-list{padding: 15px 5px;}
+.overview-content.saleprod-list .nosale-txt{text-align: center;border: none;font-weight: 400;margin-top: 23%;}
+.overview-content .dateperiod-wrapper{background: linear-gradient(122.64deg, #5128A0 4.85%, #7743DC 96.83%);padding: 15px;margin-bottom: 10px;border-radius: 12px;color: #fff;}
+.overview-content .dateperiod-wrapper h6{font-size: 20px;font-weight: 700;padding: 0px 5px;}
+.overview-content .dateperiod-wrapper ul{margin-bottom: 0px;list-style: none;padding: 0px;padding-left: 5px;font-size: 14px;font-weight: 600;}
+.overview-content .dateperiod-wrapper ul li{margin-bottom: 5px;}
+.overview-content .dateperiod-wrapper ul li:last-child{margin-bottom: 0px;}
+.overview-content .daterange-list label{display: block;margin-top: 5px;font-size: 12px;}
+.overview-content .daterange-list .react-datepicker-wrapper{
+    width: 100%;
+}
+.overview-content .daterange-list .datepicker-txt{
+    width: 100%;
+    border-radius: 6px;
+    padding: 2px 5px;
+}
+.overview-content .bottomsale-list-container.scroll-height{
+    max-height: 300px !important;
+}
+.overview-content .pure-material-switch.plg-check{
+    right: 150px;
+    left: auto;
+}
+
+.sumview-table thead tr th{
+    text-align: left;border-bottom: 5px solid #fff !important;font-size: 13px;font-weight: 600;color:#5128a0;position: relative;
+    text-transform: lowercase;
+}
+.sumview-table thead tr th .sortby-txt{
+    position: absolute;margin-top: -19px;right: 8px;font-weight: 400;font-size: 12px;
+}
+.rtlview .sumview-table thead tr th .sortby-txt{
+    right: auto;
+    left: 8px;
+}
+
+.sumview-table thead tr th .info-txt{
+    position: absolute;margin-top: -19px;right: 15px;font-weight: 400;font-size: 12px;
+}
+
+.RTL .sumview-table thead tr th .info-txt{
+    position: absolute;margin-top: -19px;right: 45px;font-weight: 400;font-size: 12px;
+}
+.RTL .sumview-table thead tr th{text-align: right;}
+body.d-mode .sumview-table thead tr th{color: #ccc;padding: 10px 2px;padding-right: 15px;border-color: #22272f !important;}
+.sumview-table .singlesale-row{background: #f5f4ff;color:#5128a0;font-size: 12px;padding: 10px 7px;font-weight: 700;text-align: right;margin: 0px 5px;margin-bottom: 5px;border-radius: 6px;}
+.sumview-table .singlesale-row small{color: #2f353e;display: block;font-size: 0.9em;}
+.sumview-table .singlesale-row small:hover{cursor: pointer;color: #5128a0;}
+body.d-mode .sumview-table .singlesale-row{opacity: .6;background: #22272f;color: #eee;}
+.sumview-table .singlesale-row .col{border-left: 1px solid #b595f0;}
+.sumview-table .singlesale-row .col:first-child{border: none;}
+.sumview-table thead tr th span{margin-left: 3px;position: absolute;height: 8px;display: inline-flex;}
+.sumview-table thead tr th span:first-child{margin-top: 0px;}
+.sumview-table thead tr th span:last-child{margin-top: 9px;}
+.sumview-table thead tr th span:last-child svg{margin-top: -2px;}
+.sumview-table thead tr th span:hover{cursor: pointer;color: #5128a0;}
+.sumview-table .singlesale-row.ext-row{background: #b9ccdd;}
+body.d-mode .sumview-table .singlesale-row.ext-row{background: #22272f;}
+.sumview-table thead .tablesort{height: 12px;}
+.sumview-table .singlesale-row .iconrow{position: relative;}
+.sumview-table .singlesale-row .iconrow svg{position: absolute;left: -10px;top: 3px;}
+
+.bottommark-content .markswitch-list{margin-bottom: 5px;border-bottom: 1px solid #5128A0;padding-bottom: 8px;}
+.bottommark-content .markswitch-list li{font-weight: 700;font-size: 14px;color: #b6b6b6;padding: 1px 5px;transition: all .3s;-webkit-transition: all .3s;}
+.bottommark-content .markswitch-list li.active, .bottommark-content .markswitch-list li:hover{cursor: pointer;color: #5128A0;}
+.bottommark-content tbody .per-wrapper{
+    padding: 2px 5px;font-size: 13px;font-weight: 700;color: #5128A0;border-radius: 8px;
+}
+.d-mode .bottommark-content tbody .per-wrapper{
+    color: #b6b6b6;
+}
+.bottommark-content tbody .per-wrapper.border{font-weight: 400;border-color: #5128A0;}
+.bottommark-content tbody .per-wrapper.red{color: red;}
+.bottommark-content tbody .pertd-col{position: relative;padding-left: 20px;}
+.bottommark-content tbody .pertd-col .rule-flag{position: absolute;margin-left: -20px;}
+.bottommark-content .snapshotfilter-list{
+    padding: 0px;
+}
+.bottommark-content .snapshotfilter-list .formcontent-wrapper{
+    width: 28%;
+}
+.rtlview .bottommark-content .snapshotfilter-list .formcontent-wrapper{
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.bottommark-content .snapshotfilter-list .formcontent-wrapper label{
+    font-size: 12px;
+    font-weight: 700;
+    color: #5128A0;
+}
+.d-mode .bottommark-content .snapshotfilter-list .formcontent-wrapper label{
+    color: #ccc;
+}
+.bottommark-content .snapshotfilter-list .formcontent-wrapper .form-control{
+    border-radius: 4px;
+    border: none;
+    background: #f5f4ff;
+    color: #5128A0;
+    font-weight: 700;
+    font-size: 13px;
+}
+.d-mode .bottommark-content .snapshotfilter-list .formcontent-wrapper .form-control{
+    background: #22272f;
+    color: #6c727b;
+}
+.bottommark-content .snapshotfilter-list .formcontent-wrapper .form-control option.rule-option{
+    background: rgba(255,0,0,.2);
+}
+
+.bottommark-content .snapshotfilter-list .reset-link{
+    background: #b9a9d8;
+    border: none;
+    border-radius: 8px;
+    color: #5128A0;
+}
+.d-mode .bottommark-content .snapshotfilter-list .reset-link{
+    background: #6c727b;
+}
+.bottommark-content .chartfilter-toggle{
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #5128A0;
+    position: absolute;
+    right: 20px;
+    margin-top: -4px;
+    z-index: 1;
+}
+.rtlview .bottommark-content .chartfilter-toggle{
+    right: auto;
+    left: 20px;
+}
+.bottommark-content .chartfilter-toggle .btn{
+    border: none;
+    color: #5128A0;
+    padding: 1px 10px;
+    background: #F2F1FF;
+}
+.d-mode .bottommark-content .chartfilter-toggle .btn{
+    background: #22272f;
+    color: #ccc;
+}
+.bottommark-content .chartfilter-toggle .btn.active, .bottommark-content .chartfilter-toggle .btn:hover{
+    background: #5128A0;
+    color: #fff;
+}
+.d-mode .bottommark-content .chartfilter-toggle .btn.active, .bottommark-content .chartfilter-toggle .btn:hover{
+    background: #2CC990;
+    color: #5128A0;
+}
+.bottommark-content .snapshottable-view{
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 25px;
+}
+.bottommark-content .mchart-view{
+    margin-top: 20px;
+}
+
+.saleprod-list .name-content .longname-txt{
+    text-overflow: ellipsis;
+    width: fit-content;
+    white-space: nowrap;
+    max-width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.dataperiod-content{max-width: 300px;}
+
+.overview-content .filterdept-content .form-control{
+    border: none;
+    background: #f5f4ff;
+    border-radius: 4px;
+    font-weight: 600;
+    color: #5128A0;
+}
+
+.bottommark-content .snapshotdetails-view{
+    position: relative;
+}
+
+.bottommark-content .snapshotdetails-view .snapshot-check{
+    left: 20px;
+    font-weight: 700;
+    margin-top: -2px;
+}
+
+.rtlview .bottommark-content .snapshotdetails-view .snapshot-check{
+    left: auto;
+    right: 20px;
+}
+
+.bottommark-content .snapshotdetails-view h5{
+    border: none;
+    font-size: 12px;
+    text-align: right;
+    opacity: 0.6;
+}
+
+.rtlview .bottommark-content .snapshotdetails-view h5{
+    text-align: left;
+}

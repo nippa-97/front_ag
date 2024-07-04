@@ -1,0 +1,3 @@
+export const DUNIT_SEARCH_SET = 'DUNIT_SEARCH_SET';
+export const DUNIT_VIEW_SET = 'DUNIT_VIEW_SET';
+export const DUNIT_PREV_PAGE = 'DUNIT_PREV_PAGE';

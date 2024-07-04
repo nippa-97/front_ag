@@ -1,0 +1,106 @@
+.product-hierachy-resolve-modal .modal-dialog{max-width: 85%;}
+.product-hierachy-resolve-modal .modal-header{padding: 10px 15px;}
+.product-hierachy-resolve-modal .modal-header .modal-title{font-size: 18px; font-weight: 700; color: #5128a0;}
+body.d-mode .product-hierachy-resolve-modal .modal-header .modal-title{color: #2CC990;}
+
+.product-hierachy-resolve-modal .modal-body{padding: 20px 30px !important;height: calc(100vh - 140px);overflow-y: auto;overflow-x: hidden;}
+
+.product-hierachy-resolve-modal .modal-footer{padding: 5px;}
+.product-hierachy-resolve-modal .modal-footer button, .adding-modal .modal-footer button{border-radius: 25px;padding: 4px 20px;font-weight: 600;border: none;}
+.product-hierachy-resolve-modal button{background: #ed327a;}
+.product-hierachy-resolve-modal .modal-footer button.reset{background: #60778d;}
+
+.product-hierachy-resolve-modal .modal-header, .product-hierachy-resolve-modal .modal-body, .product-hierachy-resolve-modal .modal-footer{
+    background: #FFF !important;
+}
+
+.product-hierachy-resolve-modal .section-title{color: #5128a0; font-weight: 700;}
+body.d-mode .product-hierachy-resolve-modal .section-title{color: #2CC990; font-weight: 600;}
+
+/* conflict div */
+.product-hierachy-resolve-modal .current-conflict-main{
+    border: 3px solid #2CC990;
+    min-height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.product-hierachy-resolve-modal .current-conflict-main.invalid{border: 1px solid #ed327a;}
+
+.product-hierachy-resolve-modal .current-conflict-main .current-conflict-title{
+    color: #2CC990;
+    font-weight: 600;
+    font-size: 14px;
+    background: #FFF;
+    padding: 0px 5px;
+    position: absolute;
+    left: 10px;
+    top:-13px;
+}
+.product-hierachy-resolve-modal .current-conflict-main .current-conflict-title.invalid{color: #ed327a;}
+body.d-mode .product-hierachy-resolve-modal .current-conflict-main .current-conflict-title{background: #374658;}
+
+.product-hierachy-resolve-modal.RTL .current-conflict-main .current-conflict-title{left: auto;right: 10px;}
+
+.product-hierachy-resolve-modal .current-conflict-main .small-title{font-size: 12px; font-weight: 600;color: #2CC990;width: 100%;margin: 5px 0px 0px 0px;}
+.product-hierachy-resolve-modal .current-conflict-main .conflict-item.invalid .small-title{color: #ed327a;}
+.product-hierachy-resolve-modal .current-conflict-main .value{font-size: 15px; font-weight: 600;color: #2CC990;width: 100%;margin: 0px 0px 2px 0px;}
+.product-hierachy-resolve-modal .current-conflict-main .conflict-item.invalid .value{color: #ed327a;}
+
+.product-hierachy-resolve-modal .current-conflict-main .arrow-col{padding-top: 20px;text-align: center;}
+.product-hierachy-resolve-modal .current-conflict-main .arrow-col svg{color: #374658;}
+body.d-mode .product-hierachy-resolve-modal .current-conflict-main .arrow-col svg{color: #ccc;}
+.product-hierachy-resolve-modal.RTL .current-conflict-main .arrow-col svg{transform: rotate(180deg);}
+
+/* all product  */
+.product-hierachy-resolve-modal .all-products-section{margin-top: 5px;padding: 0px;}
+.product-hierachy-resolve-modal .all-products-section .products-list{padding: 10px;border-radius: 5px;background: #f4eeff;margin-bottom: 5px;}
+body.d-mode .product-hierachy-resolve-modal .all-products-section .products-list{background: #31475c;}
+.product-hierachy-resolve-modal .all-products-section .products-list tr:hover{cursor: pointer;}
+.product-hierachy-resolve-modal .all-products-section .products-list tr td{background: #FFF;padding: 10px !important;}
+.d-mode .product-hierachy-resolve-modal .all-products-section .products-list tr td{background: #2f353e}
+.product-hierachy-resolve-modal .all-products-section .products-list tr.empty-row td{background: transparent;padding: 3px !important;}
+.product-hierachy-resolve-modal .all-products-section .products-list .btn{border-radius: 20px;background: #ffe3e3;color: #ed327a;padding: 0px 5px 1px 5px;}
+.d-mode .product-hierachy-resolve-modal .all-products-section .products-list .btn{background: #c7a6a6;}
+.product-hierachy-resolve-modal .all-products-section .table-options{margin-bottom: 10px;padding: 0px 20px;}
+.product-hierachy-resolve-modal .all-products-section .table {margin: 0px;}
+.product-hierachy-resolve-modal .all-products-section .table tbody tr td{padding: 5px 5px;font-size: 14px;font-weight: 600; color: #34495E;}
+body.d-mode .product-hierachy-resolve-modal .all-products-section .table tbody tr td{padding: 5px 5px;color: #2CC990;}
+.product-hierachy-resolve-modal .all-products-section .table tbody tr td.checkbox{width: 30px;text-align: center;}
+.product-hierachy-resolve-modal .all-products-section .table tbody tr td.barcode{width: 20%;}
+.product-hierachy-resolve-modal .all-products-section .table tbody tr td.name{width: 80%;}
+.product-hierachy-resolve-modal .all-products-section .table tbody tr td.remove{width: 30px;text-align: center;cursor: pointer;}
+.product-hierachy-resolve-modal .all-products-section .table tbody tr td.remove:hover svg{color: #ed327a;}
+
+.product-hierachy-resolve-modal .all-products-section .pagination-section .btn{margin: 2px;padding: 3px 8px;background: #E5E7E9;border: none;font-size: 16px;}
+.d-mode .product-hierachy-resolve-modal .all-products-section .pagination-section .btn{background: #31475c;color: #E5E7E9;}
+.product-hierachy-resolve-modal .all-products-section .pagination-section .btn.total{font-weight: 700;}
+
+.product-hierachy-resolve-modal .all-products-section .select-all-checkbox{font-size: 15px;font-weight: 700;color: #5128a0;}
+body.d-mode .product-hierachy-resolve-modal .all-products-section .select-all-checkbox{color: #2CC990;}
+.product-hierachy-resolve-modal .all-products-section .select-all-checkbox input{height: 14px;margin-right: 8px;}
+.product-hierachy-resolve-modal .all-products-section .find-text{padding: 0px;padding-bottom: 5px;width: 200px;background: transparent;border: none;border-bottom: 1px solid #5D6D7E; border-radius: 0px;float: right;font-size: 16px;}
+body.d-mode .product-hierachy-resolve-modal .all-products-section .find-text{border-bottom: 1px solid #ccc;}
+.product-hierachy-resolve-modal.RTL .all-products-section .find-text{float: left;}
+.product-hierachy-resolve-modal .products-add-btn{border-radius: 15px;padding: 5px 25px; font-size: 15px;border: none;font-weight: 700;}
+
+.product-hierachy-resolve-modal .bottomissue-list{margin-top: 20px;z-index: 1000000;}
+.product-hierachy-resolve-modal .filter-selectAllProds .form-check-label{font-weight: 700;font-size: 14px;color: #5128a0;}
+.d-mode .product-hierachy-resolve-modal .filter-selectAllProds .form-check-label{color: #2CC990;}
+.product-hierachy-resolve-modal .filter-selectAllProds.RTL {position: relative;}
+.product-hierachy-resolve-modal .filter-selectAllProds.RTL label{margin-right: 25px;}
+.product-hierachy-resolve-modal .filter-selectAllProds.RTL .form-check-input{position: absolute; }
+
+.product-hierachy-resolve-modal .resolvesel-btns .btn{background: #ece3ff !important;padding: 2px 8px 5px 8px !important;}
+.d-mode .product-hierachy-resolve-modal .resolvesel-btns .btn{background: #c0b7d5 !important;}
+.product-hierachy-resolve-modal .resolvesel-btns .btn.delete{background: #ffe3e3 !important;}
+.d-mode .product-hierachy-resolve-modal .resolvesel-btns .btn.delete{background: #deb5b5 !important;}
+.product-hierachy-resolve-modal .resolvesel-btns .btn.delete svg{fill: #ed327a !important;}
+
+.product-hierachy-resolve-modal .selected-product-count{font-size: 12px; font-weight: 600; color: #5128a0; margin-bottom: 0px;margin-top: 5px;}
+body.d-mode .product-hierachy-resolve-modal .selected-product-count{color: #2CC990;}
+
+.product-hierachy-resolve-modal .collapse-all-btn{background: transparent;color: #2f353e;padding: 0 5px;margin-top: 3px;  font-size: 10px; font-weight: 700;float: right;border:none;}
+.product-hierachy-resolve-modal.RTL .collapse-all-btn{float: left;}
+body.d-mode .product-hierachy-resolve-modal .collapse-all-btn{color: #2CC990;}

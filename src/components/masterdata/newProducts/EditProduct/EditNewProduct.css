@@ -1,0 +1,40 @@
+.newProdEditdiv {color: #52299C ;padding: 20px; padding-top: 140px;padding-bottom:100px ;}
+.newProdEditdiv .imagediv{background: #F2F2F2;text-align: center;max-width: 100%;border-radius: 10px;height: 110px;padding: 5px;width: 110px;position: relative;}
+body.d-mode .newProdEditdiv .imagediv{background: #22272f;}
+.newProdEditdiv .imagediv img{vertical-align: middle;}
+.newProdEditdiv h4{
+    font-size: 18px;font-weight: bold;margin-bottom: 5px;
+}
+.newProdEditdiv h6{font-size: 14px;margin-bottom: 3px;}
+.newProdEditdiv .buttonSection{text-align: right;margin-top: 35px; position: absolute; width: 100%; right: 15px;}
+.newProdEditdiv .buttonSection button{margin: 0 3px; padding: 3px 10px 4px 10px;border-radius: 20px;border: none;}
+.RTL .newProdEditdiv .buttonSection{text-align: left;right:auto; left:10px;}
+.newProdEditdiv .newprodbtn{color:#FFFFFF;font-size: 15px;opacity: 1;border-radius: 20px;padding: 3px 12px;font-weight: 700;}
+.newProdEditdiv .newprodbtn{min-width: 80px;}
+body.d-mode .newProdEditdiv .newprodbtn.close{color: #ccc !important;border:1px solid #ccc !important;}
+body.d-mode .newProdEditdiv .buttonSection button{color: #fff;}
+
+body.d-mode .prod-basic-details h4, body.d-mode .prod-basic-details h6{color:#2CC990 !important ;}
+
+.newProdEditdiv .searchselect-inner__control{background: transparent;border: none !important;border-bottom: 2px solid #d2d2d2 !important;border-radius: 0;}
+body.d-mode .newProdEditdiv .searchselect-inner__control{border-bottom: 2px solid #555 !important;}
+.newProdEditdiv .searchselect-inner__indicator-separator{display: none !important;} 
+.newProdEditdiv .searchselect-inner__single-value{font-size: 14px;font-weight: 700 !important;}
+body.d-mode .newProdEditdiv .searchselect-inner__single-value{color: #ccc;}
+
+body.d-mode .prod-edit .modal-body {background: #22272f !important; }
+.new-product-update-modal .modal-dialog{max-width:570px;}
+
+
+.prod-edit .modal-content  {
+    -webkit-border-radius: 25px !important;
+    -moz-border-radius: 25px !important;
+    border-radius: 25px !important; 
+}
+.prod-edit .modal-body  {
+    -webkit-border-radius: 25px !important;
+    -moz-border-radius: 25px !important;
+    border-radius: 25px !important; 
+}
+.prod-edit .modal-body{background: #22272f;}
+

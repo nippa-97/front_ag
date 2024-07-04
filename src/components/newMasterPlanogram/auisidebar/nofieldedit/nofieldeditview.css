@@ -1,0 +1,183 @@
+
+.nofieldedit-modal .icon-view{
+    margin-top: 60px;
+}
+.d-mode .nofieldedit-modal .icon-view svg path{
+    stroke: #ccc !important;
+}
+.nofieldedit-modal .title-btns{
+    margin-bottom: 20px;
+}
+.nofieldedit-modal .title-btns .btn{
+    min-width: 200px;
+}
+.nofieldedit-modal .closebtn{
+    position: absolute;
+    right: 15px; top: 10px;
+    padding: 8px; border-radius: 50%;
+    color: #BDBDBD;
+    z-index: 2;
+}
+.rtlview .nofieldedit-modal .closebtn{
+    right: auto; left: 15px;
+}
+.d-mode .nofieldedit-modal .title-content h4{
+    color: #C4C4C4;
+}
+.nofieldedit-modal .closebtn:hover{
+    cursor: pointer;
+    opacity: .6;
+}
+.nofieldedit-modal .single-wrapper .store-title h5{
+    padding-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    color: #4F4F4F;
+}
+.d-mode .nofieldedit-modal .single-wrapper .store-title h5{
+    color: #C4C4C4;
+}
+.rtlview .nofieldedit-modal .single-wrapper .store-title h5{
+    padding-left: 0px;
+    padding-right: 50px;
+}
+.nofieldedit-modal .single-wrapper .store-title svg{
+    position: absolute;
+    z-index: 2;
+}
+.d-mode .nofieldedit-modal .single-wrapper .store-title svg path{
+    stroke: #BDBDBD;
+}
+.nofieldedit-modal .single-wrapper .store-title p{
+    color: #4F4F4F;
+}
+.d-mode .nofieldedit-modal .single-wrapper .store-title p{
+    color: #BDBDBD;
+}
+.d-mode .nofieldedit-modal .details-view{
+    background: #2f353e;
+}
+.d-mode .nofieldedit-modal .details-view .singlestore-item .single-header span{
+    color: #C4C4C4;
+}
+.nofieldedit-modal .single-wrapper .storeedit-title{
+    border-left: 1px solid #BDBDBD;
+    line-height: 18px;
+    padding-right: 0px;
+    padding-top: 13px;
+    color: #4F4F4F;
+}
+.d-mode .nofieldedit-modal .single-wrapper .storeedit-title{
+    color: #C4C4C4;
+}
+.nofieldedit-modal .single-wrapper .store-input{
+    padding-top: 10px;
+    position: relative;
+}
+.nofieldedit-modal .single-wrapper .store-input .input-wrapper{
+    border: 1px solid #F2F1FF;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    max-width: 100px;
+}
+.d-mode .nofieldedit-modal .single-wrapper .store-input .input-wrapper{
+    border: 1px solid #666;
+}
+.nofieldedit-modal .single-wrapper .store-input .form-control{
+    max-width: 70px;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+    color: #D7D7D7;
+    background: transparent;
+    appearance:textfield;
+    -moz-appearance:textfield;
+}
+.nofieldedit-modal .single-wrapper .store-input .input-wrapper.filled{
+    background: #F2F1FF;
+}
+.d-mode .nofieldedit-modal .single-wrapper .store-input .input-wrapper.filled{
+    background: #2f353e;
+    border-color: #4F4F4F;
+}
+.nofieldedit-modal .single-wrapper .store-input .input-wrapper.filled .form-control{
+    color: #4F4F4F;
+}
+.d-mode .nofieldedit-modal .single-wrapper .store-input .input-wrapper.filled .form-control{
+    color: #BDBDBD;
+}
+.nofieldedit-modal .single-wrapper .store-input .form-control::-webkit-outer-spin-button,
+.nofieldedit-modal .single-wrapper .store-input .form-control::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+.nofieldedit-modal .single-wrapper .store-input .form-control[type=number] {
+    appearance:textfield;
+    -moz-appearance:textfield; /* Firefox */
+}
+.nofieldedit-modal .single-wrapper .store-input .form-controls{
+    position: absolute;
+    width: 38px;
+    margin-top: -38px;
+    height: 36px;
+    right: 0px;
+    border-radius: 6px;
+    border-left: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    text-align: center;
+    padding-top: 3px;
+}
+.nofieldedit-modal .single-wrapper .store-input .form-controls span{
+    display: block;
+    width: 100%;
+    color: #C4C4C4;
+    height: 15px;
+}
+.nofieldedit-modal .single-wrapper .store-input .form-controls span svg{
+    vertical-align: super !important;
+}
+.nofieldedit-modal .single-wrapper .store-input .form-controls span:hover{
+    cursor: pointer;
+    opacity: .6;
+}
+.nofieldedit-modal .details-view .storelist-view{
+    overflow: unset;
+    overflow-y: unset;
+}
+.nofieldedit-modal .single-content{
+    padding: 0px 8px;
+    max-height: 340px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.nofieldedit-modal .single-header .storecount-txt{
+    position: absolute;
+    right: 0px;
+    text-align: right;
+}
+.rtlview .nofieldedit-modal .single-header .storecount-txt{
+    right: auto; left: 0px;
+}
+.d-mode .nofieldedit-modal .details-view .singlestore-item .single-content .list-group-item .single-wrapper{
+    background: #374658;
+}
+.nofieldedit-modal .warn-txt{
+    position: absolute;
+    bottom: 10px;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ED327A;
+    width: 100%;
+    text-align: center;
+}
+.nofieldedit-modal .details-view{
+    position: relative;
+    min-height: 500px;
+}

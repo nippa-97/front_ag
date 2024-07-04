@@ -1,0 +1,9 @@
+@use '../../../assets/css/variables';
+
+.tagmodal-view .modal-title{color: variables.$primary-color;}
+.tagmodal-view .formview-btn{border-radius: 25px;font-weight: 600;}
+body.d-mode .tagmodal-view .modal-title{color: variables.$green-color;}
+
+.supmodal-view .modal-dialog{max-width: 400px;}
+.supmodal-view .btn-success{background: variables.$green-color;color: variables.$primary-color;}
+.supmodal-view .btn-danger{background: variables.$pink-color;}

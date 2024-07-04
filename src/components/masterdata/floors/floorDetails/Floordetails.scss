@@ -1,0 +1,116 @@
+@use '../../../../assets/css/variables';
+
+.Fdetailsbuttonset{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.FloorDetailsbuttonset{
+    display: flex;
+    justify-content: space-between;
+}
+.FloorDetailsbuttonset .btn{margin-left: 8px;}
+
+.FDupload-btn-wrapper {
+  position: absolute;
+  z-index: 100;
+  overflow: hidden;
+  display: inline-block;
+  left: 79.4%
+}
+.brwsbtn{
+
+  right:9px;
+  
+}
+.brwsbtnRTL{
+  
+  left:9px;
+  
+}
+.upload-btn-wrapper {
+  position: absolute;
+  z-index: 100;
+  overflow: hidden;
+  display: inline-block;
+  left: 248px;
+}
+
+.uploadbtn {
+  border: 2px solid gray ;
+  color: gray;
+  background-color: white;
+  padding: 4px 20px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.FDuploadbtn {
+  border: 1px solid gray ;
+  color: gray;
+  background-color: white;
+  padding: 7px 13px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.FDupload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  z-index: -1000;
+  width: 200px;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.FloorMapbox{
+  
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  
+  /* border: 1px solid black; */
+}
+/* .FloorMapbox svg{
+  min-height: 400px;
+} */
+.crop-plan-image{
+  max-width: 30rem;
+  height: auto;
+}
+.FDimagecrop-box{
+  display: flex;
+  justify-content: center;
+}
+
+.floorimage-update-modal .modal-content{
+  border-radius: 20px;
+}
+.floorimage-update-modal .modal-content .btn{
+  border-radius: 20px;
+  padding: 6px 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.floorimage-update-modal .modal-content .btn-danger{
+  background: variables.$pink-color; border: variables.$pink-color;
+}
+.floorimage-update-modal .modal-content .btn-primary{
+  background: variables.$primary-color; border: variables.$primary-color;
+}
+.floorimage-update-modal .modal-header{border: none;}
+.floorimage-update-modal .modal-footer{display: block;}
+
+@media (max-width: 768px) {
+  .FloorDetailsbuttonset{margin-top: 20px;}
+}
+  
+.displayunit_outerbox .errorMsg{
+  position: absolute;z-index: 2; color:#FCB941;font-weight: 600;font-size: 11px;line-height: 0;padding-top: 0px;
+  margin-top: -8px;
+}
+
+.displayunit_outerbox .form-control, .displayunit_outerbox .form-select{
+  margin-bottom: 18px !important;
+}

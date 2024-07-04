@@ -1,0 +1,134 @@
+.ossemModel{
+    z-index: 1053;
+}
+.ossemModel .modal-dialog .modal-content{
+    border-radius: 1.3rem;
+    background: #F6F6F6;
+}
+.d-mode  .modal-dialog .modal-content{
+    background: #2f353e;
+}
+.ossemModel .modalheader button{
+    font-size: 48px;
+    color: #C4C4C4;
+}
+
+.ossemModel .modalheader .content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 13px;
+}
+.ossemModel .modalheader .content .modal-title{
+    font-size: 22px;
+    font-weight: 700;
+}
+.d-mode .ossemModel .modalheader .content .modal-title{
+    color: #2CC990;
+}
+.ossemModel .modalheader .content span{
+    color: #4F4F4F;
+    font-weight: 400;
+    font-size: 16px;
+}
+.d-mode .ossemModel .modalheader .content span{
+    color: #AFAFAF;
+}
+
+.d-mode .ossemModel .ossem-content-header span{
+    color: #AFAFAF;
+}
+
+.ossemModel .modal-footer {
+    border: none;
+}
+.ossemModel .modal-footer .closebtn{
+    padding: 3px 29px;
+    background: #C4C4C4;
+    border: none;
+    font-weight: 600;
+    border-radius: 25px;
+}
+.d-mode .ossemModel .modal-footer .closebtn{
+    background: #4F4F4F;
+}
+.ossemModel .ossem-body-content{
+    padding-left: 11px;
+}
+.ossemModel .ossem-body-content .search-box{
+    position: relative;
+}
+.ossemModel .ossem-body-content .search-box input{
+    outline: none !important;
+    box-shadow: none !important;
+    border: none  !important;
+    border-radius: 1.0rem;
+}
+.ossemModel .ossem-body-content .search-box svg{
+    position: absolute;
+    top:10px;
+    right: 8px;
+    opacity: 0.6;
+    cursor: pointer;
+} 
+.d-mode .ossemModel .ossem-body-content .search-box input{
+   background: #272b31;
+   color: #767474;
+}
+.RTL .ossem-body-content .search-box svg{
+    right: auto;
+    left:8px;
+}
+.d-mode .ossemModel .ossem-body-content .search-box svg{
+    color: #767474;
+}
+
+.ossemModel .ossem-body-content .ossem-content-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px 46px 10px 30px;
+}
+.ossemModel .ossem-body-content .ossem-content-header span{
+    font-size: 18px;
+    font-weight: 500;
+}
+.ossemModel .ossem-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+    max-height: 400px;
+    height: calc(100vh - 540px);
+    min-height: 187px;
+}
+.ossemModel .ossem-content::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #5128A0;
+}
+
+.d-mode .ossemModel .ossem-content::-webkit-scrollbar-thumb
+{
+
+	background-color: #2CC990;
+}
+
+.ossemModel .ossem-content .ossem-sub-content{
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    padding: 7px;
+    padding-left: 29px;
+    border-radius: 1.3rem;
+}
+
+.d-mode .ossemModel .ossem-content .ossem-sub-content{
+    background: #272b31;
+}
+.d-mode .ossemModel .ossem-content .ossem-sub-content span{
+   color: #AFAFAF;
+}
+
+

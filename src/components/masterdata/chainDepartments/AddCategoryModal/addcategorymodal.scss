@@ -1,0 +1,98 @@
+
+
+@use '../../../../assets/css/variables';
+
+.depatartment-category-modal .modal-dialog{min-width: 780px;}
+.depatartment-category-modal .modal-content{
+    border-radius: 20px;
+}
+.depatartment-category-modal .modal-header button{
+    background: transparent;
+    border: none;
+    font-size: 25px;
+    padding: 0;
+    margin-bottom: -10px;
+}
+
+.depatartment-category-modal .modal-header button .sr-only{display: none;}
+body.d-mode .depatartment-category-modal .modal-header button{color: #fff;}
+
+.depatartment-category-modal.rtl{direction: rtl;}
+.depatartment-category-modal .modal-header{padding: 0px 0px;border-bottom: none;margin-bottom: 10px;}
+.depatartment-category-modal .modal-header .modal-title{text-align: center !important; width: 100%;margin-top: 15px;}
+.depatartment-category-modal .modal-header button{color: #FFF;}
+.depatartment-category-modal .modal-header .close-link{background: none;border: none;font-size: 30px;position: absolute;right: 15px;color: variables.$primary-color;}
+.depatartment-category-modal .modal-header button .sr-only {display: none;}
+.depatartment-category-modal .modal-body{padding: 0px 15px 5px 15px !important;}
+.depatartment-category-modal .modal-body .field{max-height: calc(100vh - 390px); overflow-y: auto;}
+.depatartment-category-modal .modal-body .field .col-md-3{padding: 0px 5px;padding-bottom: 5px;}
+.depatartment-category-modal .modal-footer{padding: 5px 15px;border-top: none;}
+.depatartment-category-modal .pure-material-switch span{color: #FFF;}
+.depatartment-category-modal .sub-item .details{margin-left: 69px;}
+.depatartment-category-modal .sub-item{overflow: hidden;padding: 5px;border: 1px solid variables.$primary-color;margin-bottom: 5px;min-height: 80px;border-radius: 10px;position: relative;}
+.d-mode .depatartment-category-modal .sub-item{border-color: variables.$green-color !important;}
+.depatartment-category-modal .sub-item:hover{cursor: pointer;}
+.depatartment-category-modal .sub-item.active{background: #dfd3f3;box-shadow: 0px 5px 20px rgb(0 0 0 / 30%);border-color: variables.$pink-color;}
+.d-mode .depatartment-category-modal .sub-item.active{background: #2a5d40;}
+/* .depatartment-category-modal .sub-item .thumb-div {position: absolute;padding: 8px;width: 60px;text-align: center;background: #fff;border-radius: 2px;left: 50px;top: -4px;cursor: pointer;} */
+.depatartment-category-modal .PDsidemenu .subprod-list{margin-top: 6px;}
+.depatartment-category-modal .sub-item .thumb-div{padding: 5px;text-align: center;}
+.depatartment-category-modal .sub-item .thumb-div img {height: 45px;}
+.depatartment-category-modal .fieldName {font-weight: 700;font-size: 14px;margin-bottom: 2px;margin-top: 5px;color: variables.$primary-color;}
+.d-mode .depatartment-category-modal .fieldName{color: variables.$green-color;}
+.depatartment-category-modal .field {margin-top: 15px !important;}
+.depatartment-category-modal .field-title {position: absolute;z-index: 2;margin-top: -25px;font-size: 14px;font-weight: 700;color: variables.$primary-color;}
+.d-mode .depatartment-category-modal .field-title{color: #ccc;}
+.depatartment-category-modal .categoryselect{display: flex;}
+
+.depatartment-category-modal .btn-save-cat{background: variables.$green-color; color: variables.$primary-color; border-radius: 50px;border: none;padding: 5px 20px;font-size: 14px; border:none;}
+.depatartment-category-modal .btn-def-cat{border-radius: 50px;border: none;padding: 5px 20px;font-size: 14px; border:none;}
+.depatartment-category-modal .btn-back-cat{border-radius: 50px;border: none;padding: 5px 20px;font-size: 14px; border:none;position: absolute;left: 10px;}
+.rtlview .depatartment-category-modal .btn-back-cat{left: auto;right: 10px;}
+.depatartment-category-modal .field-value-title{font-size: 11px; font-weight: 500; color: variables.$primary-color;text-align: center;}
+.d-mode .depatartment-category-modal .field-value-title{color: #ccc;}
+.depatartment-category-modal .field-value{font-size: 10px; color: variables.$primary-color;text-align: center;padding: 0px  !important;}
+.d-mode .depatartment-category-modal .field-value{color: variables.$green-color;}
+
+.depatartment-category-modal .load-more-btn{float: none;margin: 0 auto;margin-top: 10px;margin-bottom: 20px;width: 150px;border-radius: 25px;
+    border: 1px solid variables.$pink-color;background: transparent;color: variables.$pink-color;
+}
+.depatartment-category-modal .load-more-btn:hover{opacity: .6;}
+
+.depatartment-category-modal .fielddraw-view{background: #fff;border-radius: 12px;padding: 5px;padding-left: 35px;border: 1px solid #dfd3f3;}
+.rtlview .depatartment-category-modal .fielddraw-view{padding-left: 5px;padding-right: 35px;}
+.d-mode .depatartment-category-modal .fielddraw-view{background: #2f353e;border-color: #2f353e;}
+.depatartment-category-modal .fielddraw-view label{font-size: 14px;color: variables.$primary-color;margin-left: -25px;margin-bottom: 25px;font-weight: 700;}
+.d-mode .depatartment-category-modal .fielddraw-view label{color: variables.$green-color;}
+.depatartment-category-modal .field-wrapper{width: 100%;height: 370px;padding: 0px;}
+.depatartment-category-modal .field-wrapper .shelve-row:hover{cursor: pointer;fill: #ffe0b7 !important;}
+.d-mode .depatartment-category-modal .field-wrapper .shelve-row:hover{opacity: .6;}
+.depatartment-category-modal .field-wrapper .shelve-row.active{fill: variables.$orange-color !important;}
+.rtlview .depatartment-category-modal .measure-line.horizontal{margin-right: -10px;}
+.rtlview .depatartment-category-modal .measure-line.horizontal .dot-txt{margin-left: -10px;}
+
+.depatartment-category-modal .color-content .form-control{height: 40px;}
+
+.depatartment-category-modal .fielddetails-content{
+    border: 1px solid variables.$light-color;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    position: relative;
+    min-height: 80px;
+}
+.d-mode .depatartment-category-modal .fielddetails-content{border-color: #74a68a !important;}
+.depatartment-category-modal .fielddetails-content small{font-size: 12px;font-weight: 700;color: variables.$primary-color;}
+.d-mode .depatartment-category-modal .fielddetails-content small{color: #ccc;}
+.depatartment-category-modal .fielddetails-content .btn{position: absolute;right: 5px;top: 5px;font-size: 10px;padding: 2px 10px;background: variables.$primary-color;border-color: variables.$primary-color;}
+.rtlview .depatartment-category-modal .fielddetails-content .btn{right: auto;left: 5px;}
+.d-mode .depatartment-category-modal .fielddetails-content .btn{background: variables.$green-color;border-color: variables.$green-color;}
+.depatartment-category-modal .fielddetails-content .btn.update-link{right: 45px;}
+.rtlview .depatartment-category-modal .fielddetails-content.btn.update-link{right: auto;left: 45px;}
+.depatartment-category-modal .fielddetails-content h5{font-size: 16px;margin-bottom: 0px;color: #402e71;font-weight: 800;}
+.d-mode .depatartment-category-modal .fielddetails-content h5{color: variables.$green-color;}
+.depatartment-category-modal .fielddetails-content label{margin-bottom: 0px;font-size: 12px;font-weight: 700;}
+.d-mode .depatartment-category-modal .fielddetails-content label{color: #ccc;}
+
+.depatartment-category-modal .colorpicker-view{margin-top: 7px;}
+.depatartment-category-modal .colorpicker-view .dropdown-toggle{box-shadow: none;height: 30px;margin-top: 3px;}

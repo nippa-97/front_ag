@@ -1,0 +1,13 @@
+.plgstore-container .ConfirmedList{
+    position: absolute;
+    right: 12px;
+}
+.plgstore-container .ConfirmedList:hover svg path{
+    fill: white !important;
+}
+.d-mode .plgstore-container .ConfirmedList:hover svg path{
+    fill: #5128a0 !important;
+}
+.RTL .plgstore-container .ConfirmedList{
+    right: auto; left: -22px;
+}

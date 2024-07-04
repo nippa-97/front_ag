@@ -1,0 +1,16 @@
+
+
+.MPDrawing .drawselect-shelve:hover{opacity: .9;cursor: pointer;}
+.MPDrawing .unallocate-space{background: #ccc;border: 2px solid #555;}
+.MPDrawing .resizable-div.unallocated h4{background: #555;overflow: hidden;cursor: default !important;opacity: 1 !important;}
+
+.MPDrawing .cat-toolbox{margin-bottom: 2px;position: absolute;z-index: 2;right: 5px;}
+.rtlview .MPDrawing .cat-toolbox{right: auto;left: 5px;}
+.MPDrawing .cat-toolbox .list-inline-item{background: #e8e3f3;color: #5128a0;padding: 0px 20px;opacity: .8;font-weight: 700;border-radius: 12px;transition: all .3s;-webkit-transition: all .3s;}
+.MPDrawing .cat-toolbox .list-inline-item small{font-size: 13px;padding: 0px 3px;}
+.MPDrawing .cat-toolbox .list-inline-item:hover{background: #5128a0;color: #fff;cursor: pointer;opacity: 1;}
+.MPDrawing .cat-toolbox .list-inline-item.disabled{pointer-events: none;opacity: .3;}
+
+.MPDrawing .eyelevel-highlight{fill: #5128a0 !important; stroke: #5128a0 !important;}
+.MPDrawing .rect-default{fill: #b18bf6 !important; fill-opacity: .2 !important;}
+.MPDrawing .rect-rule{fill: #e05c69 !important; fill-opacity: .2 !important;}

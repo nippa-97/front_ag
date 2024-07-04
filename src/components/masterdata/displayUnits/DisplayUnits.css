@@ -1,0 +1,61 @@
+.displayunit_outerbox{
+    margin-bottom: 20px;
+}
+.displayunit_content{
+    background-color: white;
+    margin:1% 8% 1% 8%;
+    padding:10px;
+  
+}
+.displayunit_title{
+    display: flex;
+    justify-content: space-between;
+}
+.DUsearchIcon{
+    margin: none;
+}
+.DUiconbox{
+    padding:0 0 0 10px ;
+    background:white;
+    border-width: 1px 0px 1px 1px;
+    border-radius: 0px;
+    height: 38px;
+}
+body.d-mode .DUiconbox{background: #142a33;color: #f2f2f2;border-color: #555;}
+.DUsearchbox{
+    width: 23%;
+}
+.DUsearchboxin{
+    border-width: 1px 1px 1px 0px;
+    font-size: 0.8rem;
+   
+    
+}
+.DUCard{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:14px 0 14px 0;
+    margin-bottom: 4px;
+    text-align: center;
+    
+
+}
+.displayunitsList{
+    margin-top: 0.5rem;
+   height: 300px;;
+}
+
+.DisplayUimain{
+   
+  
+    height: 100vh;
+}
+.DUfilters{
+    text-transform: uppercase;
+    display: flex;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 35px;
+}
+.DUcheck{
+    margin-right: 100px;
+}

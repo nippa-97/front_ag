@@ -1,0 +1,1 @@
+export const STORE_VIEW_SET = 'STORE_VIEW_SET';

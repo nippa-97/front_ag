@@ -1,0 +1,102 @@
+
+.planigo-Modal.affectedsimmodal{height: 97%;overflow-y: hidden;
+    border-radius: 10px;
+    /* text-align: center; */
+}
+.planigo-Modal.affectedsimmodal .MPSimulateAllModal{
+    margin-top: 10px;
+    /* border: 1px solid #5128A0 !important; */
+    /* border-radius: 10px;    height: 73px;background: #ddd1f4; */
+
+}
+.rtlview .affectedsimmodal .MPSimulateAllModal .simulate-filters{
+    margin-right: unset;
+}
+
+/* .planigo-Modal.affectedsimmodal li{
+    text-align: left;
+} */
+.planigo-Modal.affectedsimmodal .modal-body{
+    padding-top: 0px !important;
+}
+.planigo-Modal.affectedsimmodal .close{
+    font-size: 30px;
+}
+.RTL.affectedsimmodal{direction: rtl;}
+.affectedsimmodal .m-item{
+    background: #eaeaea;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    color: #52299C;
+    padding: 10px;
+    text-transform: capitalize;
+    
+}
+.affectedsimmodal .m-item div{
+    padding: 2px 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.affectedsimmodal .m-item:hover{
+    background: #ED327A;color: #eaeaea;cursor: pointer;
+}
+.affectedsimmodal  .content{margin-top: 10px;max-height: 70vh;min-height: 70vh;
+    overflow-y: auto;}
+.affectedsimmodal .tagsec span{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background:#facf88;border-radius: 15px;padding: 5px 10px;color: #5128A0;font-size: 12px;font-weight: 700;
+    margin: 0px 2px; justify-content: space-between;
+}
+.affectedsimmodal .tagsec{
+    /* text-overflow: unset !important; */
+    padding: 2px;
+    /* width: 50%; */
+    /* overflow-x: auto !important; */
+}
+.affectedsimmodal .Store{
+    width: 25%;
+}
+.affectedsimmodal .mpname{
+    
+    width: 25%;
+}
+.affectedsimmodal .dep{
+    width: 25%;
+}
+.affectedsimmodal .count{
+    width: 10%;
+    font-weight: bold;
+}
+.affectedsimmodal .btn-close{
+    --bs-btn-hover-bg:none
+    
+}
+.affectedsimmodal .Aff-simModal-filters .simulate-filters{margin-left: 20px;}
+.rtlview .affectedsimmodal .Aff-simModal-filters .simulate-filters{margin-left: unset;margin-right: 20px;}
+.affectedsimmodal .Aff-simModal-filters .simulate-filters .filter-item{
+    margin-right: 25px;
+    padding-bottom: 6px;
+}
+.affectedsimmodal .Aff-simModal-filters .simulate-filters .filter-item label{
+    color: #4f4f4f;
+    font-size: 12px;
+    font-weight: 700;
+}
+.affectedsimmodal .Aff-simModal-filters  .simulate-filters .filter-item .form-control{background: transparent;border: none; border-bottom: 1px solid#4F4F4F; border-radius: 0px; font-size: 13px; 
+    height: 39px;
+    color: #4F4F4F; font-weight: 700; min-width: 220px;max-width:400px;
+}
+.affectedsimmodal .Aff-simModal-filters .simulate-filters .filter-item .filter-selec2{
+    width: 230px;
+}
+
+.affectedsimmodal .Aff-simModal-filters .simulate-filters .filter-item .filter-selec2 .searchselect-inner__control {border-bottom: 1px solid #4F4F4F !important;box-shadow: none;}
+.affectedsimmodal .Aff-simModal-filters .simulate-filters .filter-item .filter-selec2 .searchselect-inner__placeholder{color: #4F4F4F;font-size: 13px;font-weight: 700;}
+.affectedsimmodal .Aff-simModal-filters .simulate-filters .filter-item .filter-selec2 .searchselect-inner__option{color: #5128A0;font-weight: 700;font-size: 13px;}
+.affectedsimmodal .Aff-simModal-filters .simulate-filters .filter-item .filter-selec2 .searchselect-inner__control--is-disabled{
+  opacity: 0.3;
+}

@@ -1,0 +1,88 @@
+@use '../../../assets/css/variables';
+
+.mdatacontentbranch-main .branchmodal-view .modal-title, .form-subcontent{color: #555657;}
+.mdatacontent-main .bprint {background-color:#8000DE; border-color: #8000DE; padding: 4px 16px;}
+.mdatacontent-main .bprint:hover, .mdatacontent-main .bprint:active, .mdatacontent-main .bprint:focus{background-color:#8000DE;}
+.mdatacontent-main .bfilter {background-color:#7B68EE; padding: 4px 16px;}
+.mdatacontent-main .bfilter:hover, .mdatacontent-main.bfilter:active, .mdatacontent-main.bfilter:focus{background-color:#7B68EE;}
+.compmain-content .bsavebutton {background-color: #198754; border-color: #198754; padding: 1px 4px;    }
+.compmain-content .bsavebutton:hover, .compmain-content.bsavebutton:active, .compmain-content.bsavebutton:focus{background-color:#198754;padding: 1px 4px; }
+.compmain-content .badd {background-color:#3EB489; float: right;padding: 4px 16px;}
+.compmain-content .badd:hover, .compmain-content.badd:active,.compmain-content .badd:focus{background-color:#3EB489;}
+.compmain-content .regionmodal-view .formview-btn{border-radius: 25px;font-weight: 600;}
+.compmain-content .bdeletebutton {background-color: #dc3545; border-color: #dc3545; padding: 2px 8px; }
+.compmain-content .bdeletebutton:hover, .compmain-content.bdeletebutton:active, .compmain-content.bdeletebutton:focus{background-color:#dc3545;}
+.compmain-content .bupdatebutton {background-color: #198754; border-color: #198754; padding: 2px 8px;}
+.compmain-content .bupdatebutton:hover,.compmain-content .bupdatebutton:active, .compmain-content.bupdatebutton:focus{background-color:#198754;}
+.compmain-content .bbackbutton {background-color: #C5C5C5; border-color: #C5C5C5;  padding: 2px 8px;}
+.compmain-content .bbackbutton:hover,.compmain-content .bbackbutton:active, .compmain-content.bbackbutton:focus{background-color:#C5C5C5;}
+.branchmodal-view .errorMsg{color:#FCB941;font-weight: 600;margin-top: -6px;z-index: 2;font-size: 11px;line-height: 0; position: absolute;}
+/* .branchmodal-view.RTL .errorMsg{right: auto;left: 20px;} */
+/* .branchmodal-view .btn-light{float: left;} */
+.branchmodal-view .btn {border-radius: 30px;padding: 5px 15px;font-weight: 600;font-size: 14px;}
+.branchmodal-view{ line-height: 1.6;}
+.branchmodal-view.RTL{ direction: rtl; }
+.mdatacontent-main .bplaceholder{background:   #f2f1ff;border: 2px solid #b2beb5;border-radius: 0;color: #554d40; }
+.branchmodal-view .css-q2cmrt-control{height: 25px;}
+.bform-subcontent label{font-size: 13px;font-weight: 700;color: #5128a0;line-height: 1;}
+body.d-mode .bform-subcontent label{color: #2CC990;}
+.branchmodal-view .selectBranchManager, .branchmodal-view .selectArea   {border: none;color: #555657;font-size: 10px;height: 25px;line-height: 2;padding-left: '2px';}
+.branchmodal-view .areaWidth{width: 100%;}
+.branchmodal-view .branchManagerWidth{width: 48%;}
+.branchmodal-view .css-1hb7zxy-IndicatorsContainer{height:25px;}
+.mdatacontent-main .bheaderh3{font-weight: 7px;color: #555657; }
+.branchmodal-view  input[type=text],input[type=email]  {width:100%;color: #555657;height: 35px;  font-size: 10px;line-height: 0.2;padding-left: 2mm;font-weight: 600;border: none;border-bottom: 2px solid #ccc;border-radius: 0px;}
+.branchmodal-view  input[type=text]:active,input[type=email] :active,.branchmodal-view  input[type=text]:hover,input[type=email] :hover,.branchmodal-view  input[type=text]:focus,input[type=email] :focus {box-shadow: none;outline: none;border-bottom-Color: #5128a0;}
+.branchmodal-view input[type=text]:active, .branchmodal-view input[type=email] :active {box-shadow: none;outline: none;border-bottom-Color: #5128a0;}
+.branchmodal-view .bform-subcontent .form-input:hover, .bform-subcontent .form-input:focus, .bform-subcontent.form-input:active {box-shadow: none;outline: none;border-color: #5128a0 !important;}
+.branchmodal-view  textarea[type=text]{width:100%;color: #555657;font-size: 10px;height: 50px;line-height: 1.4;padding-left: 2mm;font-weight: 600;border: none;border-bottom: 2px solid #ccc;border-radius: 0px;}
+.branchmodal-view .bform-subcontent .form-input{font-size: 14px;font-weight: 600;border: none;color: #555657;border-bottom: 2px solid variables.$extralight-color;border-radius: 0px;padding: 8px 0px;margin-bottom: 12px;}
+.branchmodal-view.RTL .bform-subcontent .form-input{text-align: right;}
+body.d-mode .branchmodal-view .bform-subcontent .form-input{background: transparent;color: #ccc;border-color: #999;}
+.branchmodal-view .selectBranchManager,    .branchmodal-view .selectArea{width:100%;height: 25px;color: #555657;font-size: 11px;line-height: 1;}
+.branchmodal-vieww .css-wi3wke-control,  .branchmodal-view .css-g1d714-ValueContainer {height:30px;font-size: 11px;line-height: 2;}
+.branchmodal-view .css-1hb7zxy-IndicatorsContainer{ height:24px; font-size: 12px;}
+.branchmodal-view .bbackbutton{background-color:#C5C5C5;}
+.branchmodal-view .icon-bprint {position: relative;bottom: 2px;left: 2px;}
+.branchmodal-view .icon-badd {position: relative;bottom: 2px;left: 1px;right:2px;}
+.branchmodal-view .icon-bfilter {position: relative;bottom: 2px;left: 2px;right:2px;}
+::placeholder{ color: hsl(0, 0%, 50%);font-size: 11px; border-radius: 0}
+.branchmodal-view .modal-header{
+    border: none;color: #5128a0;font-size: 20px;font-weight: 900;margin-bottom: 0;
+    line-height: 1.5;padding: 25px 15px;padding-bottom: 5px;
+}
+.branchmodal-view .modal-header .h4{width: 100%;text-align: center;font-size: 18px;}
+body.d-mode .branchmodal-view .modal-header{color: #2CC990;}
+.branchmodal-view .modal-content{border-radius: 20px;}
+.branchmodal-view .modal-footer{border-top:none;margin-top: none;display: block;}
+.branchmodal-view .textarea[id=address]{height: 35px;width: 100%;border-radius: 0;border: 2px solid #b2beb5;border-radius: 4px;color: #555657;}
+.branchmodal-view .col-md-6{position: relative;}
+
+.branchmodal-view .searchselect-inner__control{font-size: 14px;font-weight: 600;height: 36px;min-height: 30px;background: transparent;border: none;border-bottom: 2px solid #ccc;border-radius: 0px;margin-bottom: 10px;box-shadow: none;}
+body.d-mode .branchmodal-view .custom-filters .searchselect-inner__control{border-color: #ccc;}
+.branchmodal-view .searchselect-inner__menu{font-size: 14px;font-weight: 600;}
+.branchmodal-view .searchselect-inner__value-container{padding-left: 0px;padding-right: 0px;}
+.branchmodal-view .searchselect-inner__placeholder{font-weight: 600;font-size: 12px;}
+body.d-mode .branchmodal-view .searchselect-inner__placeholder{color: #ccc;}
+body.d-mode .branchmodal-view .searchselect-inner__single-value{color: #ccc;}
+body.d-mode .branchmodal-view .searchselect-inner__control{background: #22272f;border-color: #999;}
+
+.branchmodal-view #telephone::-webkit-inner-spin-button, .branchmodal-view #telephone::-webkit-outer-spin-button { -webkit-appearance: none;-moz-appearance: none;appearance: none;margin: 0; }
+
+.css-g1d714-ValueContainer {height:35px;font-size: 12px;line-height: 1.8;outline:none; }
+
+.main-storetags .addbtn{margin: 0px 5px 0px 5px;padding: 0px 7px !important;}
+.main-storetags .addbtn:focus{box-shadow: none;}
+
+.tagaddmodal .field-label{color: #5128a0; font-size: 13px; font-weight: 600;}
+body.d-mode .tagaddmodal .field-label{color: #2CC990;}
+
+.main-storetags .added-tag-list{padding-top: 5px; margin-top: 5px;}
+.main-storetags .tag-badge{background: variables.$green-color !important;color: variables.$primary-color;padding: 5px 10px; margin: 2px;border-radius: 6px;display: inline-block;}
+.main-storetags .tag-badge svg:hover{cursor: pointer; color: #606368;}
+.tagaddmodal .modal-content{box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+.tagaddmodal .searchselect-inner__value-container{padding-left: 2px;padding-right: 2px;font-size: 16px;}
+
+.branchmodal-view .btn { font-size: 14px;padding: 5px 20px;border-radius: 30px;font-weight:600;border: none; }
+.branchmodal-view .btn-success{background: variables.$green-color;color: variables.$primary-color;}
+.branchmodal-view .country_code{width: 120px; margin-top: 4px;}

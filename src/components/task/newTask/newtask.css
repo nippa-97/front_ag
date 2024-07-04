@@ -1,0 +1,765 @@
+.newtaskType {
+    padding: 0px 30px;
+    margin-bottom: 10px;
+}
+
+.newtaskType .form-label {
+    font-size: 13px;
+}
+
+.newtaskType input::-webkit-input-placeholder {
+    font-size: 13px;
+     color: #BAACE2;
+}
+
+.TaskModal {
+    color: #5128a0;
+}
+
+.TaskModal button {
+    color: #5128a0;
+    box-shadow: none !important;
+}
+
+.d-mode .TaskModal {
+    color: #2CC990;
+    ;
+}
+
+.d-mode .TaskModal button {
+    color: #ccc;
+    ;
+}
+
+.TaskModal .form-label {
+    font-weight: 700;
+}
+
+.TaskModal h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #5128a0;
+    font-weight: 600;
+    padding-top: 12px;
+    margin-left: 4px;
+}
+
+.TaskModal h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #5128a0;
+    font-weight: 600;
+}
+.d-mode .TaskModal h2, .d-mode .TaskModal h4{color: #2CC990;}
+.TaskModal.RTL h4 {
+    text-align: right;
+}
+
+.TaskModal h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #BAACE2;
+}
+
+.TaskModal .form-control:active, .TaskModal .form-control:focus, .TaskModal .form-control:hover {
+    box-shadow: none;
+    outline: none;
+    border-bottom-color: #5128a0;
+}
+
+.TaskModal .form-control {
+    /* font-size: 11px; */
+    /* height: 35px; */
+    font-weight: 400;
+    border: none;
+    border-bottom: 1px solid #9167df;
+    border-radius: 0px;
+    padding: 8px 0px;
+    color: #3e2c63;
+}
+.d-mode .TaskModal .form-control{background: transparent;color: #ccc;}
+.TaskModal .css-g1d714-ValueContainer{
+    padding: 0px;
+}
+.TaskModal .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #BAACE2;
+    font-size: 13px;
+  
+}
+.TaskModal .taskmdl-inner__placeholder{
+    color: #BAACE2;
+}
+
+.TaskModal .form-control option {
+    font-size: 13px;
+}
+
+
+
+.timebox {
+    margin-bottom: 0px;
+    outline: 0;
+    width: 100px;
+    border-width: 0 0 2px;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    color: #5128A0;
+    width: 140px;
+    background: transparent;
+    display: inline-flex;
+    height: 26px;
+}
+.d-mode .timebox{color: #ccc; border-color: #ccc;}
+.timebox input[type="text"]{background: transparent;}
+.timebox .input-group-text{
+    padding: 0px;border: none;background: none;
+    right: 5px;
+    margin-top: 2px;
+}
+/* time keeper */
+/* time piker */
+
+.tasktimepiker {
+    position: absolute;
+    top: 10%;
+    z-index: 500;
+}
+/* darkmode */
+.filtertime{box-shadow: none !important;outline-style: none !important;}
+.d-mode .tasktimepiker .react-timekeeper__top-bar{background: #2a2f37;}
+.d-mode .tasktimepiker .react-timekeeper__done-button{background: #2a2f37;color: #f0f0f0;}
+.d-mode .tasktimepiker .react-timekeeper__clock-wrapper{background: #2f353e;}
+.d-mode .tasktimepiker .react-timekeeper__clock{background: #3e4652;}
+.d-mode .tasktimepiker .react-timekeeper__meridiem-toggle{background: #3b4149;}
+.d-mode .tasktimepiker  .react-timekeeper__meridiem--active{background: #dfd0fc;color: var(--top-text-color,#8C8C8C);}
+.d-mode .tasktimepiker .react-timekeeper__tb-hour--active {
+    color: #f0f0f0;
+}
+.d-mode .tasktimepiker .react-timekeeper__clock-hours span{color: #2CC990 !important;}
+.d-mode .tasktimepiker .react-timekeeper__clock-minutes span{color: #2CC990 !important;}
+.TaskModal .tasktimepiker {
+    font-family: 'Poppins', sans-serif;
+}
+
+.TaskModal .react-timekeeper__tb-hour--active {
+    color: #5128a0;
+}
+
+.TaskModal .react-timekeeper__hand-circle-outer {
+    fill: #dfd0fc;
+}
+
+.TaskModal .react-timekeeper-button-reset {
+    font-weight: 600;
+}
+
+.TaskModal .react-timekeeper__meridiem--active {
+    background: #dfd0fc;
+}
+
+.TaskModal .react-timekeeper__clock-hand {
+    stroke: #b692fc;
+}
+
+.TaskModal .react-timekeeper__clock-hours span {
+    color: #616970;
+    font-weight: 600;
+}
+
+.TaskModal .week {
+    padding: 0px 3px
+}
+
+.TaskModal .react-datepicker__current-month {
+    color: #5128a0;
+}
+
+/* time keeper */
+
+.modeldrop {
+    width: 100%;
+}
+
+.modeldrop .dropdown-toggle:hover, .modeldrop .dropdown-toggle:focus, .modeldrop .dropdown-toggle:active, .modeldrop .dropdown-toggle:focus-within {
+    background: none;
+    color: #7848d1;
+}
+.adnewbtn{
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    padding: 0px 16px !important;
+    padding-bottom: 3px !important;
+    display: flex;
+    box-shadow: none !important;
+}
+
+.adnewbtn .col{
+    margin-top: 5px;
+}
+.plicon{
+  stroke-width: 1.3px;
+    margin-top: 9px !important;
+    margin-right: 9px;
+}
+.RTL .plicon {
+    margin-top: 5px !important;
+    margin-right: 0px;
+    margin-left: 9px;
+}
+.pinkbtn {
+    background-color: #ED327A !important;
+    border-radius: 50px;
+    border: none;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+
+.whitecancle {
+    background-color: #ffffff !important;
+    color: #5128a0;
+    border-radius: 50px;
+    border: none;
+    padding: 5px 20px;
+}
+.d-mode .whitecancle{background: transparent !important;color: #2CC990;}
+.whitecancle:hover {
+    color: #ED327A !important
+}
+
+.modeldrop .dropdown-toggle {
+    background: none !important;
+    font-size: 13px;
+    color: #7848d1;
+    border-bottom: 1px solid #9167df !important;
+    border-radius: 0px;
+    padding-left: 0px;
+}
+
+.modeldrop .dropdown-toggle:after {
+    float: right;
+    height: 20px;
+    margin-top: -8px;
+    margin-bottom: 8px;
+}
+
+/* .btn-primary {
+        border: none;
+    } */
+
+.modeldrop .dropdown-menu {
+    width: 100%;
+}
+.d-mode .modeldrop .dropdown-menu{background: #303e50;}
+.modelassign .dropdown-menu {
+    width: 500px !important;
+    height: 500px  !important;
+    inset: unset !important;
+    transform: translate(0px,141px) !important;
+    margin-top: -510px !important;
+}
+.modelassign .dropdown-menu .close-link{position: absolute;right: 10px;color: #5128a0;}
+.RTL .modelassign .dropdown-menu .close-link{right: auto;left: 10px;}
+/* .RTL .modelassign .dropdown-menu{
+    transform: translate(-180px,140px) !important;
+} */
+
+.modelapprovr .dropdown-menu {
+    width: 500px !important; height: 500px  !important;
+    overflow: hidden;inset: unset !important;
+    transform: translate(0px,76px) !important;
+    margin-top: -510px !important;
+}
+.modelapprovr .dropdown-menu .close-link{position: absolute;right: 10px;color: #5128a0;}
+.RTL .modelapprovr .dropdown-menu .close-link{right: auto;left: 10px;}
+.modelapprovr .dropdown-menuedit{
+    transform: translate(0px,76px) !important;
+}
+/* .RTL .modelapprovr .dropdown-menu {
+    transform: translate(20px,88px) !important;
+} */
+
+
+
+
+.TaskModal .form-check-input{
+    box-shadow: none ;
+    border-radius: 50px;
+    padding-top: 3px;
+    margin-bottom: 0px;
+}
+.TaskModal .form-check-input:checked {
+    background-color: #ED327A;
+    border-color: #ED327A;
+}
+
+.TaskModal .fromlist {
+    border: 2px solid #a27bb479;
+    background: #3005a51a;
+    border-radius: 10px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.TaskModal .close {
+    padding: 0px !important;
+    font-size: 36px !important;
+    font-weight: lighter !important;
+}
+
+.TaskModal .fromlist .title {
+    text-align: center;
+    padding: 5px;
+    border-bottom: 2px solid #a27bb479;
+}
+
+.TaskModal .fromlist .list {
+    border: 2px solid #a27bb479;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    padding: 3px 10px 3px 10px;
+    display: flex;
+    position: relative;
+}
+
+.TaskModal .fromlist .list .feather-check-circle{
+    margin-top: 12px;
+}
+
+.TaskModal .fromlist .list span {
+    padding: 0px 10px 0 10px;
+}
+
+.TaskModal .fromlist .list input {
+    border: none;
+    width: 80%;
+    outline: none;
+    background: none;
+}
+
+.TaskModal .fromlist .list.long-txt .input-txt{
+    resize: none;
+    overflow: hidden;
+    padding: 8px 6px;
+    z-index: 2;
+    border-radius: 6px;
+    width: 85%;
+    background: transparent;
+    border: none;
+    font-size: 13px;
+}
+.TaskModal .fromlist .list .input-txt:focus{
+    background: #e2d9f4;
+}
+.TaskModal .fromlist .list .input-txt-small{
+    position: absolute;
+    opacity: .6;
+    margin-top: 9px;
+    font-size: 12px;
+    left: 20px;
+}
+.TaskModal .fromlist .list.long-txt .input-txt-small{
+    left: 30px;
+}
+.rtlview .TaskModal .fromlist .list .input-txt-small{
+    left: auto;
+    right: 30px;
+}
+.rtlview .TaskModal .fromlist .list.long-txt .input-txt-small{
+    right: 30px;
+}
+
+.TaskModal .fromlist .list .remove-btn{padding: 4px 0px;position: absolute;
+    right: 15px;}
+.RTL .TaskModal .fromlist .list .remove-btn{
+    right: auto;left: 15px;
+}
+
+.d-mode .TaskModal .fromlist .list input{color: #ccc;}
+.TaskModal .fromlist .list .feather {
+    color: #686868;
+}
+
+.whentask {
+    display: flex;
+    background: #3005a51a;
+    border-radius: 20px;
+    padding: 2px 2px 2px 8px;
+    margin-bottom: 10px;
+    color: #5128a0;
+    font-size: 12px;
+    align-items: center;
+}
+.d-mode .whentask{color: #2CC990;background: #1e2b38;}
+.taskadd-labeltxt{
+    overflow:hidden; 
+    white-space:nowrap; 
+    text-overflow: ellipsis;
+}
+
+.aprovertask {
+    padding: 13px;
+}
+
+.newtasks .highlight-btn {
+    background: #ED327A !important;
+    border-radius: 20px;
+    color: #ffffff;
+    border: none;
+    font-size: 14px;
+    float: right;
+    padding: 5px 15px;
+    margin: 0px 3px;
+}
+
+.RTL .newtasks .highlight-btn {
+    float: none;
+}
+
+.newtasks .highlight-btn-close {
+    background: #ffffff !important;
+    border-radius: 20px;
+    color: #5128a0;
+    ;
+    border: none;
+    font-size: 14px;
+    float: right;
+    padding: 5px 15px;
+    margin: 0px 3px;
+    font-weight: bold;
+}
+.d-mode .newtasks .highlight-btn-close{background: #212529 !important;}
+.newtasks .highlight-btn:focus {
+    border: none;
+    /* box-shadow: none; */
+}
+
+.TaskModal .modal-body {
+    padding-top: 0px !important;
+}
+
+.modalheader {
+    padding-bottom: 5px !important;
+    border-bottom: none;
+    padding: 0px 30px;
+}
+
+.modalheader button {
+    color: #8c8b8f;
+    border: none;
+    margin-right: 6px !important;
+}
+
+.modalheader button .sr-only {
+    display: none;
+}
+
+.tscroll {
+    max-height: 280px;
+    overflow-y: auto;
+}
+.tscrolltisfor {
+    padding:5px 0px;
+    max-height: 295px;
+    overflow-y: auto;
+}
+
+.tasktab {
+    border: none;
+}
+
+.tasktab .nav-item button {
+    border: none !important;
+    color: #5128a0;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 18px 0px 5px;
+}
+.d-mode .tasktab .nav-item button{color: #2CC990;}
+.tasktab .nav-link.active {
+    color: #96929c;background: none;
+}
+.TaskModal .catbadge-list{
+    padding: 10px 0px;
+}
+.TaskModal .catbadge-list .badge{
+    margin: 0px 2px; 
+    padding: 3px 10px; 
+    color: #5327a0;
+    border: 1px solid #5327a0;
+    text-wrap: balance;
+    text-align: left;
+    position: relative;
+    padding-right: 20px;
+    margin-bottom: 6px;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.TaskModal .catbadge-list .badge .tagremovebtn{
+    position: absolute;
+    top: 2px;
+    right: 3px;
+}
+.rtlview .TaskModal .catbadge-list .badge{
+    text-align: right;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+.rtlview .TaskModal .catbadge-list .badge .tagremovebtn{
+    right: auto;left: 1px;
+}
+.d-mode .TaskModal .catbadge-list .badge{color: #2CC990;border-color: #2CC990;}
+.TaskModal .taskmdl-inner__control{background: transparent;}
+.TaskModal .taskmdl-inner__control .taskmdl-inner__value-container div, .TaskModal .taskmdl-inner__control .taskmdl-inner__value-container input{
+    max-width: max-content;
+    min-width: 100%;
+}
+.d-mode .TaskModal .taskmdl-inner__input{color: #ccc;}
+.TaskModal .datepicker-txt {
+    height: 25px;
+    width: 140px;
+    line-height: 1.5;
+    display: block;
+    border-radius: 0px;
+    color: #212529;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: none;
+    padding-left: 35px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #5128a0;
+    border-bottom: 2px solid;
+}
+.d-mode .TaskModal .datepicker-txt{color: #ccc;}
+/* .TaskModal .modeldrop .dropdown-menu {transform: translate(0px, 38px) !important;} */
+
+.TaskModal .react-time-picker__wrapper {
+    border: none;
+}
+
+.TaskModal .react-time-picker {
+    border-bottom: 2px solid #5128a0;
+    margin-bottom: 10px;
+}
+
+.TaskModal .btn {
+    background: none;
+    border: none;
+}
+
+.newtasks .fade button {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.newtasks .selection {
+    justify-content: space-between;
+    display: flex;
+    padding: 0px 0 15px 0;
+}
+
+.pinkcolor {
+    color: #ED327A !important;
+}
+
+
+
+.feedbackmedia button {
+    box-shadow: none !important;
+    margin-right: 7px;
+    margin-left: 7px;
+    width: 90px;
+    background: none !important;
+    border: 1px solid #5128a0 !important;
+    font-size: 12px !important;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.d-mode .feedbackmedia button{border-color: #2CC990 !important;color: #2CC990 !important;}
+.d-mode .feedbackmedia button svg path{fill: #2CC990 !important;}
+.feedbackmedia button:hover, .feedbackmedia button:focus {
+    color: #5128a0;
+    fill:#ED327A !important;
+}
+.selectedb:hover{
+    color: #ffffff !important;
+}
+.selectedb:active ,.selectedb:focus{
+    color: #ffffff !important;
+}
+
+.feedbackmedia button.editview {
+    color: #5128A0;
+    cursor: default;
+    box-shadow: none;
+}
+
+.feedbackmedia button.editview.active {
+    color: #fff !important;
+    cursor: default;
+    ;
+    box-shadow: none;
+}
+
+.RTL .sidemenubody .input-group .input-group-text {
+    border-left: none;
+    border-radius: 0px;
+    border-top-right-radius: 35px !important;
+    border-bottom-right-radius: 35px !important;
+}
+
+.sidemenubody .input-group .form-control {
+    box-shadow: none;
+}
+
+.RTL .sidemenubody .input-group .form-control {
+    border-right: none;
+    border-radius: 0px;
+    border-left: 1px solid;
+    border-top-left-radius: 35px !important;
+    border-bottom-left-radius: 35px !important;
+}
+
+.feedbackmedia .active {
+    background: #5128A0 !important;
+    color: #ffffff;
+    font-weight: normal;
+}
+.d-mode .feedbackmedia .active{background: #2CC990 !important;color: #ffffff !important;}
+.d-mode .feedbackmedia .active svg path{fill: #fff !important;}
+.timefram {
+    padding: 2px 10px 2px 10px;
+}
+.timefram span{
+    font-size: 14px !important;
+}
+.usecam{
+    background: #E5E4E7;
+   
+}
+.usecam .pure-material-switch>span{
+    color: #97949E ;
+}
+
+.fbfont {
+    font-size: 12px;
+}
+
+.loadingtsk {
+    position: absolute;
+    top: 47%;
+    right: 40%;
+}
+
+/* Track */
+/*approvers style*/
+.Approverlabelbox {max-height: 8vh;overflow-y: auto;margin-bottom: 10px;}
+.Approverlabelbox .tag{
+    background-color: #5128a0;
+    color: #f0f0f0;
+    border-radius: 50px;
+    padding:1px 10px;
+    font-size: small;
+    margin-right: 3px;
+    display: inline-flex
+}
+.d-mode .Approverlabelbox .tag{background-color: #2CC990;}
+.Approverlabelbox .tag .closetag{box-shadow: none !important;}
+.Approverlabelbox .tagtitle{color: #5128a0;font-size: small;font-weight: bold;}
+.Approverlabelbox .tag .btn{
+    font-weight: 100;
+    margin-left: 7px;
+    padding:0px;
+    color: #f0f0f0;margin-top: -3px;
+}
+/* Hover, Focus */
+
+/* .pure-material-switch:hover > input {
+    opacity: 0.04;
+}
+
+.pure-material-switch > input:focus {
+    opacity: 0.12;
+}
+
+.pure-material-switch:hover > input:focus {
+    opacity: 0.16;
+}
+
+.pure-material-switch > input:active {
+    opacity: 1;
+    transform: scale(0);
+    transition: transform 0s, opacity 0s;
+}
+
+.pure-material-switch > input:active + span::before {
+    background-color: rgba(var(--pure-material-primary-rgb, 33, 150, 243), 0.6);
+}
+
+.pure-material-switch > input:checked:active + span::before {
+    background-color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.38);
+} */
+
+/* Disabled */
+
+
+
+.TaskModal.RTL .form-check-input {
+    margin-left: 0.4em;
+}
+
+.TaskModal .taskmdl-inner__control {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid #9167df !important;
+    border-radius: 0px !important;
+    border-color: none !important;;
+   
+}
+/* .TaskModal .css-1pahdxg-control{
+    font-size: 14px !important;
+    border: none !important;
+    border-color: none !important;
+    box-shadow: none !important;
+  
+} */
+
+.RTL .react-timekeeper__clock-hours { 
+    left: 35px
+}
+.RTL .react-timekeeper__clock-minutes{left: 35px}
+.RTL .react-timekeeper__top-bar{
+    direction: ltr;
+}
+
+.placeval input::-webkit-input-placeholder {
+      
+      
+    
+}
+.disablediv-NewTask{
+    position: absolute;
+    height: 100%;
+    width:100%;
+    background: rgba(0, 0, 0, 0.295);
+    border-radius: 2px;
+}
+@media (max-width: 1200px) {
+    .modal-lg, .modal-xl {
+    max-width: 990px;}
+}
+@media (max-width: 992px) {
+    .newtaskType{min-width: 421px;}
+    .modal-lg, .modal-xl {
+    max-width: 700px;}
+}
+.TaskModal .catbadge-list .cat-details{position: relative;display: flex;}
+.TaskModal .catbadge-list .cat-details .tagremovebtn{position: absolute;top: -5px;right: 7px;}
+.RTL .catbadge-list .cat-details .tagremovebtn{right: auto;top: -3px;left: 2px;}

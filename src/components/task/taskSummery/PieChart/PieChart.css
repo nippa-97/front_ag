@@ -1,0 +1,13 @@
+.arrow_box{
+    padding: 10px;
+    width: 110px;
+}
+.arrow_box ul{
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+ }
+.arrow_box hr{margin: 5px 0px;}
+.rname{width: 80% ;}
+.rcount{width: 20% ;text-align: right;}
+.mainp{display: flex;}

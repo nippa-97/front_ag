@@ -1,0 +1,84 @@
+
+.Gs1OverideModal .modal-dialog{max-width:600px ;}
+.Gs1OverideModal .modal-content{border-radius: 25px;background: #F2F2F2;min-height: 500px;}
+.Gs1OverideModal .modal-header{border-bottom: none;color:#52299C ;font-weight: bold ;padding-bottom: 0px;}
+.Gs1OverideModal .modal-header .h4{font-weight: bold ;}
+.Gs1OverideModal .modal-header .close {
+    background: none;
+    border: none;
+    font-size: 40px;
+    color: #BDBDBD !important;
+}
+.Gs1OverideModal .modal-title{padding: 0px 25px;}
+.Gs1OverideModal .modal-header button .sr-only {
+    display: none;
+}
+.Gs1OverideModal .modal-body{
+    padding: 10px 40px;padding-top: 0px;
+}
+.Gs1OverideModal .namebarcodediv{margin-bottom: 20px;}
+.Gs1OverideModal .namebarcodediv label:first-child{margin-right: 10px;}
+.Gs1OverideModal .namebarcodediv label:last-child{font-weight: 600;text-transform: uppercase;}
+.rtlview .Gs1OverideModal .namebarcodediv label:first-child{margin-left: 10px;margin-right: 0px;}
+.Gs1OverideModal .dimension-t-details{
+    display: flex;
+    padding: 7px 15px;
+}
+.Gs1OverideModal .dimension-t-details.detail{background: #F2F1FF;border-radius: 10px;margin-bottom: 6px;}
+.Gs1OverideModal .card{
+    border: none;
+    border-radius: 10px;
+    min-height: 60px;
+    padding: 20px;
+    margin: 10px 0px;
+}
+/* .Gs1OverideModal .card.disable{ */
+    /* background: #F2F2F2; */
+    /* border: 1px solid #bdbdbd; */
+    /* opacity: 0.5;
+} */
+.Gs1OverideModal .disable{
+    opacity: 0.5;
+}
+
+.Gs1OverideModal .dimension-t-details div{
+    width: 25%;
+}
+.Gs1OverideModal .dimension-t-details div span{margin-left: 25px;}
+.rtlview .Gs1OverideModal .dimension-t-details div span{margin-left: 0px;margin-right: 25px;}
+.Gs1OverideModal .card .title{justify-content: space-between;display: flex;}
+.Gs1OverideModal .card .title .name{color: #52299C;font-weight: bold;}
+.Gs1OverideModal .card .title label{color: #4F4F4F;font-weight: bold;}
+.Gs1OverideModal .card .card-details{display: flex;}
+.Gs1OverideModal .card .card-details div{width: 45%;text-align: center;padding: 10px;}
+.Gs1OverideModal .card .card-details .middle{width: 10%;color: #52299C;}
+.Gs1OverideModal .card .card-details .drawedbox{background:#F2F1FF ;border-radius: 10px;}
+.Gs1OverideModal .modal-footer{justify-content: space-between;border-top: none;padding: 10px 40px;}
+.Gs1OverideModal .modal-footer .btn{border-radius: 20px;width: 100px;padding:3px 2px;border: none;background:#52299C ;font-weight: 600;}
+.Gs1OverideModal .modal-footer .btn.success{background: #77DB61;}
+
+.Gs1OverideModal .toggle-switch{vertical-align: middle;
+    margin-left: 5px;}
+.rtlview .Gs1OverideModal .toggle-switch{ margin-right: 5px;margin-left: 0px;}
+.Gs1OverideModal  .allmarkupdate{text-align: right; font-weight: bold;color: #52299C;}
+.rtlview .Gs1OverideModal  .allmarkupdate{text-align: left;}
+
+.Gs1OverideModal .react-switch-bg{
+    background: transparent !important;
+    border: 1px solid rgba(0, 0, 0, .4) !important;
+}
+.Gs1OverideModal .react-switch-bg svg{display: none;}
+.Gs1OverideModal .react-switch-handle{
+    width: 14px !important;
+    height: 14px !important;
+    background: rgba(0, 0, 0, .4) !important;
+    transform: translateX(3px) !important;
+    top: 2px !important;
+}
+.Gs1OverideModal .toggle-switch.checked .react-switch-bg{
+    border-color: #52299C !important;
+}
+.Gs1OverideModal .toggle-switch.checked .react-switch-handle{
+    transform: translateX(19px) !important;
+    background: #52299C !important;
+}

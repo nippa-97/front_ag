@@ -1,0 +1,40 @@
+
+
+.newprods-view .sub-design .FilterSection .Resetbtn{padding: 0px 8px;border: 1px solid #5128A0;opacity: 1;border-radius: 20px;}
+.newprods-view .list{background:#F6F6F6 ;margin-top: 10px;border-radius: 10px;padding: 10px;}
+.newprods-view .tablebtn{color:#FFFFFF !important;font-size: 14px;opacity: 1;border-radius: 20px;padding: 2px 15px 2px 15px;min-width: 90px;border-radius: 20px !important;font-weight: 700;border:none;box-shadow: none;}
+.newprods-view .archivebtn{background: none;color: #5128A0 !important;border: 1px solid #5128A0 !important; padding: 2px 15px;font-size: 14px;}
+.d-mode .newprods-view .archivebtn{color: #2CC990 !important;border-color: #2CC990 !important;}
+.newprods-view .list table{margin-bottom: 0;}
+.newprods-view .list tbody tr{font-size: 14px;margin: 5px;font-weight: bold;color: #4F4F4F;}
+.newprods-view .list tbody td{background:#ffff ;padding: 0px;text-align: center;}
+.newprods-view .list tbody td:first-child{text-align: start;padding-left: 10px;padding-right: 10px;}
+.senddep{background:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #77DB61 !important}
+.senddep.deactivate{background: #ED327A !important;}
+.senddep.deactivate:hover{cursor: not-allowed !important;}
+.newprods-view .list td{vertical-align: center;}
+.newprods-view .pagination{margin-top: 5px;}
+
+.newprods-view .list tbody td .details{padding: 0px 0px;width: 100%;}
+.LTR .newprods-view .list tbody td .details{border-right: 1px solid #5128A0;}
+body.d-mode .LTR .newprods-view .list tbody td .details{border-right: 1px solid #2CC990;}
+.RTL .newprods-view .list tbody td .details{border-right: 0px !important;border-left: 1px solid #5128A0;}
+body.d-mode .RTL .newprods-view .list tbody td .details{border-right: 0px !important;border-left: 1px solid #2CC990;}
+.newprods-view .list tbody td:last-child .details{border-right: 0px !important;border-left: 0px !important }
+.newprods-view .list tbody td .details .form-check-input{position: absolute;left: 5px;}
+.RTL .newprods-view .list tbody td .details .form-check-input{left: auto;right: 0px;}
+
+
+.newprods-view .list tbody td .details.icons-col{position: relative;padding-left: 50px;padding-right: 5px;}
+.newprods-view .list tbody td .details.icons-col .form-check-input{position: absolute;margin-left: 0px;}
+.RTL .newprods-view .list tbody td .details.icons-col .form-check-input{margin-left: auto;margin-right: 0px;}
+.newprods-view .list tbody td .details.icons-col svg{position: absolute; top: 0px ; left: 30px;}
+
+.RTL .newprods-view .list tbody td .details.icons-col{position: relative;padding-left: 5px;padding-right: 50px;}
+.RTL .newprods-view .list tbody td .details.icons-col svg{position: absolute; top: 0px ; left: auto; right: 30px;}
+
+.newprod-confirm .react-confirm-alert-body{width: 520px;}
+.newprod-confirm .react-confirm-alert-body button{background: #dc3545 !important;border: 1px solid #dc3545;font-weight: 700 !important;}
+.newprod-confirm .react-confirm-alert-body button:nth-child(2){background: transparent !important;border: 1px solid #dc3545;color: #dc3545 !important;}
+.newprod-confirm .react-confirm-alert-body button:last-child{background: #666 !important;border: 1px solid #666;color: #fff !important;}
+.newprods-view .list tbody td .details .prod-name{max-width: 450px; overflow: hidden;text-overflow: ellipsis;white-space: nowrap;display: inline-block;}

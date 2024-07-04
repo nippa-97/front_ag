@@ -1,0 +1,37 @@
+
+@font-face {
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../Assistant/Assistant-Light.ttf);
+}
+@font-face {
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../Assistant/Assistant-Regular.ttf);
+}
+@font-face {
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../Assistant/Assistant-Medium.ttf);
+}  
+@font-face {
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 600;
+    src: url(../Assistant/Assistant-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../Assistant/Assistant-Bold.ttf);
+}
+@font-face {
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 800;
+    src: url(../Assistant/Assistant-ExtraBold.ttf);
+}

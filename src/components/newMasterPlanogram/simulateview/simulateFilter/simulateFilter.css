@@ -1,0 +1,26 @@
+.simulation-filter-row{padding: 0px 10px 10px;}
+.RTL .simulation-filter-row{padding: 0px 10px 10px 35px;}
+
+.simulation-filter-section{
+    background: #5128a0;
+    min-height: 30px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.simulation-filter-section ul{margin-bottom: 0px;}
+.RTL .simulation-filter-section ul{margin-right: -40px;}
+
+.simulation-filter-section label{font-size: 13px; font-weight: 600; color: #fff;margin: 0 5px;}
+.simulation-filter-section input{width: 80px;border-radius: 5px; border: none;font-size: 13px;padding: 5px 5px;font-weight: 600;}
+.simulation-filter-section select{width: 180px;border-radius: 5px; border: none;font-size: 13px;padding: 5px 5px;font-weight: 600;}
+.simulation-filter-section input.datepicker-txt{width: 110px;}
+
+.simulation-filter-section .mpsim-tags{margin-top: 15px;}
+.simulation-filter-section .mpsim-tags li{background: #facf88;border-radius: 10px;padding: 2px 25px 2px 10px;font-size: 13px;font-weight: 700;color: #5128a0; position: relative;}
+.simulation-filter-section .mpsim-tags li .close-icon{position: absolute; right: 5px;cursor: pointer;}
+
+.RTL .simulation-filter-section .mpsim-tags li{padding: 5px 10px 0px 25px;position: relative;margin-left: 5px !important;}
+.RTL .simulation-filter-section .mpsim-tags li .close-icon{position: absolute; right: auto;left:5px;}
+
+.simulation-filter-section .react-datepicker-popper{z-index: 100;}

@@ -1,0 +1,207 @@
+.taskfilter-content .input-group-prepend {
+    position: absolute;
+    z-index: 2;
+}
+
+.taskfilter-content .input-group-append .input-group-text {
+    height: 14px;
+    padding: 20px 8px;
+    background: transparent;
+    border: none;
+    color: #5128a0;
+}
+.d-mode .taskfilter-content .input-group-append .input-group-text{color: #2CC990;}
+.taskfilter-content .input-group-append {
+    position: absolute;
+    z-index: 0;
+    right: 0px;
+    margin-top: -33px;
+}
+
+/* .input-group-append .input-group-text{height: 34px;padding: 5px 8px;background: transparent;border: none;color: #b52225;} */
+
+.taskfilter-content .input-group-append .input-group-text svg {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.taskfilter-content .datepicker-txt {
+    margin-left: 10px;
+    height: 24px;
+    width: 82px;
+    line-height: 1.5;
+    display: block;
+    border-radius: 0px;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #5128a0;
+    outline: none !important;
+}
+.d-mode .taskfilter-content .datepicker-txt { color: #f8f9fa ;}
+.RTL .taskfilter-content .datepicker-txt{
+    width: 92px;
+}
+.RTL .taskfilter-content .datepicker-txt::placeholder {
+   
+    font-size: 12px !important;
+}
+
+.taskfilter-content .datepicker-margin {
+    margin-left: 25px;
+    position: relative
+}
+.taskfilter-content .fromdate{
+    margin-bottom: 12px;
+}
+.taskfilter-content .timeset{
+    margin-top: 22px;
+}
+.taskfilter-content .stime{
+    margin-bottom: 37px;
+}
+
+
+.taskfilter-content .form-check-input:checked  {
+   
+    background-color: #ED327A ;
+    border-color:  #ED327A;
+  
+}
+.form-check-input:checked
+.taskfilter-content .datepicker-margin::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background: #5128a0;
+    margin-left: -16px;
+    margin-top: 18px;
+}
+.taskfilter-content .form-check-input{
+    float: none; margin-left: 0px !important;    border-radius: 50px; box-shadow: none;
+}
+.taskfilter-content  .form-check-label{
+    margin: 0.5px 7px;
+}
+.taskfilter-content .datepicker-margin::before {
+    background: #2CC990;
+}
+
+.taskfilter-content .react-datepicker-wrapper {
+    z-index: 0;
+    position: relative;
+}
+.taskfilter-content  .react-datepicker__day--keyboard-selected{
+    background: #5128a0 !important;
+}
+
+/* .rtlcon{
+    text-align: left;
+
+} */
+.RTL .rtlcon{
+    text-align: right;
+
+}
+
+.taskfilter-content .datebox {
+    width: 120px;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 2px;
+}
+.taskfilter-content .datebox .input-group-text{
+    background: transparent;border: none;
+    position: absolute;
+    margin-top: -32px;
+    right: -2px;
+}
+.RTL .taskfilter-content .datebox .input-group-text{
+    right: auto;left: -2px;
+}
+.RTL .taskfilter-content .datebox {
+    width: 132px;
+    margin-left: 5px;
+}
+.taskfilter-content .datetitle{color: #BAACE2;display: flex;}
+ .datetimeRange{
+    align-items:baseline;
+    width: 283px !important;
+}
+.filtertime{
+    width:65px;
+    margin: 0px 0px;
+    border: none;
+}
+.d-mode .filtertime{background: transparent;color: #f8f9fa;}
+ .taskfilter-content .timebox{
+    width: 90px;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 2px;
+}
+.RTL .taskfilter-content .timebox{
+    width: 100px;
+    
+}
+.taskfilter-content .title{
+    margin-bottom: 8px;
+    display: flex;
+    font-weight: 700;
+    font-size: 14px;
+}
+.taskfilter-content .form-check-input{
+    padding-left: 0em;
+    margin-bottom: 16px;
+    margin-top: 1px;
+}
+.taskfilter-content .filterbtns{
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    width: 292px;
+    margin-top: 20px;
+}
+.taskfilter-content.RTL .filterbtns{
+   
+    float: left;
+ 
+}
+.taskfilter-content .reset{
+    font-size: 14px;
+    font-weight: bold !important;
+}
+.timeset .octicon-clock{
+    margin-top: 3px;
+}
+
+.RTL .timeset .filtertime{
+    margin-right: 15px;
+}
+.flex {
+    display: flex;
+}
+.createddatebox{
+    display: flex;
+    justify-content: space-between;
+}
+.createdtodate{
+    margin-left: 10px;
+}
+
+.taskfilter-content .chartfilter-list{position: absolute;margin-top: 5px;}
+.taskfilter-content .chartfilter-list li{font-size: 14px;font-weight: 700;}
+.taskfilter-content .chartfilter-list li .badge{background: #5128a0;font-size: 12px;padding: 5px 10px;font-weight: 600;margin-right: 5px;border-radius: 15px;}
+.taskfilter-content .chartfilter-list .clearfilters-link{padding: 2px 4px;padding-top: 0px;height: 22px;border-radius: 15px;}
+.taskfilter-content .chartfilter-list .clearfilters-link svg{vertical-align: middle !important;}
+@media (max-width: 1200px) {
+    .rtlcon{min-width: 100px;}
+    .datetimeRange{border:none !important;padding: 0px 10px;}
+} 
+
+@media (max-width: 992px) {
+    
+}

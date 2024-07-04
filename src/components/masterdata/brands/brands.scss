@@ -1,0 +1,11 @@
+@use '../../../assets/css/variables';
+
+.tagmodal-view .modal-title{color: variables.$primary-color;}
+.tagmodal-view .formview-btn{border-radius: 25px;font-weight: 600;}
+body.d-mode .tagmodal-view .modal-title{color: variables.$green-color;}
+.form-label{color: variables.$primary-color;font-weight: 700;}
+body.d-mode .form-label{color: variables.$green-color;;font-weight: 700;}
+
+.brandmodal-view .modal-dialog{max-width: 400px;}
+.brandmodal-view .btn-success{background: variables.$green-color; color: variables.$primary-color;}
+.brandmodal-view .btn-danger{background: variables.$pink-color;}

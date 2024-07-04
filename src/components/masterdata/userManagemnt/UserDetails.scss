@@ -1,0 +1,49 @@
+@use '../../../assets/css/variables';
+
+.departmentcheck{
+    display: flex;
+}
+.hiddenpw-icon{position: absolute;right: 10px;margin-top: 5px;}
+.main-content.RTL .hiddenpw-icon{right: auto;left: 10px;}
+.hiddenpw-icon:hover{cursor: pointer;opacity: 0.6;}
+.hiddenpw-text{padding-left: 10px !important;}
+.hiddenpw-text:disabled{background: #fff;cursor: default;border-bottom-color: #ccc !important;padding-left:10px !important;}
+.reserpw-modal h2:hover{cursor: pointer;opacity: .6;}
+.reserpw-modal .h4{font-size: 18px;font-weight: 700;}
+.reserpw-modal .modal-footer{padding: 5px;} 
+
+.reserpw-modal.ps .modal-dialog{width: 350px;}
+.reserpw-modal.ps .modal-body label{font-size: 14px;margin-bottom: 3px;font-weight: 600;}
+.reserpw-modal.ps .modal-body .form-control{margin-bottom: 10px;}
+body.d-mode .reserpw-modal.ps .h4{color:variables.$primary-dark}
+body.d-mode .reserpw-modal.ps .modal-body label{color: #ccc;}
+body.d-mode .reserpw-modal.ps .modal-body .form-control{background: #2f353e;border-color: #2f353e;color: #ccc;}
+.userman-content .passwordfield-main{padding:3px 15px;background:#f2f1ff;border-radius:4px;margin-bottom:5px}
+body.d-mode .userman-content .passwordfield-main{background: #22272f;}
+.userman-content .badge{
+    background: transparent;margin-right: 5px;padding: 12px 15px;margin-top: 5px;padding-right: 25px;
+    position: relative;color: #333;width: 100%;text-align: left;border-radius: 8px !important;
+    box-shadow: 0px 1px 5px rgb(0 0 0 / 20%);
+}
+.RTL .userman-content .badge{text-align: right;}
+body.d-mode .userman-content .badge{border-color: variables.$primary-dark;}
+body.d-mode .userman-content .badge{color: #ccc;}
+.userman-content .badge span{position: absolute;right: 8px;}
+.RTL .userman-content .badge span{right: auto;left: 8px;}
+.userman-content .badge span:hover{cursor: pointer;opacity: 0.6;}
+body.d-mode .userman-content h5{color: #ccc;}
+
+.userman-content input[type=number]::-webkit-inner-spin-button, .userman-content input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none;-moz-appearance: none;appearance: none;margin: 0; }
+
+.userman-content h5{font-size: 16px;color: variables.$primary-color;margin-bottom: 15px;}
+
+.userspage .white-container .filter-form .form-control, .custom-filters .form-control{    margin-right: 4px;}
+.formvalidation .errorMsg{color:#FCB941;font-weight: 600;margin-top: -2px;z-index: 2;font-size: 11px;line-height: 0; position: absolute;}
+.RTL .formvalidation .errorMsg{right: auto;}
+.user-details .form-subcontent .errorMsg{position: absolute;z-index: 2; color:#FCB941;font-weight: 600;font-size: 11px;line-height: 0;margin-top: -8px;}
+.user-details .form-subcontent .form-control{
+    margin-bottom: 18px;
+}
+
+
+.userman-content .form-label{margin-bottom: 0px !important;}

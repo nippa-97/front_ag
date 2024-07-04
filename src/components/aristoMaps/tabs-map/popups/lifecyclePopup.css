@@ -1,0 +1,143 @@
+.prod-lcycle-popup{
+    /* min-width: 300px; */
+    position: absolute;
+    height: 100px;
+    z-index: 1000;
+    bottom: 0px;/*50px */
+     right: 400px; /*460px */
+    background-color:#FFFFFF;
+    padding: 0px 20px 10px 20px;
+    border-radius:20px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,.2);
+    height: auto;
+}
+.prod-lcycle-popup .selectboxmain{
+    min-height:40px;
+}
+
+.prod-lcycle-popup .selectbox .searchselect-inner__value-container{padding: 0px;}
+.prod-lcycle-popup .middle{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.prod-lcycle-popup .selectbox{
+    width: 172px;
+    
+}
+.prod-lcycle-popup .selectbox .searchselect-inner__control{
+    min-height: 30px;
+    box-shadow: none;
+}
+.prod-lcycle-popup .imagecard{
+    /* box-shadow: 0px 5px 20px rgba(0,0,0,.2); */
+    border: 1px solid #C4C4C4;
+    border-radius:10px;
+    background-color:#FFFFFF;
+    padding: 6px;
+    text-align: center;
+    min-width: 190px;
+    min-height: 205px;
+}
+.prod-lcycle-popup .imagecard .imgdiv{
+    height: 60px;
+    text-align: center;
+    /* display: flex; */
+    /* vertical-align: middle; */
+}
+.prod-lcycle-popup label{
+    margin-top: 5px;
+    position: unset;
+    float: none;
+}
+.prod-lcycle-popup .imagecard img{
+    max-height: 60px;
+    max-width: 70px;
+}
+.prod-lcycle-popup .imagecard .text{
+    min-width: 140px;
+}
+.prod-lcycle-popup .arrowcard{
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+}
+.prod-lcycle-popup .arrowcard .arrow{
+    position: absolute;
+    margin-left: -25px;
+}
+.prod-lcycle-popup .alldiv{text-align: center;}
+.prod-lcycle-popup .alldiv .spf{margin-top: 5px;}
+.prod-lcycle-popup .imagecard.removeprod {
+    box-shadow: none;
+}
+.prod-lcycle-popup .imagecard.removeprod img{
+    /* transform: rotate(180deg); */
+}
+.prod-lcycle-popup .imagecard .text-detail{
+    margin-top: 1px;
+}
+.prod-lcycle-popup .imagecard h5{
+    font-weight: 600;
+    color: #4F4F4F;
+    margin-bottom: 0px !important;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.prod-lcycle-popup .buttons-list{
+    text-align: center;
+    margin-top: 5px;
+}
+.prod-lcycle-popup .buttons-list .btn{
+   background: none;
+   border-radius: 20px;
+   margin: 0px 5px;
+   width: 100px;
+   padding: 0px;
+}
+.prod-lcycle-popup .buttons-list .btn.btn-success{
+    color: #FFFFFF;
+    background: rgb(1, 165, 1);
+}
+.prod-lcycle-popup .buttons-list .btn.btn-danger{
+    color: red;
+}
+.prod-lcycle-popup .btn.close {
+    padding: 0px;box-shadow: none;
+}
+
+
+@media screen and (max-width: 1600px) {
+    .prod-lcycle-popup .imagecard{
+        width: 160px;
+    }
+    .prod-lcycle-popup .imagecard .text-detail{
+        font-size: 11px;
+    }
+    .prod-lcycle-popup .imagecard .text-detail h5{
+        font-size: 13px !important;
+    }
+    .prod-lcycle-popup .alldiv .spf{
+        font-size: 16px ;
+    }
+    .prod-lcycle-popup .buttons-list .btn{
+       font-size: 12px;
+     }
+    
+    .prod-lcycle-popup {
+        padding: 0px 10px 6px 10px;
+        right: 370px !important;
+    }
+    .prod-lcycle-popup .imagecard h5{
+        margin-top: 6px;
+        font-size: 13px !important;
+    }
+    .prod-lcycle-popup .imagecard .barcode{
+        font-size: 12px !important;
+    }
+    .prod-lcycle-popup .selectbox{
+        width: 145px;
+        
+    }
+}

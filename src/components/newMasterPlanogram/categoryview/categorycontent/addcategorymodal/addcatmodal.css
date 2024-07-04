@@ -1,0 +1,54 @@
+.MPselectCategory.rtl{direction: rtl;}
+.MPselectCategory .modal-content{background: linear-gradient(-122.64deg, #5128A0 4.85%, #7743DC 96.83%);}
+.MPselectCategory .modal-header{padding: 0px 0px;border-bottom: none;margin-bottom: 10px;}
+.MPselectCategory .modal-header .modal-title{text-align: center !important; width: 100%;color: #FFF;}
+.MPselectCategory .modal-header button{filter: invert();}
+.MPselectCategory .modal-header .close{background: none;border: none;font-size: 30px;}
+.MPselectCategory .modal-header button .sr-only {display: none;}
+.MPselectCategory .modal-body{padding: 0px 15px 5px 15px !important;}
+.MPselectCategory .modal-body .field{max-height: calc(100vh - 250px); overflow-y: auto;}
+.MPselectCategory .modal-body .field .col-md-3{padding: 0px 5px;padding-bottom: 5px;}
+.MPselectCategory .modal-footer{padding: 5px 5px;border-top: none;}
+.MPselectCategory .pure-material-switch span{color: #FFF;}
+.MPselectCategory .sub-item .details{margin-left: 69px;}
+.MPselectCategory .sub-item{overflow: hidden;padding: 5px;border: 1px solid #d5dbdb;background-color: #794ECE;margin-bottom: 5px;min-height: 80px;border-radius: 10px;position: relative;}
+.d-mode .MPselectCategory .sub-item{border-color: #2f353e;background: #2e6747;}
+.MPselectCategory .sub-item:hover{cursor: pointer;}
+.MPselectCategory .sub-item.active{background: #5327a0;box-shadow: 0px 5px 20px rgb(0 0 0 / 30%);border-color: #dc3545;}
+.d-mode .MPselectCategory .sub-item.active{background: #2aa660;border-color: #2aa660;}
+/* .MPselectCategory .sub-item .thumb-div {position: absolute;padding: 8px;width: 60px;text-align: center;background: #fff;border-radius: 2px;left: 50px;top: -4px;cursor: pointer;} */
+.MPselectCategory .PDsidemenu .subprod-list{margin-top: 6px;}
+.MPselectCategory .sub-item .thumb-div{padding: 5px;text-align: center;}
+.MPselectCategory .sub-item .thumb-div img {height: 45px;}
+.MPselectCategory .fieldName {color: #FFF;font-weight: 700;font-size: 14px;margin-bottom: 2px;margin-top: 5px;}
+.MPselectCategory .field {margin-top: 30px;}
+.MPselectCategory .categoryselect{display: flex;}
+.MPselectCategory .categoryselect .searchselect-inner__single-value{color: #d5dbdb;}
+
+.d-mode .MPselectCategory .sub-item .img-bg{background: #2f353e !important;}
+
+.MPselectCategory .btn-save-cat{background: #52BE80; border-radius: 50px;border: none;padding: 5px 20px;font-size: 14px; border:none;}
+.MPselectCategory .btn-back-cat{border-radius: 50px;border: none;padding: 5px 20px;font-size: 14px; border:none;position: absolute;left: 10px;}
+.rtlview .MPselectCategory .btn-back-cat{left: auto;right: 10px;}
+.MPselectCategory .field-value-title{font-size: 11px; font-weight: 500; color: #FFF;text-align: center;}
+.MPselectCategory .field-value{font-size: 10px; color: #FFF;text-align: center;padding: 0px  !important;}
+
+.MPselectCategory .load-more-btn{float: none;margin: 0 auto;margin-top: 10px;margin-bottom: 20px;width: 150px;border-radius: 25px;
+    border: 1px solid white;background: transparent;
+}
+.MPselectCategory .load-more-btn:hover{opacity: .6;}
+
+.MPselectCategory .fielddraw-view{background: #fff;border-radius: 12px;padding: 5px;padding-bottom: 20px;}
+.d-mode .MPselectCategory .fielddraw-view{background: #2f353e;}
+.MPselectCategory .fielddraw-view label{padding-left: 15px;font-weight: 700;color: #5327a0;margin-bottom: 10px;text-transform: capitalize;}
+.d-mode .MPselectCategory .fielddraw-view label{color: #52BE80;}
+.MPselectCategory .field-wrapper{width: 100%;height: 320px;padding: 0px 15px;padding-left: 40px;padding-top: 10px;}
+.rtlview .MPselectCategory .field-wrapper{padding-left: 0px;padding-right: 40px;}
+.MPselectCategory .field-wrapper .shelve-row:hover{cursor: pointer;fill: #ffe0b7 !important;}
+.d-mode .MPselectCategory .field-wrapper .shelve-row:hover{opacity: .6;}
+.MPselectCategory .field-wrapper .shelve-row.active{fill: #F39C12 !important;}
+.rtlview .MPselectCategory .measure-line.horizontal{margin-right: -10px;}
+.rtlview .MPselectCategory .measure-line.horizontal .dot-txt{margin-left: -10px;}
+
+.d-mode .MPselectCategory .searchselect-inner__control{background: #2f353e;border-color: #2f353e;}
+.d-mode .MPselectCategory .searchselect-inner__single-value{color: #ccc;}

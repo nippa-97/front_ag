@@ -1,0 +1,186 @@
+
+@use '../../../assets/css/variables';
+
+.prodlist-container .plg-export-link{right: 0px;height: 36px;}
+.prodlist-container button svg{ margin-right: 0px !important; margin-left: 0px !important;}
+.prodlist-container .plg-export-link:hover{background: #5128a0;}
+.d-mode .prodlist-container .plg-export-link:hover{background: #2CC990;}
+.prodlist-container .plg-export-link:hover svg{fill: #fff !important;}
+.RTL .prodlist-container .plg-export-link{right: auto;left: -33px;margin-top: 12px;}
+.d-mode .prodlist-container .plg-export-link{border-color: #2CC990;color: #2CC990;}
+
+.prodlist-container .plg-import-link{right: 195px;margin-top: 12px;height: 36px;}
+.prodlist-container .plg-import-link:hover{background: #5128a0;}
+.d-mode .prodlist-container .plg-import-link:hover{background: #2CC990;}
+.prodlist-container .plg-import-link:hover svg{fill: #fff !important;}
+.RTL .prodlist-container .plg-import-link{right: auto;left:155px; margin-top: 12px;}
+.d-mode .prodlist-container .plg-import-link{border-color: #2CC990;color: #2CC990;}
+
+
+.prodlist-container .filter-table thead tr th:last-child{min-width: 110px !important;}
+
+.prodlist-container .custom-filters .dropdown{
+    display: inline;margin: 0px 15px 0px 15px;
+}
+/* .rtlview .prodlist-container .custom-filters .dropdown{
+    margin: 0px 15px 0px 1px;
+} */
+/* .prodlist-container .custom-filters .dropdown .react-datepicker__navigation{
+    border-radius: 65px;
+    padding: 5px 20px;
+    font-weight: 700;
+    color: variables.$primary-color;
+    border-color: variables.$primary-color;} */
+.prodlist-container .custom-filters .dropdown .btn-outline-primary{border-radius: 65px;padding: 5px 20px;font-weight: 700;color: variables.$primary-color;border-color: variables.$primary-color;}
+.d-mode .prodlist-container .custom-filters .dropdown .btn-outline-primary{color: variables.$primary-dark;border-color: variables.$primary-dark;}
+.prodlist-container .custom-filters .dropdown .btn-outline-primary:hover{background: variables.$primary-color;color: #f0f0f0;}
+.d-mode .prodlist-container .custom-filters .dropdown .btn-outline-primary:hover{background: variables.$primary-dark;}
+.prodlist-container .custom-filters .dropdown .btn-outline-primary:focus, .prodlist-container .custom-filters .dropdown .btn-outline-primary.show{
+    box-shadow: none;
+    background: #5128a0;
+    color: #fff;
+}
+.prodlist-container .custom-filters .dropdown .btn-secondary{color: variables.$primary-color;box-shadow: none !important;}
+.d-mode .prodlist-container .custom-filters .dropdown .btn-secondary{color: variables.$primary-dark;}
+.prodlist-container .custom-filters .dropdown .dropdown-menu{width: 930px;padding: 0px !important;margin-top: 2px !important;box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;transform: translate(-150px, 35px) !important;z-index: 2;}
+.d-mode .prodlist-container .custom-filters .dropdown .dropdown-menu{background: #2f353e;box-shadow: 0px 1px 10px rgba(0,0,0,.4);}
+.RTL .prodlist-container .custom-filters .dropdown .dropdown-menu{transform: translate(124px,35px)!important;}
+.prodlist-container .custom-filters .dropdown .dropdown-menu .list-group{margin: 0px !important;}
+.prodlist-container .custom-filters .dropdown .dropdown-menu .list-group .list-group-item{position: relative;background: #ffffff;text-align: left;}
+.RTL .prodlist-container .custom-filters .dropdown .dropdown-menu .list-group .list-group-item{text-align: right;}
+body.d-mode .prodlist-container .custom-filters .dropdown .dropdown-menu .list-group .list-group-item{background: #5D6D7E;}
+.prodlist-container .custom-filters .dropdown .dropdown-menu .list-group .list-group-item:hover{cursor: pointer;background: #F0F3F4;}
+.prodlist-container .custom-filters .dropdown .dropdown-menu .list-group .list-group-item label{font-size: 14px;font-weight: 700;color: variables.$primary-color;}
+body.d-mode .prodlist-container .custom-filters .dropdown .dropdown-menu .list-group .list-group-item label{color: variables.$primary-dark;}
+.prodlist-container .custom-filters .dropdown .dropdown-menu .list-group .list-group-item .filter-switch{position: absolute !important; left: 136px;top: 10px;}
+.RTL .prodlist-container .custom-filters .dropdown .dropdown-menu .list-group .list-group-item .filter-switch{position: absolute !important; right: auto;left: 10px;}
+
+.prodlist-container .custom-filters .dropdown .red-dot-more-filters{position: absolute;width: 10px; height: 10px;border-radius: 25px; background: red;top: -6px; right: 1px;}
+.RTL .prodlist-container .custom-filters .dropdown .red-dot-more-filters{top: -6px; right: auto; left:-1px}
+
+.prodlist-container .custom-filters .filter-menu label{font-size: 14px;font-weight: 700;color: variables.$primary-color;}
+.prodlist-container .custom-filters .filter-menu .form-control{
+    width: 120px;
+    text-overflow: ellipsis;
+    box-shadow: none;
+    position: absolute;
+    right: 0px;
+    border-color:rgb(136, 136, 136);;
+    padding: 1px 7px;
+    color: rgb(136, 136, 136);;
+    font-size: 14px;
+    height: 23px;}
+.RTL .prodlist-container .custom-filters .filter-menu .form-control{
+    right: unset;
+    left: 0px;
+}
+.prod-tags{
+    text-transform: capitalize;
+    padding: 3px 20px;
+    background: variables.$orange-color;
+    color: variables.$primary-color;
+    font-weight: 600;
+    position: relative;
+    font-size: 14px;
+    border-radius: 15px;
+    padding-right: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.prod-tags .close-icon {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+}
+
+.prodlist-container .custom-filters .filter-menu .row{
+         --bs-gutter-x: 0rem;
+}
+
+.prodlist-container .custom-filters .filter-menu  .list-group-item{
+    border: 1px solid rgb(255, 255, 255);
+}
+
+
+.prodlist-container  .form-subcontent{
+    border-bottom: 1px solid rgb(209, 209, 209);
+    border-top: unset;
+    min-height: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.prodlist-container .form-subcontent label{color: variables.$primary-color;font-size: 14px;font-weight: 700;}
+.d-mode .prodlist-container .form-subcontent label{color: variables.$primary-dark;}
+.prodlist-container .filter-selec2{font-size: 13px;color: variables.$primary-color;font-weight: 500;}
+.prodlist-container .filter-selec2 .searchselect-inner__value-container{padding: 0px;}
+.prodlist-container .filter-selec2 .searchselect-inner__single-value{color: black;font-weight: bold !important;}
+.prodlist-container .filter-selec2 .searchselect-inner__control{box-shadow: none;}
+.prodlist-container .prodftags{margin-top: 15px;margin-bottom: 0px}
+.RTL .prodlist-container .prodftags{margin-top: 38px;margin-bottom: 0px}
+.prodlist-container .pure-material-switch>span::after{top:2px}
+.prodlist-container .reset-btn{margin:8px 15px;float: right;}
+.RTL .prodlist-container .reset-btn{float: left;}
+.RTL .prodlist-container .custom-filters .dropdown .dropdown-menu{inset: 0px 0px auto auto !important;}
+
+.prodlist-container .selector{font-size: 13px;background: none;}
+.prodlist-container .selector.active{background: variables.$primary-color;color: #f0f0f0 !important;}
+
+.prodlist-container .diemntiondiv  .btn-group button{font-size: 12px;padding: 2px !important;border-radius: 10px !important;width: 30px;margin: 0px 3px;
+background: none;}
+.prodlist-container  .diemntiondiv .btn-group button.active{background: #ED327A;color: #f0f0f0 !important;border: none;}
+
+.prodlist-container  .btn-group{float: right;}
+.RTL .prodlist-container  .btn-group{float: left;}
+.prodlist-container  .filter-diamention-box{position: relative;
+width:100%}
+.prodlist-container  .filter-diamention-box label{color: #5D6D7E;}
+.prodlist-container .filter-diamention-box input{width: 100%;}
+.rtlview .prodlist-container .filter-diamention-box{
+    margin-top: 5px;
+}
+/* .prodlist-container  .form-subcontent{ padding: 10px 11px ;} */
+.prodlist-container  .form-subcontent .sepbox{
+    min-height: 100px;
+    border-right: 1px solid rgb(142, 134, 148);
+}
+.prodlist-container hr{border: 1px solid #3a3a3a !important;}
+.prodlist-container .form-subcontent .form-check {
+    padding-left: 0;
+    margin-bottom: 16px;
+}
+.prodlist-container  .form-subcontent .form-check-input{
+    float: none;
+    margin-left: 0px !important;
+    border-radius: 50px;
+    box-shadow: none;
+    padding-left: 0em;
+}
+.prodlist-container  .form-subcontent .form-check-input:checked{
+    background-color: variables.$pink-color;
+    border-color: variables.$pink-color;
+}
+.prodlist-container .form-subcontent .form-check-label{margin: 0px 7px;}
+.prodlist-container .form-subcontent .diemntiondiv{margin-bottom: 15px;}
+.prodlist-container .form-subcontent .filter-tagslist{border-left: 1px solid rgb(142, 134, 148);}
+.RTL .prodlist-container  .form-subcontent .filter-tagslist{border-left: none;border-right: 1px solid rgb(142, 134, 148);}
+.prodlist-container  .form-subcontent .filter-tagslist .filter-selec2{position: absolute;width: 180px;margin-top: -30px;right: 15px;}
+.RTL .prodlist-container  .form-subcontent .filter-tagslist .filter-selec2{right: auto;left: 15px;margin-top: -10px;}
+.prodlist-container .form-subcontent .filter-tagslist .searchselect-inner__option{padding: 4px 12px;font-size: 12px;font-weight: 700;}
+.prodlist-container .form-subcontent .filter-tagslist .prod-tags{font-weight: 700;font-size: 12px;}
+.RTL .prodlist-container .form-subcontent .filter-tagslist .prod-tags{margin-right: auto;margin-left: 5px;float: right;}
+.prodlist-container  .form-subcontent .datepicker-txt{height: 38px;border: none;box-shadow: none;padding: 0px 5px;border-bottom: 2px solid #4f4f4f54;background: transparent;width: 90%;font-weight: 600;}
+.prodlist-container  .form-subcontent .datepicker-txt:focus{border: none !important; box-shadow: none !important;outline: none;border-bottom: 2px solid #4F4F4F !important;}
+body.d-mode .prodlist-container  .form-subcontent .datepicker-txt{color: #ccc;border-bottom: 1px solid #ccc !important;}
+body.d-mode .prodlist-container  .form-subcontent .datepicker-txt:focus{border-bottom: 2px solid #ccc !important;}
+.prodlist-container  .form-subcontent  small{color: variables.$primary-color;font-weight: bold;font-size: 12px;}
+.d-mode .prodlist-container  .form-subcontent  small{color: variables.$primary-dark;}
+.prodlist-container  .form-subcontent .filter-tagslist input{width: 100%;}
+.prodlist-container .export-drop-down::after {content: none !important;}
+.prodlist-container .dropDownDetails { position:absolute;top:7px !important;font-weight: 900;margin-right: 5px !important}
+.RTL .prodlist-container .dropDownDetails { margin-right: auto !important;margin-left: 5px !important;}
+.prodlist-container .dropDownDetails  .dropdown-item{font-weight: 600;}
+
+.rtlview .prodlist-container .form-subcontent{
+    text-align: right;
+}

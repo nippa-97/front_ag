@@ -1,0 +1,32 @@
+{
+    "field" : "Dairy",
+    "products" : [
+        {"shelve" : 2, "products" :[
+            {"col14":[{"barcode":null, "qty":0, "width":15, "height": 10, "uom": "cm"}]},
+            {"col01":[{"barcode":null, "qty":0, "width":5, "height": 10, "uom": "cm"}, {"barcode":"055369901703", "qty":1}]},
+            {"col02":[ {"barcode":"055369901703", "qty":1}]},
+            {"col03":[ {"barcode":null, "qty":0, "width":5, "height": 10, "uom": "cm"}, {"barcode":"055369901703", "qty":1}]},
+            {"col14":[{"barcode":null, "qty":0, "width":15, "height": 10, "uom": "cm"}]},
+            {"col05":[{"barcode":"1325465892", "qty":2}]}, 
+            {"col06":[{"barcode":"1325465892", "qty":2}]}
+        ] 
+        },
+        {"shelve" : 1, "products" :[
+            {"col01":[{"barcode":"1325465892", "qty":2}]},
+            {"col02":[{"barcode":"1325465892", "qty":2}]}, {"col03":[{"barcode":"1325465892", "qty":2}]}, {"col04":[{"barcode":"1325465892", "qty":2}]}, {"col05":[{"barcode":"1325465892", "qty":2}]}, {"col06":[{"barcode":"1325465892", "qty":2}]}, 
+            {"col07":[{"barcode":"1325465892", "qty":2}]},
+            {"col08":[{"barcode":"1325465892", "qty":2}]},
+            {"col09":[{"barcode":"1325465892", "qty":2}]}, 
+            {"col10":[{"barcode":"1325465892", "qty":2}]}, 
+            {"col11":[{"barcode":"1325465892", "qty":2}]}, 
+            {"col12":[{"barcode":"1325465892", "qty":2}]}, 
+            {"col13":[{"barcode":null, "qty":0, "width":15, "height": 10, "uom": "cm"}]},
+            {"col14":[{"barcode":"055369901703", "qty":4}]}, 
+            {"col15":[{"barcode":"055369901703", "qty":4}]}, 
+            {"col16":[{"barcode":"055369901703", "qty":4}]}, 
+            {"col17":[{"barcode":"055369901703", "qty":4}]}, 
+            {"col18":[{"barcode":"055369901703", "qty":4}]}
+        ] 
+        }
+    ]
+}

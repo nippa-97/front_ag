@@ -1,0 +1,536 @@
+.planograms-filters-main{
+    margin-top: -10px;
+    padding-bottom: 38px;
+    position: relative;
+}
+.planograms-filters{margin-bottom: 0px;display: flex;}
+.version-data{margin-bottom: 20px; margin-top: 6px; display: flex; font-size: 15px; color: #4F4F4F;padding-left: 70px;}
+.rtlview .version-data{padding-left: 0px;padding-right: 70px;}
+body.d-mode .version-data{color: #ccc;}
+.version-data .search-from, .version-data .search-to{max-width: 90px;}
+.version-data .search-from{font-weight: 700;padding-right: 10px;}
+.rtlview .version-data .search-from{padding-right: 0px;padding-left: 0px;}
+.version-data .search-from::after{content: " - ";position: absolute;margin: 0px 8px;}
+.rtlview .version-data .search-from, .rtlview .version-data .search-to, .rtlview .version-data .version, .rtlview .version-data .edited-user{font-size: 13px;}
+.version-data .search-to{font-weight: 700;}
+.version-data .edited-user{width: 20%;}
+.version-data .edited-user-aui{width: 20%; left: 320px; position: absolute;}
+.rtlview .version-data .edited-user-aui{right: 320px; left: unset;}
+.version-data .created-date{max-width: 90px;}
+.version-data .version{max-width: 45px;}
+.version-data .department{
+    flex: none;
+    max-width: 30%;
+    font-weight: bold;
+    padding-right: 20px;
+    overflow:hidden; 
+    white-space:nowrap; 
+    text-overflow: ellipsis;
+}
+.rtlview .version-data .department{
+    padding-right: 0px;
+    padding-left: 20px;
+}
+.planograms-filters .sub-design{padding-left: 60px;max-width: 520px;}
+.rtlview .planograms-filters .sub-design{padding-left: 0px;padding-right: 60px;}
+.rtlview .version-data .edited-user{width: 25%;}
+.planograms-filters .sub-design2{width: 15%}
+.planograms-filters .sub-design .searchbox .form-control{
+    border: none;box-shadow: none;padding: 0px;padding-right: 25px;background-color: transparent; 
+    font-weight: 700; padding-bottom: 5px; font-size: 22px; color: #4F4F4F;
+    position: relative;z-index: 2;
+}
+.rtlview .planograms-filters .sub-design .searchbox .form-control{background-color: transparent;padding: 0px;padding-left: 25px;}
+body.d-mode .planograms-filters .sub-design .searchbox .form-control{color: #ccc;}
+.planograms-filters .sub-design .searchbox{
+    align-items:center;border-bottom: 1px solid #4F4F4F;width: 85%;position: relative;
+}
+body.d-mode .planograms-filters .sub-design .searchbox{border-bottom: 1px solid #ccc;}
+.planograms-filters .sub-design .searchbox svg{position: absolute;right: 0px;margin-top: -25px;}
+.rtlview .planograms-filters .sub-design .searchbox svg{right: auto;left: 0px;}
+body.d-mode .planograms-filters .sub-design .searchbox svg{fill: #ccc !important;}
+
+.planograms-filters .sub-design2 .mainlist-btn{border: 1px solid #ED327A !important;border-radius: 300px !important;color:#ED327A !important; font-weight: 700; padding: 0px;  position: absolute; margin-top: 9px; margin-left: 0px; height: 21px; width: 120px; font-size: 14px;}
+.planograms-filters .sub-design2 .mainlist-btn:hover{color:white !important; background-color: #ED327A;}
+.rtlview .planograms-filters .sub-design .mainlist-btn{margin-left: auto;margin-right: -50px; }
+.versiondata-wrapper{
+    position: absolute;
+    width: 100%;
+}
+
+.mp-dropdown{position: absolute; z-index: 100;width: 80%;}
+
+.mp-dropdown .dropdown-box{ 
+    width: 400px; background-color: #FFFFFF; margin-top: 10px; height: 440px; box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    padding-top: 20px; position: absolute;
+    border-radius: 8px;margin-left: 55px;
+}
+.aui-sidebar .mp-dropdown .dropdown-box{margin-left: 0px;}
+.rtlview .mp-dropdown .dropdown-box{margin-left: 0px;margin-right: 55px;box-shadow: -6px 3px 10px rgba(0, 0, 0, 0.1);}
+.rtlview .aui-sidebar .mp-dropdown .dropdown-box{margin-left: auto;margin-right: 0px;}
+body.d-mode .mp-dropdown .dropdown-box{ background-color: #343a40; }
+
+.mp-dropdown .dropdown-box .dropdown-box-wrapper{ width:100%; height: 90%; position: absolute; overflow-y: auto;padding: 0px 15px;}
+
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .no-versions{ font-size: 21px; font-weight: 700; opacity: 25%; padding-top: 45%; padding-left: 25%; }
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .no-versions{padding-right: 20%; padding-left: unset; }
+
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-singleitem-wrapper{
+    width:100%; margin-bottom: 10px;position: relative;transition: all .3s;-webkit-transition: all .3s;
+}
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-singleitem-wrapper:hover{cursor: pointer;padding-right: 65px;}
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-singleitem-wrapper.auiview:hover{padding-right: 45px;}
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-singleitem-wrapper.noauiview:hover{padding-right: 45px;}
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-singleitem-wrapper:hover{padding-right: 0px;padding-left: 55px;}
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-singleitem-wrapper.auiview:hover{padding-left: 35px; padding-right: 0px;}
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-singleitem-wrapper.noauiview:hover{padding-left: 35px; padding-right: 0px;}
+
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-item-sm{padding-left: 0px !important;padding-right: 0px !important;}
+
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .vmp-button{ border-radius: 50%; width: 21px; height: 21px; padding: 0px 0px; margin-top: 3px; z-index: 102; border:1px solid #5128A0}
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .vmp-button svg{ margin-bottom: 2px;}
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .aui-button{ border-radius: 50%; width: 21px; height: 21px; padding: 0px 0px; margin-top: 3px; z-index: 102; border:1px solid #5128A0}
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .aui-button svg{ margin-bottom: 2px;}
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .duplicate-button{ border-radius: 50%; width: 21px; height: 21px; padding: 0px 0px; margin-top: 2px; z-index: 102; border:1px solid #5128A0}
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .duplicate-button svg{ margin-bottom: 2px;}
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .delete-button{border-radius: 50%; width: 21px; height: 21px; padding: 0px 0px; margin-top: 2px; z-index: 102; border:1px solid #5128A0}
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .delete-button svg{ margin-bottom: 2px;}
+.d-mode .mp-dropdown .dropdown-box .dropdown-box-wrapper .vmp-button, .d-mode .mp-dropdown .dropdown-box .dropdown-box-wrapper .aui-button, 
+.d-mode .mp-dropdown .dropdown-box .dropdown-box-wrapper .duplicate-button, .d-mode .mp-dropdown .dropdown-box .dropdown-box-wrapper .delete-button{border-color: #2CC990;}
+
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .vmp-button svg{ margin-top: 2px; }
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .aui-button svg{ margin-top: 2px; }
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .duplicate-button svg{ margin-top: 2px; }
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .delete-button svg{ margin-top: 2px; } 
+
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .vmp-button:hover{ background-color: #5128A0;}
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .vmp-button:hover svg path{ fill: white !important;}
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .aui-button:hover{ background-color: #5128A0;}
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .aui-button:hover svg path{ fill: white !important;}
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .duplicate-button:hover{ background-color: #5128A0; }
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .duplicate-button:hover svg rect{ stroke: white !important; }
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .duplicate-button:hover svg path{ stroke: white !important; }
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .delete-button:hover{ background-color: #5128A0;}
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .delete-button:hover svg path{ fill: white !important;}
+
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item{
+    background-color: #F9F7F7;
+    width:100%;
+    height:75px;
+    position: relative;
+    z-index: 2;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.d-mode .mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item{
+    background-color: #374658;
+}
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item-border{
+    border: 3px solid #5128A0;
+}
+.d-mode .mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item-border{
+    border-color: #2CC990;
+}
+
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item:hover{
+    background-color: #E8E7E7;
+}
+.d-mode .mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item:hover{
+    background-color: #1a2d44;
+}
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item .simulate-status{
+    position: relative;
+    height: 24.1px;
+    width: 60px;
+    left: 14px;
+    max-width: 60px;
+}
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item .simulate-status{
+    left: unset;
+    right: 14px;
+}
+
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item .from-date{
+    position: relative;
+    left: 46px;
+    margin-top: -29px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #4F4F4F;
+    width: 100px;
+}
+.d-mode .mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item .from-date{
+    color: #ccc;
+}
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item .from-date{
+    left:unset;
+    right: 46px;
+    margin-top: -25px;
+    width:110px;
+}
+
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item .version-name-label{
+    position: relative;
+    left: 120px;
+    margin-top: -30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #4F4F4F;
+    width: 190px;
+}
+.d-mode .mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item .version-name-label{
+    color: #C2BFBF;
+}
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item .version-name-label{
+    left: unset;
+    right: 130px;
+    margin-top: -29px;
+}
+
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item .version-name-input .form-control{
+    position: relative;
+    border: none; box-shadow: none;padding: 0px; background-color: transparent;
+    left: 120px;
+    margin-top: -28px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #4F4F4F;
+    width: 220px;
+    border-bottom: 1px solid #4F4F4F;
+    border-radius: 0px;
+    height: 28px;
+}
+.mp-dropdown .version-name-input .closeedit-link{
+    position: absolute;
+    right: 8px;
+    margin-top: -25px;
+}
+.mp-dropdown .version-name-input .closeedit-link:hover{
+    cursor: pointer;
+    opacity: .6;
+}
+.rtlview .mp-dropdown .version-name-input .closeedit-link{
+    right: auto;
+    left: 8px;
+}
+
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item .version-name-input .form-control{
+    right: 120px;
+    left:unset;
+    margin-right: 8px;
+}
+
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item .version-name-label .version-edit{
+    display: none;
+    position: relative;
+    padding-left: 4px;
+    top: -6px;
+    width: 15px;
+    height: 15px;
+}
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item:hover .version-name-label .version-edit{
+    display: inline-block;
+}
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-singleitem-wrapper.auiview .version-name-label .version-edit{
+    display: none !important;
+}
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item .version-name-label .version-edit{
+    padding-right: 4px;
+}
+
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item .min-count{
+    width: 68px;
+    height: 18px;
+    background-color: #C2BFBF;
+    left: 45px;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 12px;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    
+}
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item .min-count{
+    padding-top: 1px;
+    right: 45px;
+    left:unset;
+    padding: 2px 5px;
+}
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item .facing-count{
+    margin-top: -18px;
+    width: 68px;
+    height: 18px;
+    background-color: #C2BFBF;
+    left: 121px;
+    position: relative;
+    border-radius: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 12px;
+}
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item .facing-count{
+    padding-top: 1px;
+    right: 121px;
+    left: unset;
+}
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item .mvp-count{
+    margin-top: -18px;
+    width: 68px;
+    height: 18px;
+    background-color: #C2BFBF;
+    left: 198px;
+    position: relative;
+    border-radius: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 12px;
+    
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    
+}
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item .mvp-count{
+    padding-top: 1px;
+    right: 198px;
+    left:unset;
+    padding: 2px 5px;
+}
+
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .btn-group-vertical{
+    position: absolute; right: 15px;top: 2px;z-index: 1; 
+}
+
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .btn-group-vertical{
+    left: 5px;
+    right: unset;
+}
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item2{
+    background-color: #E8E7E7;
+    width:100%;
+    height:75px;
+    position: relative;
+    z-index: 2;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item2 .simulate-status{
+    position: relative;
+    left: 14px;
+}
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item2 .simulate-status{
+    left: unset;
+    right: 14px;
+}
+
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item2 .from-date{
+    position: relative;
+    left: 46px;
+    margin-top: -29px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #4F4F4F;
+    width: 100px;
+}
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item2 .from-date{
+    left:unset;
+    right: 46px;
+    margin-top: -25px;
+    width: 110px;
+}
+
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item2 .version-name-label{
+    position: relative;
+    left: 130px;
+    margin-top: -32px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #4F4F4F;
+    width: 220px;
+}
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item2 .version-name-label{
+    left: unset;
+    right: 150px;
+    margin-top: -34px;
+}
+
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item2 .version-name-input .form-control{
+    position: relative;
+    border: none; box-shadow: none;padding: 0px; background-color: transparent;
+    left: 130px;
+    margin-top: -28px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #4F4F4F;
+    width: 220px;
+    border-bottom: 1px solid #4F4F4F;
+    border-radius: 0px;
+    height: 25px;
+}
+
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item2 .version-name-input .form-control{
+    right: 140px;
+    left:unset;
+    margin-right: 8px;
+}
+
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item2 .version-name-label .version-edit{
+    display: inline-block;
+    position: relative;
+    padding-left: 4px;
+    top: -10px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item2 .version-name-label .version-edit{
+    padding-right: 4px;
+}
+
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item2 .min-count{
+    width: 68px;
+    height: 18px;
+    background-color: #C2BFBF;
+    left: 45px;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 12px;
+}
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item2 .min-count{
+    padding-top: 1px;
+    right: 45px;
+    left:unset;
+}
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item2 .facing-count{
+    margin-top: -18px;
+    width: 68px;
+    height: 18px;
+    background-color: #C2BFBF;
+    left: 121px;
+    position: relative;
+    border-radius: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 12px;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 2px 5px;
+}
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item2 .facing-count{
+    padding-top: 1px;
+    right: 121px;
+    left: unset;
+}
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item2 .mvp-count{
+    margin-top: -18px;
+    width: 68px;
+    height: 18px;
+    background-color: #C2BFBF;
+    left: 198px;
+    position: relative;
+    border-radius: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 12px;
+}
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .dropdown-single-item2 .mvp-count{
+    padding-top: 1px;
+    right: 198px;
+    left:unset;
+}
+
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .btn-group-vertical{
+    position: absolute; right: 15px;top: 0;z-index: 1; 
+}
+
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .btn-group-vertical{
+    left: 5px;
+    right: unset;
+}
+
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .vmp-group-buttons{
+    right: 38px;
+    top: 11px;
+}
+
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .vmp-group-buttons{
+    left: 28px;
+    top: 11px;
+}
+
+.mp-dropdown .dropdown-box .dropdown-box-wrapper .vmp-group-buttons2{
+    top: 12px;
+}
+
+.rtlview .mp-dropdown .dropdown-box .dropdown-box-wrapper .vmp-group-buttons2{
+    top: 12px;
+}
+
+.planograms-filters-main .mp-dropdown .loading-view{
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    width: 100%;
+    padding-top: 45%;
+} 
+
+.aui-sidebar .planograms-filters .sub-design{
+    padding-left: 5px;
+}
+.rtlview .aui-sidebar .planograms-filters .sub-design{
+    padding-left: 0px;padding-right: 5px;
+}
+.aui-sidebar .version-data{
+    padding-left: 15px;
+}
+.rtlview .aui-sidebar .version-data{
+    padding-left: 0px;padding-right: 15px;
+}
+
+::-ms-reveal {
+    display: none;
+}
+
+.rtlview .disstore-warn-modal{
+    direction: rtl;
+}
+.disstore-warn-modal #formBasicPassword{
+    position: relative;
+}
+.disstore-warn-modal #formBasicPassword .eyebtn{
+    right: -40px;
+    top: 20px;
+    position: absolute;
+    border: transparent;
+    background: transparent;
+}
+.rtlview .disstore-warn-modal #formBasicPassword .eyebtn{
+    right: auto;
+    left: -40px;
+}
+
+.disstore-warn-modal .modal-body h6 b{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,16 @@
+.img-preview-modal .modal-content{min-height: 25rem;padding: 5px 5px 15px 5px;background: #5128a0;}
+.img-preview-modal .modal-body .loading-anim-div{
+    padding-top: 30%;
+    direction: ltr;
+}
+.img-preview-modal .modal-body svg{fill: #FFF;}
+.img-preview-modal .modal-body .img-wrapper{position: relative;height: 350px;width: 350px;vertical-align: middle;margin: 0 auto;}
+.img-preview-modal .data-values{padding: 10px;margin-bottom: 15px;border-bottom: 1px solid rgb(226, 224, 224);}
+
+.img-preview-modal .data-values .label-field,.img-preview-modal .data-values .value-field{text-align: left;font-size: 14px;color: #FFF;}
+.img-preview-modal .data-values .label-field{font-weight: 700;}
+.img-preview-modal .data-values .value-field{font-weight: 600;}
+.img-preview-modal .data-values .row{margin-bottom: 5px;}
+
+body.d-mode .img-preview-modal .modal-body{background: #374658 !important;}
+body.d-mode .img-preview-modal .data-values .label-field, body.d-mode .img-preview-modal .data-values .value-field{color: #2CC990;}
